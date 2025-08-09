@@ -11,6 +11,56 @@ const REPLACEMENT_LEVELS = {
     DST: 10
 };
 
+const CACHE_KEYS = {
+    PLAYERS: 'fantasy_players_cache',
+    SCORING: 'fantasy_scoring_cache'
+};
+
+const CACHE_DURATION = 5 * 60 * 1000;
+
+function getCachedData(key) {
+    try {
+        const cached = localStorage.getItem(key);
+        if (cached) {
+            const { data, timestamp } = JSON.parse(cached);
+            if (Date.now() - timestamp < CACHE_DURATION) {
+                console.log(`Cache hit for ${key}`);
+                return data;
+            }
+            console.log(`Cache expired for ${key}`);
+        }
+    } catch (error) {
+        console.error('Error reading cache:', error);
+    }
+    return null;
+}
+
+function setCachedData(key, data) {
+    try {
+        localStorage.setItem(key, JSON.stringify({
+            data,
+            timestamp: Date.now()
+        }));
+        console.log(`Cache set for ${key}`);
+    } catch (error) {
+        console.error('Error setting cache:', error);
+    }
+}
+
+function invalidateCache(key) {
+    try {
+        if (key) {
+            localStorage.removeItem(key);
+            console.log(`Cache invalidated for ${key}`);
+        } else {
+            Object.values(CACHE_KEYS).forEach(k => localStorage.removeItem(k));
+            console.log('All cache invalidated');
+        }
+    } catch (error) {
+        console.error('Error invalidating cache:', error);
+    }
+}
+
 async function init() {
     await loadScoringSettings();
     await loadPlayers();
@@ -21,8 +71,15 @@ async function init() {
 
 async function loadScoringSettings() {
     try {
+        const cachedData = getCachedData(CACHE_KEYS.SCORING);
+        if (cachedData) {
+            scoringSettings = cachedData;
+            return;
+        }
+        
         const response = await fetch('/api/scoring');
         scoringSettings = await response.json();
+        setCachedData(CACHE_KEYS.SCORING, scoringSettings);
     } catch (error) {
         console.error('Error loading scoring settings:', error);
     }
@@ -30,8 +87,15 @@ async function loadScoringSettings() {
 
 async function loadPlayers() {
     try {
+        const cachedData = getCachedData(CACHE_KEYS.PLAYERS);
+        if (cachedData) {
+            players = cachedData;
+            return;
+        }
+        
         const response = await fetch('/api/players');
         players = await response.json();
+        setCachedData(CACHE_KEYS.PLAYERS, players);
     } catch (error) {
         console.error('Error loading players:', error);
     }
@@ -238,6 +302,11 @@ function setupEventListeners() {
         renderPlayers();
     });
     
+    document.getElementById('clearCache').addEventListener('click', () => {
+        invalidateCache();
+        alert('Cache cleared! Data will be refreshed on next load.');
+    });
+    
     document.addEventListener('change', async (e) => {
         if (e.target.classList.contains('draft-checkbox')) {
             const playerId = e.target.dataset.playerId;
@@ -269,13 +338,17 @@ function setupEventListeners() {
 
 async function updatePlayer(playerId, field, value) {
     try {
-        await fetch('/api/players/update', {
+        const response = await fetch('/api/players/update', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ playerId, field, value })
         });
+        
+        if (response.ok) {
+            invalidateCache(CACHE_KEYS.PLAYERS);
+        }
     } catch (error) {
         console.error('Error updating player:', error);
     }

@@ -2777,5 +2777,1829 @@
     "stats2025": {
       "projectedPoints": 125
     }
+  },
+  {
+    "id": "rb26",
+    "name": "Joe Mixon",
+    "position": "RB",
+    "team": "HOU",
+    "adp": 65.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1016,
+      "rushingTDs": 11,
+      "receptions": 29,
+      "receivingYards": 249,
+      "receivingTDs": 1,
+      "fantasyPoints": 206.5
+    },
+    "stats2025": {
+      "rushingYards": 1050,
+      "rushingTDs": 9,
+      "receptions": 35,
+      "receivingYards": 280,
+      "receivingTDs": 2,
+      "projectedPoints": 215
+    }
+  },
+  {
+    "id": "rb27",
+    "name": "Nick Chubb",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 68.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 248,
+      "rushingTDs": 3,
+      "receptions": 8,
+      "receivingYards": 36,
+      "receivingTDs": 0,
+      "fantasyPoints": 46.4
+    },
+    "stats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 8,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 185
+    }
+  },
+  {
+    "id": "rb28",
+    "name": "Zack Moss",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 71.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 769,
+      "rushingTDs": 5,
+      "receptions": 21,
+      "receivingYards": 135,
+      "receivingTDs": 0,
+      "fantasyPoints": 123.4
+    },
+    "stats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 6,
+      "receptions": 30,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    }
+  },
+  {
+    "id": "rb29",
+    "name": "Javonte Williams",
+    "position": "RB",
+    "team": "DEN",
+    "adp": 74.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 513,
+      "rushingTDs": 4,
+      "receptions": 36,
+      "receivingYards": 321,
+      "receivingTDs": 1,
+      "fantasyPoints": 116.4
+    },
+    "stats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 6,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 180
+    }
+  },
+  {
+    "id": "rb30",
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 77.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 708,
+      "rushingTDs": 4,
+      "receptions": 44,
+      "receivingYards": 221,
+      "receivingTDs": 0,
+      "fantasyPoints": 132.9
+    },
+    "stats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 5,
+      "receptions": 45,
+      "receivingYards": 300,
+      "receivingTDs": 2,
+      "projectedPoints": 170
+    }
+  },
+  {
+    "id": "rb31",
+    "name": "Austin Ekeler",
+    "position": "RB",
+    "team": "WAS",
+    "adp": 80.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 367,
+      "rushingTDs": 4,
+      "receptions": 41,
+      "receivingYards": 346,
+      "receivingTDs": 0,
+      "fantasyPoints": 111.3
+    },
+    "stats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 50,
+      "receivingYards": 400,
+      "receivingTDs": 3,
+      "projectedPoints": 165
+    }
+  },
+  {
+    "id": "rb32",
+    "name": "Jaylen Warren",
+    "position": "RB",
+    "team": "PIT",
+    "adp": 83.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 462,
+      "rushingTDs": 2,
+      "receptions": 30,
+      "receivingYards": 223,
+      "receivingTDs": 0,
+      "fantasyPoints": 86.5
+    },
+    "stats2025": {
+      "rushingYards": 650,
+      "rushingTDs": 5,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 160
+    }
+  },
+  {
+    "id": "rb33",
+    "name": "Devin Singletary",
+    "position": "RB",
+    "team": "NYG",
+    "adp": 86.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 667,
+      "rushingTDs": 4,
+      "receptions": 36,
+      "receivingYards": 199,
+      "receivingTDs": 0,
+      "fantasyPoints": 116.6
+    },
+    "stats2025": {
+      "rushingYards": 700,
+      "rushingTDs": 5,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 155
+    }
+  },
+  {
+    "id": "rb34",
+    "name": "Tyjae Spears",
+    "position": "RB",
+    "team": "TEN",
+    "adp": 89.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 178,
+      "rushingTDs": 0,
+      "receptions": 19,
+      "receivingYards": 116,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.4
+    },
+    "stats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 4,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 150
+    }
+  },
+  {
+    "id": "rb35",
+    "name": "Zamir White",
+    "position": "RB",
+    "team": "LV",
+    "adp": 92.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 175,
+      "rushingTDs": 1,
+      "receptions": 6,
+      "receivingYards": 23,
+      "receivingTDs": 0,
+      "fantasyPoints": 28.8
+    },
+    "stats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 5,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 140
+    }
+  },
+  {
+    "id": "rb36",
+    "name": "Rico Dowdle",
+    "position": "RB",
+    "team": "DAL",
+    "adp": 95.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1079,
+      "rushingTDs": 2,
+      "receptions": 35,
+      "receivingYards": 231,
+      "receivingTDs": 2,
+      "fantasyPoints": 173
+    },
+    "stats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 6,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 2,
+      "projectedPoints": 180
+    }
+  },
+  {
+    "id": "rb37",
+    "name": "Gus Edwards",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 98.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 237,
+      "rushingTDs": 2,
+      "receptions": 5,
+      "receivingYards": 39,
+      "receivingTDs": 0,
+      "fantasyPoints": 39.6
+    },
+    "stats2025": {
+      "rushingYards": 550,
+      "rushingTDs": 6,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 125
+    }
+  },
+  {
+    "id": "rb38",
+    "name": "Chuba Hubbard",
+    "position": "RB",
+    "team": "CAR",
+    "adp": 101.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1195,
+      "rushingTDs": 10,
+      "receptions": 42,
+      "receivingYards": 177,
+      "receivingTDs": 0,
+      "fantasyPoints": 217.2
+    },
+    "stats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 7,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 185
+    }
+  },
+  {
+    "id": "rb39",
+    "name": "Tank Bigsby",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 104.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 754,
+      "rushingTDs": 7,
+      "receptions": 10,
+      "receivingYards": 59,
+      "receivingTDs": 0,
+      "fantasyPoints": 123.3
+    },
+    "stats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 6,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 160
+    }
+  },
+  {
+    "id": "rb40",
+    "name": "J.K. Dobbins",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 107.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 905,
+      "rushingTDs": 9,
+      "receptions": 32,
+      "receivingYards": 144,
+      "receivingTDs": 0,
+      "fantasyPoints": 164.9
+    },
+    "stats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 7,
+      "receptions": 30,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    }
+  },
+  {
+    "id": "wr36",
+    "name": "Jordan Addison",
+    "position": "WR",
+    "team": "MIN",
+    "adp": 67.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 61,
+      "receivingYards": 875,
+      "receivingTDs": 5,
+      "fantasyPoints": 177.5
+    },
+    "stats2025": {
+      "receptions": 72,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    }
+  },
+  {
+    "id": "wr37",
+    "name": "Tank Dell",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 70.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 51,
+      "receivingYards": 667,
+      "receivingTDs": 3,
+      "fantasyPoints": 126.7
+    },
+    "stats2025": {
+      "receptions": 68,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 190
+    }
+  },
+  {
+    "id": "wr38",
+    "name": "Jameson Williams",
+    "position": "WR",
+    "team": "DET",
+    "adp": 73.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 58,
+      "receivingYards": 1001,
+      "receivingTDs": 7,
+      "fantasyPoints": 202.1
+    },
+    "stats2025": {
+      "receptions": 65,
+      "receivingYards": 950,
+      "receivingTDs": 8,
+      "projectedPoints": 210
+    }
+  },
+  {
+    "id": "wr39",
+    "name": "Diontae Johnson",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 76.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 60,
+      "receivingYards": 545,
+      "receivingTDs": 3,
+      "fantasyPoints": 120.5
+    },
+    "stats2025": {
+      "receptions": 75,
+      "receivingYards": 900,
+      "receivingTDs": 5,
+      "projectedPoints": 195
+    }
+  },
+  {
+    "id": "wr40",
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 79.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 65,
+      "receivingYards": 660,
+      "receivingTDs": 2,
+      "fantasyPoints": 131
+    },
+    "stats2025": {
+      "receptions": 70,
+      "receivingYards": 800,
+      "receivingTDs": 5,
+      "projectedPoints": 175
+    }
+  },
+  {
+    "id": "wr41",
+    "name": "Rome Odunze",
+    "position": "WR",
+    "team": "CHI",
+    "adp": 82.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 54,
+      "receivingYards": 726,
+      "receivingTDs": 3,
+      "fantasyPoints": 132.6
+    },
+    "stats2025": {
+      "receptions": 72,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    }
+  },
+  {
+    "id": "wr42",
+    "name": "Khalil Shakir",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 85.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 76,
+      "receivingYards": 821,
+      "receivingTDs": 4,
+      "fantasyPoints": 166.1
+    },
+    "stats2025": {
+      "receptions": 75,
+      "receivingYards": 850,
+      "receivingTDs": 5,
+      "projectedPoints": 185
+    }
+  },
+  {
+    "id": "wr43",
+    "name": "Courtland Sutton",
+    "position": "WR",
+    "team": "DEN",
+    "adp": 88.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 81,
+      "receivingYards": 1081,
+      "receivingTDs": 8,
+      "fantasyPoints": 236.1
+    },
+    "stats2025": {
+      "receptions": 78,
+      "receivingYards": 950,
+      "receivingTDs": 6,
+      "projectedPoints": 205
+    }
+  },
+  {
+    "id": "wr44",
+    "name": "Romeo Doubs",
+    "position": "WR",
+    "team": "GB",
+    "adp": 91.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 674,
+      "receivingTDs": 3,
+      "fantasyPoints": 125.4
+    },
+    "stats2025": {
+      "receptions": 65,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    }
+  },
+  {
+    "id": "wr45",
+    "name": "Ladd McConkey",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 94.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 82,
+      "receivingYards": 1149,
+      "receivingTDs": 7,
+      "fantasyPoints": 248.9
+    },
+    "stats2025": {
+      "receptions": 85,
+      "receivingYards": 1050,
+      "receivingTDs": 7,
+      "projectedPoints": 235
+    }
+  },
+  {
+    "id": "wr46",
+    "name": "Hollywood Brown",
+    "position": "WR",
+    "team": "KC",
+    "adp": 97.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 5,
+      "receivingYards": 45,
+      "receivingTDs": 0,
+      "fantasyPoints": 7.5
+    },
+    "stats2025": {
+      "receptions": 60,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    }
+  },
+  {
+    "id": "wr47",
+    "name": "Xavier Worthy",
+    "position": "WR",
+    "team": "KC",
+    "adp": 100.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 59,
+      "receivingYards": 638,
+      "receivingTDs": 6,
+      "rushingYards": 41,
+      "rushingTDs": 2,
+      "fantasyPoints": 153.9
+    },
+    "stats2025": {
+      "receptions": 70,
+      "receivingYards": 850,
+      "receivingTDs": 7,
+      "rushingYards": 50,
+      "rushingTDs": 1,
+      "projectedPoints": 200
+    }
+  },
+  {
+    "id": "wr48",
+    "name": "Jaxon Smith-Njigba",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 103.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 100,
+      "receivingYards": 1130,
+      "receivingTDs": 6,
+      "fantasyPoints": 249
+    },
+    "stats2025": {
+      "receptions": 92,
+      "receivingYards": 1100,
+      "receivingTDs": 7,
+      "projectedPoints": 245
+    }
+  },
+  {
+    "id": "wr49",
+    "name": "Jerry Jeudy",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 106.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 90,
+      "receivingYards": 1229,
+      "receivingTDs": 4,
+      "fantasyPoints": 234.9
+    },
+    "stats2025": {
+      "receptions": 82,
+      "receivingYards": 1000,
+      "receivingTDs": 6,
+      "projectedPoints": 220
+    }
+  },
+  {
+    "id": "wr50",
+    "name": "Christian Watson",
+    "position": "WR",
+    "team": "GB",
+    "adp": 109.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 29,
+      "receivingYards": 620,
+      "receivingTDs": 2,
+      "fantasyPoints": 98
+    },
+    "stats2025": {
+      "receptions": 55,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    }
+  },
+  {
+    "id": "wr51",
+    "name": "Keon Coleman",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 112.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 29,
+      "receivingYards": 556,
+      "receivingTDs": 4,
+      "fantasyPoints": 103.6
+    },
+    "stats2025": {
+      "receptions": 60,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    }
+  },
+  {
+    "id": "wr52",
+    "name": "Rashee Rice",
+    "position": "WR",
+    "team": "KC",
+    "adp": 115.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 24,
+      "receivingYards": 288,
+      "receivingTDs": 2,
+      "fantasyPoints": 58.8
+    },
+    "stats2025": {
+      "receptions": 75,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    }
+  },
+  {
+    "id": "wr53",
+    "name": "Rashod Bateman",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 118.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 45,
+      "receivingYards": 756,
+      "receivingTDs": 9,
+      "fantasyPoints": 177.6
+    },
+    "stats2025": {
+      "receptions": 55,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    }
+  },
+  {
+    "id": "wr54",
+    "name": "Quentin Johnston",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 121.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 711,
+      "receivingTDs": 8,
+      "fantasyPoints": 167.1
+    },
+    "stats2025": {
+      "receptions": 58,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    }
+  },
+  {
+    "id": "wr55",
+    "name": "Gabe Davis",
+    "position": "WR",
+    "team": "JAC",
+    "adp": 124.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 20,
+      "receivingYards": 239,
+      "receivingTDs": 2,
+      "fantasyPoints": 47.9
+    },
+    "stats2025": {
+      "receptions": 50,
+      "receivingYards": 700,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    }
+  },
+  {
+    "id": "rb41",
+    "name": "Rachaad White",
+    "position": "RB",
+    "team": "TB",
+    "adp": 125.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 736,
+      "rushingTDs": 5,
+      "receptions": 50,
+      "receivingYards": 352,
+      "receivingTDs": 0,
+      "fantasyPoints": 161.8
+    },
+    "stats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 6,
+      "receptions": 55,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 185
+    }
+  },
+  {
+    "id": "rb42",
+    "name": "Trey Benson",
+    "position": "RB",
+    "team": "ARI",
+    "adp": 127.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 216,
+      "rushingTDs": 1,
+      "receptions": 8,
+      "receivingYards": 62,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.8
+    },
+    "stats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 7,
+      "receptions": 25,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 155
+    }
+  },
+  {
+    "id": "rb43",
+    "name": "Quinshon Judkins",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 129.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "stats2025": {
+      "rushingYards": 700,
+      "rushingTDs": 6,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 145
+    }
+  },
+  {
+    "id": "rb44",
+    "name": "Dylan Sampson",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 132.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "stats2025": {
+      "rushingYards": 650,
+      "rushingTDs": 5,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 135
+    }
+  },
+  {
+    "id": "rb45",
+    "name": "Zach Charbonnet",
+    "position": "RB",
+    "team": "SEA",
+    "adp": 134.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 487,
+      "rushingTDs": 8,
+      "receptions": 31,
+      "receivingYards": 244,
+      "receivingTDs": 0,
+      "fantasyPoints": 131.1
+    },
+    "stats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 6,
+      "receptions": 35,
+      "receivingYards": 280,
+      "receivingTDs": 1,
+      "projectedPoints": 145
+    }
+  },
+  {
+    "id": "rb46",
+    "name": "Tyler Allgeier",
+    "position": "RB",
+    "team": "ATL",
+    "adp": 136.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 462,
+      "rushingTDs": 3,
+      "receptions": 9,
+      "receivingYards": 53,
+      "receivingTDs": 0,
+      "fantasyPoints": 72.5
+    },
+    "stats2025": {
+      "rushingYards": 550,
+      "rushingTDs": 5,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 110
+    }
+  },
+  {
+    "id": "rb47",
+    "name": "Najee Harris",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 139,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1035,
+      "rushingTDs": 6,
+      "receptions": 36,
+      "receivingYards": 269,
+      "receivingTDs": 0,
+      "fantasyPoints": 174.4
+    },
+    "stats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 7,
+      "receptions": 40,
+      "receivingYards": 300,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    }
+  },
+  {
+    "id": "rb48",
+    "name": "Jaylen Wright",
+    "position": "RB",
+    "team": "MIA",
+    "adp": 141.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 287,
+      "rushingTDs": 1,
+      "receptions": 6,
+      "receivingYards": 46,
+      "receivingTDs": 0,
+      "fantasyPoints": 40.3
+    },
+    "stats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 105
+    }
+  },
+  {
+    "id": "rb49",
+    "name": "Bhayshul Tuten",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 143.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "stats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 4,
+      "receptions": 25,
+      "receivingYards": 175,
+      "receivingTDs": 1,
+      "projectedPoints": 100
+    }
+  },
+  {
+    "id": "rb50",
+    "name": "Tyjae Spears",
+    "position": "RB",
+    "team": "TEN",
+    "adp": 145.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 260,
+      "rushingTDs": 2,
+      "receptions": 38,
+      "receivingYards": 328,
+      "receivingTDs": 1,
+      "fantasyPoints": 86.8
+    },
+    "stats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 45,
+      "receivingYards": 350,
+      "receivingTDs": 2,
+      "projectedPoints": 140
+    }
+  },
+  {
+    "id": "rb51",
+    "name": "Ezekiel Elliott",
+    "position": "RB",
+    "team": "FA",
+    "adp": 148.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 226,
+      "rushingTDs": 3,
+      "receptions": 14,
+      "receivingYards": 62,
+      "receivingTDs": 0,
+      "fantasyPoints": 52.8
+    },
+    "stats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 120,
+      "receivingTDs": 0,
+      "projectedPoints": 80
+    }
+  },
+  {
+    "id": "rb52",
+    "name": "Cam Akers",
+    "position": "RB",
+    "team": "HOU",
+    "adp": 150.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 415,
+      "rushingTDs": 3,
+      "receptions": 18,
+      "receivingYards": 145,
+      "receivingTDs": 0,
+      "fantasyPoints": 74
+    },
+    "stats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 3,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 90
+    }
+  },
+  {
+    "id": "rb53",
+    "name": "Antonio Gibson",
+    "position": "RB",
+    "team": "NE",
+    "adp": 152.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 692,
+      "rushingTDs": 4,
+      "receptions": 39,
+      "receivingYards": 364,
+      "receivingTDs": 1,
+      "fantasyPoints": 145.6
+    },
+    "stats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 5,
+      "receptions": 35,
+      "receivingYards": 300,
+      "receivingTDs": 1,
+      "projectedPoints": 140
+    }
+  },
+  {
+    "id": "rb54",
+    "name": "Braelon Allen",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 155.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 274,
+      "rushingTDs": 2,
+      "receptions": 10,
+      "receivingYards": 52,
+      "receivingTDs": 0,
+      "fantasyPoints": 44.6
+    },
+    "stats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 5,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 0,
+      "projectedPoints": 95
+    }
+  },
+  {
+    "id": "rb55",
+    "name": "Keaton Mitchell",
+    "position": "RB",
+    "team": "BAL",
+    "adp": 157.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "stats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 3,
+      "receptions": 15,
+      "receivingYards": 120,
+      "receivingTDs": 1,
+      "projectedPoints": 80
+    }
+  },
+  {
+    "id": "rb56",
+    "name": "Roschon Johnson",
+    "position": "RB",
+    "team": "CHI",
+    "adp": 159.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 170,
+      "rushingTDs": 2,
+      "receptions": 10,
+      "receivingYards": 69,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.9
+    },
+    "stats2025": {
+      "rushingYards": 350,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 140,
+      "receivingTDs": 0,
+      "projectedPoints": 75
+    }
+  },
+  {
+    "id": "rb57",
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
+    "adp": 162,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 117,
+      "rushingTDs": 0,
+      "receptions": 3,
+      "receivingYards": 19,
+      "receivingTDs": 0,
+      "fantasyPoints": 14.6
+    },
+    "stats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 0,
+      "projectedPoints": 85
+    }
+  },
+  {
+    "id": "rb58",
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 164.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 367,
+      "rushingTDs": 3,
+      "receptions": 39,
+      "receivingYards": 219,
+      "receivingTDs": 0,
+      "fantasyPoints": 85.6
+    },
+    "stats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 3,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 95
+    }
+  },
+  {
+    "id": "rb59",
+    "name": "Audric Estime",
+    "position": "RB",
+    "team": "DEN",
+    "adp": 166.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 156,
+      "rushingTDs": 2,
+      "receptions": 1,
+      "receivingYards": 5,
+      "receivingTDs": 0,
+      "fantasyPoints": 28.1
+    },
+    "stats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 4,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 80
+    }
+  },
+  {
+    "id": "rb60",
+    "name": "Chris Rodriguez Jr.",
+    "position": "RB",
+    "team": "WAS",
+    "adp": 168.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 37,
+      "rushingTDs": 1,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 9.7
+    },
+    "stats2025": {
+      "rushingYards": 350,
+      "rushingTDs": 3,
+      "receptions": 10,
+      "receivingYards": 70,
+      "receivingTDs": 0,
+      "projectedPoints": 65
+    }
+  },
+  {
+    "id": "wr56",
+    "name": "Rashid Shaheed",
+    "position": "WR",
+    "team": "NO",
+    "adp": 126,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 443,
+      "receivingTDs": 3,
+      "fantasyPoints": 80.3
+    },
+    "stats2025": {
+      "receptions": 57,
+      "receivingYards": 941,
+      "receivingTDs": 9,
+      "projectedPoints": 195
+    }
+  },
+  {
+    "id": "wr57",
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "team": "LV",
+    "adp": 128.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 87,
+      "receivingYards": 1027,
+      "receivingTDs": 4,
+      "fantasyPoints": 177.7
+    },
+    "stats2025": {
+      "receptions": 85,
+      "receivingYards": 1000,
+      "receivingTDs": 5,
+      "projectedPoints": 185
+    }
+  },
+  {
+    "id": "wr58",
+    "name": "Darnell Mooney",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 130.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 58,
+      "receivingYards": 635,
+      "receivingTDs": 5,
+      "fantasyPoints": 131.5
+    },
+    "stats2025": {
+      "receptions": 65,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    }
+  },
+  {
+    "id": "wr59",
+    "name": "Cedric Tillman",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 132.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 39,
+      "receivingYards": 477,
+      "receivingTDs": 3,
+      "fantasyPoints": 87.7
+    },
+    "stats2025": {
+      "receptions": 65,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 165
+    }
+  },
+  {
+    "id": "wr60",
+    "name": "Joshua Palmer",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 135.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 44,
+      "receivingYards": 553,
+      "receivingTDs": 2,
+      "fantasyPoints": 91.3
+    },
+    "stats2025": {
+      "receptions": 60,
+      "receivingYards": 750,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    }
+  },
+  {
+    "id": "wr61",
+    "name": "Quentin Johnston",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 137.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 711,
+      "receivingTDs": 8,
+      "fantasyPoints": 159.1
+    },
+    "stats2025": {
+      "receptions": 55,
+      "receivingYards": 800,
+      "receivingTDs": 7,
+      "projectedPoints": 165
+    }
+  },
+  {
+    "id": "wr62",
+    "name": "Mike Williams",
+    "position": "WR",
+    "team": "PIT",
+    "adp": 139.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 374,
+      "receivingTDs": 2,
+      "fantasyPoints": 65.4
+    },
+    "stats2025": {
+      "receptions": 50,
+      "receivingYards": 700,
+      "receivingTDs": 5,
+      "projectedPoints": 145
+    }
+  },
+  {
+    "id": "wr63",
+    "name": "Demario Douglas",
+    "position": "WR",
+    "team": "NE",
+    "adp": 142.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 65,
+      "receivingYards": 635,
+      "receivingTDs": 2,
+      "fantasyPoints": 107.5
+    },
+    "stats2025": {
+      "receptions": 70,
+      "receivingYards": 700,
+      "receivingTDs": 4,
+      "projectedPoints": 140
+    }
+  },
+  {
+    "id": "wr64",
+    "name": "Dont'e Thornton",
+    "position": "WR",
+    "team": "LV",
+    "adp": 144.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "stats2025": {
+      "receptions": 45,
+      "receivingYards": 650,
+      "receivingTDs": 4,
+      "projectedPoints": 130
+    }
+  },
+  {
+    "id": "wr65",
+    "name": "Andrei Iosivas",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 146.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 23,
+      "receivingYards": 379,
+      "receivingTDs": 5,
+      "fantasyPoints": 85.9
+    },
+    "stats2025": {
+      "receptions": 40,
+      "receivingYards": 550,
+      "receivingTDs": 4,
+      "projectedPoints": 115
+    }
+  },
+  {
+    "id": "wr66",
+    "name": "Tyler Boyd",
+    "position": "WR",
+    "team": "TEN",
+    "adp": 149,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 34,
+      "receivingYards": 316,
+      "receivingTDs": 1,
+      "fantasyPoints": 55.6
+    },
+    "stats2025": {
+      "receptions": 50,
+      "receivingYards": 550,
+      "receivingTDs": 3,
+      "projectedPoints": 110
+    }
+  },
+  {
+    "id": "wr67",
+    "name": "Adam Thielen",
+    "position": "WR",
+    "team": "CAR",
+    "adp": 151.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 577,
+      "receivingTDs": 3,
+      "fantasyPoints": 105.7
+    },
+    "stats2025": {
+      "receptions": 55,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 125
+    }
+  },
+  {
+    "id": "wr68",
+    "name": "Brandin Cooks",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 153.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 45,
+      "receivingYards": 486,
+      "receivingTDs": 2,
+      "fantasyPoints": 84.6
+    },
+    "stats2025": {
+      "receptions": 50,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 120
+    }
+  },
+  {
+    "id": "wr69",
+    "name": "Jalen Tolbert",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 155.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 39,
+      "receivingYards": 466,
+      "receivingTDs": 7,
+      "fantasyPoints": 112.6
+    },
+    "stats2025": {
+      "receptions": 45,
+      "receivingYards": 550,
+      "receivingTDs": 5,
+      "projectedPoints": 115
+    }
+  },
+  {
+    "id": "wr70",
+    "name": "Michael Pittman Jr.",
+    "position": "WR",
+    "team": "IND",
+    "adp": 158.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 42,
+      "receivingYards": 514,
+      "receivingTDs": 3,
+      "fantasyPoints": 93.4
+    },
+    "stats2025": {
+      "receptions": 60,
+      "receivingYards": 750,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    }
+  },
+  {
+    "id": "wr71",
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 160.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 681,
+      "receivingTDs": 2,
+      "fantasyPoints": 108.1
+    },
+    "stats2025": {
+      "receptions": 55,
+      "receivingYards": 650,
+      "receivingTDs": 4,
+      "projectedPoints": 130
+    }
+  },
+  {
+    "id": "wr72",
+    "name": "Wan'Dale Robinson",
+    "position": "WR",
+    "team": "NYG",
+    "adp": 162.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 62,
+      "receivingYards": 525,
+      "receivingTDs": 1,
+      "fantasyPoints": 94.5
+    },
+    "stats2025": {
+      "receptions": 65,
+      "receivingYards": 600,
+      "receivingTDs": 3,
+      "projectedPoints": 125
+    }
+  },
+  {
+    "id": "wr73",
+    "name": "Alec Pierce",
+    "position": "WR",
+    "team": "IND",
+    "adp": 165.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 602,
+      "receivingTDs": 3,
+      "fantasyPoints": 96.2
+    },
+    "stats2025": {
+      "receptions": 40,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 115
+    }
+  },
+  {
+    "id": "wr74",
+    "name": "Elijah Moore",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 167.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 535,
+      "receivingTDs": 2,
+      "fantasyPoints": 89.5
+    },
+    "stats2025": {
+      "receptions": 50,
+      "receivingYards": 550,
+      "receivingTDs": 3,
+      "projectedPoints": 110
+    }
+  },
+  {
+    "id": "wr75",
+    "name": "Michael Wilson",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 169.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 26,
+      "receivingYards": 286,
+      "receivingTDs": 2,
+      "fantasyPoints": 54.6
+    },
+    "stats2025": {
+      "receptions": 45,
+      "receivingYards": 550,
+      "receivingTDs": 4,
+      "projectedPoints": 110
+    }
+  },
+  {
+    "id": "wr76",
+    "name": "Noah Brown",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 172,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 35,
+      "receivingYards": 453,
+      "receivingTDs": 1,
+      "fantasyPoints": 70.3
+    },
+    "stats2025": {
+      "receptions": 40,
+      "receivingYards": 500,
+      "receivingTDs": 3,
+      "projectedPoints": 100
+    }
+  },
+  {
+    "id": "wr77",
+    "name": "Nelson Agholor",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 174.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 26,
+      "receivingYards": 355,
+      "receivingTDs": 3,
+      "fantasyPoints": 65.5
+    },
+    "stats2025": {
+      "receptions": 35,
+      "receivingYards": 450,
+      "receivingTDs": 3,
+      "projectedPoints": 95
+    }
+  },
+  {
+    "id": "wr78",
+    "name": "Tutu Atwell",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 176.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 483,
+      "receivingTDs": 2,
+      "fantasyPoints": 84.3
+    },
+    "stats2025": {
+      "receptions": 45,
+      "receivingYards": 500,
+      "receivingTDs": 3,
+      "projectedPoints": 100
+    }
+  },
+  {
+    "id": "wr79",
+    "name": "Marquez Valdes-Scantling",
+    "position": "WR",
+    "team": "NO",
+    "adp": 178.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 412,
+      "receivingTDs": 2,
+      "fantasyPoints": 69.2
+    },
+    "stats2025": {
+      "receptions": 35,
+      "receivingYards": 500,
+      "receivingTDs": 4,
+      "projectedPoints": 100
+    }
+  },
+  {
+    "id": "wr80",
+    "name": "Greg Dortch",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 181.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 194,
+      "receivingTDs": 0,
+      "fantasyPoints": 47.4
+    },
+    "stats2025": {
+      "receptions": 40,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 85
+    }
   }
 ]
