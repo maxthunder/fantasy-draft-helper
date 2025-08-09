@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header-controls {
+    display: flex;
+    gap: 15px;
+}
+
+#searchInput {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 14px;
+}
+
+#refreshVorp {
+    padding: 10px 20px;
+    background: white;
+    color: #667eea;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#refreshVorp:hover {
+    transform: translateY(-2px);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 0;
+    min-height: calc(100vh - 200px);
+}
+
+.players-section {
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.position-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 8px 20px;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+    background: #667eea;
+    color: white;
+}
+
+.players-table-container {
+    overflow-x: auto;
+}
+
+#playersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#playersTable thead {
+    background: #f5f5f5;
+    position: sticky;
+    top: 0;
+}
+
+#playersTable th,
+#playersTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 13px;
+}
+
+#playersTable th {
+    font-weight: 600;
+    color: #333;
+}
+
+#playersTable tbody tr {
+    transition: background 0.2s;
+}
+
+#playersTable tbody tr:hover {
+    background: #f9f9f9;
+}
+
+#playersTable tbody tr.drafted {
+    background: #f0f0f0;
+    opacity: 0.6;
+}
+
+#playersTable tbody tr.my-team {
+    background: #e8f5e9;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.player-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.vorp-value {
+    font-weight: 700;
+    color: #667eea;
+}
+
+.vorp-value.negative {
+    color: #f44336;
+}
+
+.my-team-section {
+    padding: 20px;
+    background: #fafafa;
+}
+
+.my-team-section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.roster-requirements {
+    background: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border-left: 4px solid #667eea;
+}
+
+.roster-requirements p {
+    font-size: 13px;
+    color: #666;
+    font-weight: 500;
+}
+
+.my-team-list {
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.position-group {
+    margin-bottom: 20px;
+}
+
+.position-group h3 {
+    font-size: 14px;
+    color: #667eea;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.position-group ul {
+    list-style: none;
+}
+
+.position-group li {
+    padding: 8px;
+    background: #f5f5f5;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.position-group li .player-info {
+    font-weight: 500;
+}
+
+.position-group li .player-vorp {
+    color: #667eea;
+    font-weight: 600;
+}
+
+.team-stats {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.team-stats h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.team-stats p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.team-stats span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.stats-detail {
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .players-section {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+    }
+}

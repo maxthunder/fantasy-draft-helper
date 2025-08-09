@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Football Draft Helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fantasy Football Draft Helper</h1>
+            <div class="header-controls">
+                <input type="text" id="searchInput" placeholder="Search players...">
+                <button id="refreshVorp">Recalculate VORP</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="players-section">
+                <div class="position-tabs">
+                    <button class="tab-btn active" data-position="ALL">All</button>
+                    <button class="tab-btn" data-position="QB">QB</button>
+                    <button class="tab-btn" data-position="RB">RB</button>
+                    <button class="tab-btn" data-position="WR">WR</button>
+                    <button class="tab-btn" data-position="TE">TE</button>
+                    <button class="tab-btn" data-position="DST">DST</button>
+                </div>
+
+                <div class="players-table-container">
+                    <table id="playersTable">
+                        <thead>
+                            <tr>
+                                <th>Drafted</th>
+                                <th>My Team</th>
+                                <th>Player</th>
+                                <th>Pos</th>
+                                <th>Team</th>
+                                <th>VORP</th>
+                                <th>ADP</th>
+                                <th>2024 Points</th>
+                                <th>2025 Proj</th>
+                                <th>2024 Stats</th>
+                                <th>2025 Stats</th>
+                            </tr>
+                        </thead>
+                        <tbody id="playersTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="my-team-section">
+                <h2>My Team</h2>
+                <div class="roster-requirements">
+                    <p>Required: 2 QB, 1 WR, 1 RB, 1 TE, 3 Flex (WR/RB/TE), 1 DST</p>
+                </div>
+                <div class="my-team-list">
+                    <div class="position-group">
+                        <h3>Quarterbacks (<span id="qbCount">0</span>/2)</h3>
+                        <ul id="myQBs"></ul>
+                    </div>
+                    <div class="position-group">
+                        <h3>Running Backs (<span id="rbCount">0</span>/1+)</h3>
+                        <ul id="myRBs"></ul>
+                    </div>
+                    <div class="position-group">
+                        <h3>Wide Receivers (<span id="wrCount">0</span>/1+)</h3>
+                        <ul id="myWRs"></ul>
+                    </div>
+                    <div class="position-group">
+                        <h3>Tight Ends (<span id="teCount">0</span>/1+)</h3>
+                        <ul id="myTEs"></ul>
+                    </div>
+                    <div class="position-group">
+                        <h3>Flex Positions (<span id="flexCount">0</span>/3)</h3>
+                        <ul id="myFlex"></ul>
+                    </div>
+                    <div class="position-group">
+                        <h3>Defense (<span id="dstCount">0</span>/1)</h3>
+                        <ul id="myDST"></ul>
+                    </div>
+                </div>
+                <div class="team-stats">
+                    <h3>Team Statistics</h3>
+                    <p>Total VORP: <span id="teamVorp">0</span></p>
+                    <p>Projected Points: <span id="teamProjectedPoints">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
