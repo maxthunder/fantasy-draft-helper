@@ -101,7 +101,51 @@ async function loadPlayers() {
     }
 }
 
+function calculateProjectedPoints(player) {
+    const stats = player.stats2025;
+    if (!stats) return 0;
+    
+    let points = 0;
+    
+    if (player.position === 'QB') {
+        points += (stats.passingYards || 0) * scoringSettings.passing.yards;
+        points += (stats.passingTDs || 0) * scoringSettings.passing.touchdowns;
+        points += (stats.interceptions || 0) * scoringSettings.passing.interceptions;
+        points += (stats.rushingYards || 0) * scoringSettings.rushing.yards;
+        points += (stats.rushingTDs || 0) * scoringSettings.rushing.touchdowns;
+    } else if (player.position === 'RB') {
+        points += (stats.rushingYards || 0) * scoringSettings.rushing.yards;
+        points += (stats.rushingTDs || 0) * scoringSettings.rushing.touchdowns;
+        points += (stats.receptions || 0) * scoringSettings.receiving.receptions;
+        points += (stats.receivingYards || 0) * scoringSettings.receiving.yards;
+        points += (stats.receivingTDs || 0) * scoringSettings.receiving.touchdowns;
+    } else if (player.position === 'WR' || player.position === 'TE') {
+        points += (stats.receptions || 0) * scoringSettings.receiving.receptions;
+        points += (stats.receivingYards || 0) * scoringSettings.receiving.yards;
+        points += (stats.receivingTDs || 0) * scoringSettings.receiving.touchdowns;
+        points += (stats.rushingYards || 0) * scoringSettings.rushing.yards;
+        points += (stats.rushingTDs || 0) * scoringSettings.rushing.touchdowns;
+    } else if (player.position === 'DST') {
+        points = stats.projectedPoints || 0;
+    }
+    
+    return points;
+}
+
 function calculateVORP() {
+    players.forEach(player => {
+        player.calculatedPoints = calculateProjectedPoints(player);
+        
+        // Apply SoS adjustment for DST
+        if (player.position === 'DST' && player.strengthOfSchedule) {
+            // SoS ranges from ~0.8 (easy) to ~1.2 (hard)
+            // Lower SoS means easier schedule, which is better for DST
+            // So we invert the adjustment: easier schedule (lower SoS) gets a boost
+            const sosAdjustment = 2 - player.strengthOfSchedule;
+            player.calculatedPoints = player.calculatedPoints * sosAdjustment;
+        }
+    });
+    
     const positionGroups = {};
     
     players.forEach(player => {
@@ -114,8 +158,8 @@ function calculateVORP() {
     Object.keys(positionGroups).forEach(position => {
         const positionPlayers = positionGroups[position];
         positionPlayers.sort((a, b) => {
-            const aPoints = a.stats2025?.projectedPoints || 0;
-            const bPoints = b.stats2025?.projectedPoints || 0;
+            const aPoints = a.calculatedPoints || 0;
+            const bPoints = b.calculatedPoints || 0;
             return bPoints - aPoints;
         });
         
@@ -123,13 +167,13 @@ function calculateVORP() {
         let replacementValue = 0;
         
         if (positionPlayers.length >= replacementLevel) {
-            replacementValue = positionPlayers[replacementLevel - 1].stats2025?.projectedPoints || 0;
+            replacementValue = positionPlayers[replacementLevel - 1].calculatedPoints || 0;
         } else if (positionPlayers.length > 0) {
-            replacementValue = positionPlayers[positionPlayers.length - 1].stats2025?.projectedPoints || 0;
+            replacementValue = positionPlayers[positionPlayers.length - 1].calculatedPoints || 0;
         }
         
         positionPlayers.forEach(player => {
-            const playerPoints = player.stats2025?.projectedPoints || 0;
+            const playerPoints = player.calculatedPoints || 0;
             player.vorp = Math.round((playerPoints - replacementValue) * 10) / 10;
         });
     });
@@ -141,9 +185,16 @@ function renderPlayers() {
     const tbody = document.getElementById('playersTableBody');
     tbody.innerHTML = '';
     
-    const filteredPlayers = currentPosition === 'ALL' 
-        ? players 
-        : players.filter(p => p.position === currentPosition);
+    let filteredPlayers;
+    if (currentPosition === 'ALL') {
+        filteredPlayers = players;
+    } else if (currentPosition === 'FLEX') {
+        filteredPlayers = players.filter(p => 
+            p.position === 'WR' || p.position === 'RB' || p.position === 'TE'
+        );
+    } else {
+        filteredPlayers = players.filter(p => p.position === currentPosition);
+    }
     
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
     const searchedPlayers = searchTerm 
@@ -157,19 +208,23 @@ function renderPlayers() {
         if (player.isDrafted) row.classList.add('drafted');
         if (player.isMyTeam) row.classList.add('my-team');
         
-        const stats2024 = formatStats(player.position, player.stats2024);
-        const stats2025 = formatStats(player.position, player.stats2025);
+        const stats2024 = formatStats(player.position, player.stats2024, player);
+        const stats2025 = formatStats(player.position, player.stats2025, player);
         
+        const vorpDisplay = player.position === 'DST' && player.strengthOfSchedule 
+            ? `<span title="SoS-adjusted VORP (SoS: ${player.strengthOfSchedule.toFixed(2)})">${player.vorp}</span>`
+            : player.vorp;
+            
         row.innerHTML = `
             <td><input type="checkbox" class="draft-checkbox" data-player-id="${player.id}" ${player.isDrafted ? 'checked' : ''}></td>
             <td><input type="checkbox" class="myteam-checkbox" data-player-id="${player.id}" ${player.isMyTeam ? 'checked' : ''}></td>
-            <td class="player-name">${player.name}</td>
+            <td class="player-name">${player.fantasyDataUrl ? `<a href="${player.fantasyDataUrl}" target="_blank" rel="noopener noreferrer">${player.name}</a>` : player.name}</td>
             <td>${player.position}</td>
             <td>${player.team}</td>
-            <td class="vorp-value ${player.vorp < 0 ? 'negative' : ''}">${player.vorp}</td>
+            <td class="vorp-value ${player.vorp < 0 ? 'negative' : ''}">${vorpDisplay}</td>
             <td>${player.adp}</td>
             <td>${player.stats2024?.fantasyPoints || '-'}</td>
-            <td>${player.stats2025?.projectedPoints || '-'}</td>
+            <td>${Math.round(player.calculatedPoints) || '-'}</td>
             <td class="stats-detail">${stats2024}</td>
             <td class="stats-detail">${stats2025}</td>
         `;
@@ -180,7 +235,7 @@ function renderPlayers() {
     updateMyTeamDisplay();
 }
 
-function formatStats(position, stats) {
+function formatStats(position, stats, player) {
     if (!stats) return '-';
     
     switch(position) {
@@ -192,7 +247,14 @@ function formatStats(position, stats) {
         case 'TE':
             return `${stats.receptions || 0} Rec, ${stats.receivingYards || 0} Yds, ${stats.receivingTDs || 0} TDs`;
         case 'DST':
-            return `${stats.sacks || 0} Sacks, ${stats.interceptions || 0} INTs`;
+            let dstStats = `${stats.sacks || 0} Sacks, ${stats.interceptions || 0} INTs`;
+            if (player && player.strengthOfSchedule) {
+                const sosRating = player.strengthOfSchedule < 0.9 ? '🟢 Easy' : 
+                                  player.strengthOfSchedule < 1.0 ? '🟡 Moderate' : 
+                                  player.strengthOfSchedule < 1.1 ? '🟠 Hard' : '🔴 Very Hard';
+                dstStats += ` | SoS: ${sosRating}`;
+            }
+            return dstStats;
         default:
             return '-';
     }
@@ -226,7 +288,7 @@ function updateMyTeamDisplay() {
     updateFlexList(flexEligible);
     
     const totalVorp = myTeamPlayers.reduce((sum, p) => sum + (p.vorp || 0), 0);
-    const totalProjected = myTeamPlayers.reduce((sum, p) => sum + (p.stats2025?.projectedPoints || 0), 0);
+    const totalProjected = myTeamPlayers.reduce((sum, p) => sum + (p.calculatedPoints || 0), 0);
     
     document.getElementById('teamVorp').textContent = Math.round(totalVorp * 10) / 10;
     document.getElementById('teamProjectedPoints').textContent = Math.round(totalProjected);
@@ -238,8 +300,11 @@ function updatePositionList(elementId, players) {
     
     players.sort((a, b) => b.vorp - a.vorp).forEach(player => {
         const li = document.createElement('li');
+        const playerName = player.fantasyDataUrl 
+            ? `<a href="${player.fantasyDataUrl}" target="_blank" rel="noopener noreferrer">${player.name}</a>` 
+            : player.name;
         li.innerHTML = `
-            <span class="player-info">${player.name} (${player.team})</span>
+            <span class="player-info">${playerName} (${player.team})</span>
             <span class="player-vorp">VORP: ${player.vorp}</span>
         `;
         list.appendChild(li);
@@ -277,8 +342,11 @@ function updateFlexList(flexEligible) {
     
     flexPlayers.forEach(player => {
         const li = document.createElement('li');
+        const playerName = player.fantasyDataUrl 
+            ? `<a href="${player.fantasyDataUrl}" target="_blank" rel="noopener noreferrer">${player.name}</a>` 
+            : player.name;
         li.innerHTML = `
-            <span class="player-info">${player.name} (${player.position}-${player.team})</span>
+            <span class="player-info">${playerName} (${player.position}-${player.team})</span>
             <span class="player-vorp">VORP: ${player.vorp}</span>
         `;
         list.appendChild(li);
@@ -291,6 +359,15 @@ function setupEventListeners() {
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             currentPosition = e.target.dataset.position;
+            
+            // Show/hide SoS legend for DST tab
+            const sosLegend = document.getElementById('sosLegend');
+            if (currentPosition === 'DST') {
+                sosLegend.style.display = 'block';
+            } else {
+                sosLegend.style.display = 'none';
+            }
+            
             renderPlayers();
         });
     });

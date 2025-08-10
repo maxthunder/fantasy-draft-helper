@@ -1,0 +1,917 @@
+[
+  {
+    "name": "Bo Nix",
+    "search_name": "Bo Nix",
+    "current_url": "https://fantasydata.com/nfl/search?q=Bo%20Nix"
+  },
+  {
+    "name": "Dak Prescott",
+    "search_name": "Dak Prescott",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dak%20Prescott"
+  },
+  {
+    "name": "Baker Mayfield",
+    "search_name": "Baker Mayfield",
+    "current_url": "https://fantasydata.com/nfl/search?q=Baker%20Mayfield"
+  },
+  {
+    "name": "Brock Purdy",
+    "search_name": "Brock Purdy",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brock%20Purdy"
+  },
+  {
+    "name": "Jordan Love",
+    "search_name": "Jordan Love",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jordan%20Love"
+  },
+  {
+    "name": "Jared Goff",
+    "search_name": "Jared Goff",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jared%20Goff"
+  },
+  {
+    "name": "J.J. McCarthy",
+    "search_name": "J.J. McCarthy",
+    "current_url": "https://fantasydata.com/nfl/search?q=J.J.%20McCarthy"
+  },
+  {
+    "name": "Michael Penix Jr.",
+    "search_name": "Michael Penix Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Michael%20Penix%20Jr."
+  },
+  {
+    "name": "Tua Tagovailoa",
+    "search_name": "Tua Tagovailoa",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tua%20Tagovailoa"
+  },
+  {
+    "name": "Caleb Williams",
+    "search_name": "Caleb Williams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Caleb%20Williams"
+  },
+  {
+    "name": "Drake Maye",
+    "search_name": "Drake Maye",
+    "current_url": "https://fantasydata.com/nfl/search?q=Drake%20Maye"
+  },
+  {
+    "name": "Matthew Stafford",
+    "search_name": "Matthew Stafford",
+    "current_url": "https://fantasydata.com/nfl/search?q=Matthew%20Stafford"
+  },
+  {
+    "name": "Kyler Murray",
+    "search_name": "Kyler Murray",
+    "current_url": "https://fantasydata.com/nfl/search?q=Kyler%20Murray"
+  },
+  {
+    "name": "Aaron Rodgers",
+    "search_name": "Aaron Rodgers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Aaron%20Rodgers"
+  },
+  {
+    "name": "Jalen Hurts",
+    "search_name": "Jalen Hurts",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jalen%20Hurts"
+  },
+  {
+    "name": "Russell Wilson",
+    "search_name": "Russell Wilson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Russell%20Wilson"
+  },
+  {
+    "name": "Trevor Lawrence",
+    "search_name": "Trevor Lawrence",
+    "current_url": "https://fantasydata.com/nfl/search?q=Trevor%20Lawrence"
+  },
+  {
+    "name": "Justin Herbert",
+    "search_name": "Justin Herbert",
+    "current_url": "https://fantasydata.com/nfl/search?q=Justin%20Herbert"
+  },
+  {
+    "name": "Anthony Richardson",
+    "search_name": "Anthony Richardson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Anthony%20Richardson"
+  },
+  {
+    "name": "Ashton Jeanty",
+    "search_name": "Ashton Jeanty",
+    "current_url": "https://fantasydata.com/nfl/search?q=Ashton%20Jeanty"
+  },
+  {
+    "name": "De'Von Achane",
+    "search_name": "De'Von Achane",
+    "current_url": "https://fantasydata.com/nfl/search?q=De'Von%20Achane"
+  },
+  {
+    "name": "Bucky Irving",
+    "search_name": "Bucky Irving",
+    "current_url": "https://fantasydata.com/nfl/search?q=Bucky%20Irving"
+  },
+  {
+    "name": "Kenneth Walker III",
+    "search_name": "Kenneth Walker III",
+    "current_url": "https://fantasydata.com/nfl/search?q=Kenneth%20Walker%20III"
+  },
+  {
+    "name": "Josh Jacobs",
+    "search_name": "Josh Jacobs",
+    "current_url": "https://fantasydata.com/nfl/search?q=Josh%20Jacobs"
+  },
+  {
+    "name": "Breece Hall",
+    "search_name": "Breece Hall",
+    "current_url": "https://fantasydata.com/nfl/search?q=Breece%20Hall"
+  },
+  {
+    "name": "James Cook",
+    "search_name": "James Cook",
+    "current_url": "https://fantasydata.com/nfl/search?q=James%20Cook"
+  },
+  {
+    "name": "Chase Brown",
+    "search_name": "Chase Brown",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chase%20Brown"
+  },
+  {
+    "name": "Kyren Williams",
+    "search_name": "Kyren Williams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Kyren%20Williams"
+  },
+  {
+    "name": "Jonathan Taylor",
+    "search_name": "Jonathan Taylor",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jonathan%20Taylor"
+  },
+  {
+    "name": "Isiah Pacheco",
+    "search_name": "Isiah Pacheco",
+    "current_url": "https://fantasydata.com/nfl/search?q=Isiah%20Pacheco"
+  },
+  {
+    "name": "Travis Etienne Jr.",
+    "search_name": "Travis Etienne Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Travis%20Etienne%20Jr."
+  },
+  {
+    "name": "Rachaad White",
+    "search_name": "Rachaad White",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rachaad%20White"
+  },
+  {
+    "name": "Brian Robinson Jr.",
+    "search_name": "Brian Robinson Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brian%20Robinson%20Jr."
+  },
+  {
+    "name": "Aaron Jones",
+    "search_name": "Aaron Jones",
+    "current_url": "https://fantasydata.com/nfl/search?q=Aaron%20Jones"
+  },
+  {
+    "name": "Tony Pollard",
+    "search_name": "Tony Pollard",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tony%20Pollard"
+  },
+  {
+    "name": "Rhamondre Stevenson",
+    "search_name": "Rhamondre Stevenson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rhamondre%20Stevenson"
+  },
+  {
+    "name": "Najee Harris",
+    "search_name": "Najee Harris",
+    "current_url": "https://fantasydata.com/nfl/search?q=Najee%20Harris"
+  },
+  {
+    "name": "Alvin Kamara",
+    "search_name": "Alvin Kamara",
+    "current_url": "https://fantasydata.com/nfl/search?q=Alvin%20Kamara"
+  },
+  {
+    "name": "David Montgomery",
+    "search_name": "David Montgomery",
+    "current_url": "https://fantasydata.com/nfl/search?q=David%20Montgomery"
+  },
+  {
+    "name": "Brian Thomas Jr.",
+    "search_name": "Brian Thomas Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brian%20Thomas%20Jr."
+  },
+  {
+    "name": "Puka Nacua",
+    "search_name": "Puka Nacua",
+    "current_url": "https://fantasydata.com/nfl/search?q=Puka%20Nacua"
+  },
+  {
+    "name": "Garrett Wilson",
+    "search_name": "Garrett Wilson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Garrett%20Wilson"
+  },
+  {
+    "name": "Marvin Harrison Jr.",
+    "search_name": "Marvin Harrison Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Marvin%20Harrison%20Jr."
+  },
+  {
+    "name": "Chris Olave",
+    "search_name": "Chris Olave",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chris%20Olave"
+  },
+  {
+    "name": "Mike Evans",
+    "search_name": "Mike Evans",
+    "current_url": "https://fantasydata.com/nfl/search?q=Mike%20Evans"
+  },
+  {
+    "name": "Davante Adams",
+    "search_name": "Davante Adams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Davante%20Adams"
+  },
+  {
+    "name": "Drake London",
+    "search_name": "Drake London",
+    "current_url": "https://fantasydata.com/nfl/search?q=Drake%20London"
+  },
+  {
+    "name": "Nico Collins",
+    "search_name": "Nico Collins",
+    "current_url": "https://fantasydata.com/nfl/search?q=Nico%20Collins"
+  },
+  {
+    "name": "DK Metcalf",
+    "search_name": "DK Metcalf",
+    "current_url": "https://fantasydata.com/nfl/search?q=DK%20Metcalf"
+  },
+  {
+    "name": "Deebo Samuel",
+    "search_name": "Deebo Samuel",
+    "current_url": "https://fantasydata.com/nfl/search?q=Deebo%20Samuel"
+  },
+  {
+    "name": "Brandon Aiyuk",
+    "search_name": "Brandon Aiyuk",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brandon%20Aiyuk"
+  },
+  {
+    "name": "DJ Moore",
+    "search_name": "DJ Moore",
+    "current_url": "https://fantasydata.com/nfl/search?q=DJ%20Moore"
+  },
+  {
+    "name": "Zay Flowers",
+    "search_name": "Zay Flowers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Zay%20Flowers"
+  },
+  {
+    "name": "Calvin Ridley",
+    "search_name": "Calvin Ridley",
+    "current_url": "https://fantasydata.com/nfl/search?q=Calvin%20Ridley"
+  },
+  {
+    "name": "Jakobi Meyers",
+    "search_name": "Jakobi Meyers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jakobi%20Meyers"
+  },
+  {
+    "name": "DeVonta Smith",
+    "search_name": "DeVonta Smith",
+    "current_url": "https://fantasydata.com/nfl/search?q=DeVonta%20Smith"
+  },
+  {
+    "name": "Christian Kirk",
+    "search_name": "Christian Kirk",
+    "current_url": "https://fantasydata.com/nfl/search?q=Christian%20Kirk"
+  },
+  {
+    "name": "Jalen McMillan",
+    "search_name": "Jalen McMillan",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jalen%20McMillan"
+  },
+  {
+    "name": "George Pickens",
+    "search_name": "George Pickens",
+    "current_url": "https://fantasydata.com/nfl/search?q=George%20Pickens"
+  },
+  {
+    "name": "Tee Higgins",
+    "search_name": "Tee Higgins",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tee%20Higgins"
+  },
+  {
+    "name": "Cooper Kupp",
+    "search_name": "Cooper Kupp",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cooper%20Kupp"
+  },
+  {
+    "name": "Jaylen Waddle",
+    "search_name": "Jaylen Waddle",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jaylen%20Waddle"
+  },
+  {
+    "name": "Stefon Diggs",
+    "search_name": "Stefon Diggs",
+    "current_url": "https://fantasydata.com/nfl/search?q=Stefon%20Diggs"
+  },
+  {
+    "name": "Terry McLaurin",
+    "search_name": "Terry McLaurin",
+    "current_url": "https://fantasydata.com/nfl/search?q=Terry%20McLaurin"
+  },
+  {
+    "name": "Amari Cooper",
+    "search_name": "Amari Cooper",
+    "current_url": "https://fantasydata.com/nfl/search?q=Amari%20Cooper"
+  },
+  {
+    "name": "Keenan Allen",
+    "search_name": "Keenan Allen",
+    "current_url": "https://fantasydata.com/nfl/search?q=Keenan%20Allen"
+  },
+  {
+    "name": "Chris Godwin",
+    "search_name": "Chris Godwin",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chris%20Godwin"
+  },
+  {
+    "name": "DeAndre Hopkins",
+    "search_name": "DeAndre Hopkins",
+    "current_url": "https://fantasydata.com/nfl/search?q=DeAndre%20Hopkins"
+  },
+  {
+    "name": "Dalton Kincaid",
+    "search_name": "Dalton Kincaid",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dalton%20Kincaid"
+  },
+  {
+    "name": "Evan Engram",
+    "search_name": "Evan Engram",
+    "current_url": "https://fantasydata.com/nfl/search?q=Evan%20Engram"
+  },
+  {
+    "name": "David Njoku",
+    "search_name": "David Njoku",
+    "current_url": "https://fantasydata.com/nfl/search?q=David%20Njoku"
+  },
+  {
+    "name": "Dallas Goedert",
+    "search_name": "Dallas Goedert",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dallas%20Goedert"
+  },
+  {
+    "name": "Mark Andrews",
+    "search_name": "Mark Andrews",
+    "current_url": "https://fantasydata.com/nfl/search?q=Mark%20Andrews"
+  },
+  {
+    "name": "Jonnu Smith",
+    "search_name": "Jonnu Smith",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jonnu%20Smith"
+  },
+  {
+    "name": "Jake Ferguson",
+    "search_name": "Jake Ferguson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jake%20Ferguson"
+  },
+  {
+    "name": "Cade Otton",
+    "search_name": "Cade Otton",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cade%20Otton"
+  },
+  {
+    "name": "Kyle Pitts",
+    "search_name": "Kyle Pitts",
+    "current_url": "https://fantasydata.com/nfl/search?q=Kyle%20Pitts"
+  },
+  {
+    "name": "Pat Freiermuth",
+    "search_name": "Pat Freiermuth",
+    "current_url": "https://fantasydata.com/nfl/search?q=Pat%20Freiermuth"
+  },
+  {
+    "name": "Cole Kmet",
+    "search_name": "Cole Kmet",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cole%20Kmet"
+  },
+  {
+    "name": "T.J. Hockenson",
+    "search_name": "T.J. Hockenson",
+    "current_url": "https://fantasydata.com/nfl/search?q=T.J.%20Hockenson"
+  },
+  {
+    "name": "Tucker Kraft",
+    "search_name": "Tucker Kraft",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tucker%20Kraft"
+  },
+  {
+    "name": "Isaiah Likely",
+    "search_name": "Isaiah Likely",
+    "current_url": "https://fantasydata.com/nfl/search?q=Isaiah%20Likely"
+  },
+  {
+    "name": "Tyler Warren",
+    "search_name": "Tyler Warren",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Warren"
+  },
+  {
+    "name": "Justin Tucker",
+    "search_name": "Justin Tucker",
+    "current_url": "https://fantasydata.com/nfl/search?q=Justin%20Tucker"
+  },
+  {
+    "name": "Harrison Butker",
+    "search_name": "Harrison Butker",
+    "current_url": "https://fantasydata.com/nfl/search?q=Harrison%20Butker"
+  },
+  {
+    "name": "Brandon Aubrey",
+    "search_name": "Brandon Aubrey",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brandon%20Aubrey"
+  },
+  {
+    "name": "Ka'imi Fairbairn",
+    "search_name": "Ka'imi Fairbairn",
+    "current_url": "https://fantasydata.com/nfl/search?q=Ka'imi%20Fairbairn"
+  },
+  {
+    "name": "Younghoe Koo",
+    "search_name": "Younghoe Koo",
+    "current_url": "https://fantasydata.com/nfl/search?q=Younghoe%20Koo"
+  },
+  {
+    "name": "Jake Bates",
+    "search_name": "Jake Bates",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jake%20Bates"
+  },
+  {
+    "name": "Chase McLaughlin",
+    "search_name": "Chase McLaughlin",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chase%20McLaughlin"
+  },
+  {
+    "name": "Cameron Dicker",
+    "search_name": "Cameron Dicker",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cameron%20Dicker"
+  },
+  {
+    "name": "Jake Elliott",
+    "search_name": "Jake Elliott",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jake%20Elliott"
+  },
+  {
+    "name": "Tyler Bass",
+    "search_name": "Tyler Bass",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Bass"
+  },
+  {
+    "name": "Baltimore Ravens",
+    "search_name": "Baltimore Ravens",
+    "current_url": "https://fantasydata.com/nfl/search?q=Baltimore%20Ravens"
+  },
+  {
+    "name": "San Francisco 49ers",
+    "search_name": "San Francisco 49ers",
+    "current_url": "https://fantasydata.com/nfl/search?q=San%20Francisco%2049ers"
+  },
+  {
+    "name": "Dallas Cowboys",
+    "search_name": "Dallas Cowboys",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dallas%20Cowboys"
+  },
+  {
+    "name": "Buffalo Bills",
+    "search_name": "Buffalo Bills",
+    "current_url": "https://fantasydata.com/nfl/search?q=Buffalo%20Bills"
+  },
+  {
+    "name": "Kansas City Chiefs",
+    "search_name": "Kansas City Chiefs",
+    "current_url": "https://fantasydata.com/nfl/search?q=Kansas%20City%20Chiefs"
+  },
+  {
+    "name": "New York Jets",
+    "search_name": "New York Jets",
+    "current_url": "https://fantasydata.com/nfl/search?q=New%20York%20Jets"
+  },
+  {
+    "name": "Cleveland Browns",
+    "search_name": "Cleveland Browns",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cleveland%20Browns"
+  },
+  {
+    "name": "Pittsburgh Steelers",
+    "search_name": "Pittsburgh Steelers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Pittsburgh%20Steelers"
+  },
+  {
+    "name": "Miami Dolphins",
+    "search_name": "Miami Dolphins",
+    "current_url": "https://fantasydata.com/nfl/search?q=Miami%20Dolphins"
+  },
+  {
+    "name": "Houston Texans",
+    "search_name": "Houston Texans",
+    "current_url": "https://fantasydata.com/nfl/search?q=Houston%20Texans"
+  },
+  {
+    "name": "Joe Mixon",
+    "search_name": "Joe Mixon",
+    "current_url": "https://fantasydata.com/nfl/search?q=Joe%20Mixon"
+  },
+  {
+    "name": "Nick Chubb",
+    "search_name": "Nick Chubb",
+    "current_url": "https://fantasydata.com/nfl/search?q=Nick%20Chubb"
+  },
+  {
+    "name": "Zack Moss",
+    "search_name": "Zack Moss",
+    "current_url": "https://fantasydata.com/nfl/search?q=Zack%20Moss"
+  },
+  {
+    "name": "Javonte Williams",
+    "search_name": "Javonte Williams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Javonte%20Williams"
+  },
+  {
+    "name": "Jerome Ford",
+    "search_name": "Jerome Ford",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jerome%20Ford"
+  },
+  {
+    "name": "Austin Ekeler",
+    "search_name": "Austin Ekeler",
+    "current_url": "https://fantasydata.com/nfl/search?q=Austin%20Ekeler"
+  },
+  {
+    "name": "Jaylen Warren",
+    "search_name": "Jaylen Warren",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jaylen%20Warren"
+  },
+  {
+    "name": "Devin Singletary",
+    "search_name": "Devin Singletary",
+    "current_url": "https://fantasydata.com/nfl/search?q=Devin%20Singletary"
+  },
+  {
+    "name": "Tyjae Spears",
+    "search_name": "Tyjae Spears",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyjae%20Spears"
+  },
+  {
+    "name": "Zamir White",
+    "search_name": "Zamir White",
+    "current_url": "https://fantasydata.com/nfl/search?q=Zamir%20White"
+  },
+  {
+    "name": "Rico Dowdle",
+    "search_name": "Rico Dowdle",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rico%20Dowdle"
+  },
+  {
+    "name": "Gus Edwards",
+    "search_name": "Gus Edwards",
+    "current_url": "https://fantasydata.com/nfl/search?q=Gus%20Edwards"
+  },
+  {
+    "name": "Chuba Hubbard",
+    "search_name": "Chuba Hubbard",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chuba%20Hubbard"
+  },
+  {
+    "name": "Tank Bigsby",
+    "search_name": "Tank Bigsby",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tank%20Bigsby"
+  },
+  {
+    "name": "J.K. Dobbins",
+    "search_name": "J.K. Dobbins",
+    "current_url": "https://fantasydata.com/nfl/search?q=J.K.%20Dobbins"
+  },
+  {
+    "name": "Jordan Addison",
+    "search_name": "Jordan Addison",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jordan%20Addison"
+  },
+  {
+    "name": "Tank Dell",
+    "search_name": "Tank Dell",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tank%20Dell"
+  },
+  {
+    "name": "Jameson Williams",
+    "search_name": "Jameson Williams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jameson%20Williams"
+  },
+  {
+    "name": "Diontae Johnson",
+    "search_name": "Diontae Johnson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Diontae%20Johnson"
+  },
+  {
+    "name": "Tyler Lockett",
+    "search_name": "Tyler Lockett",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Lockett"
+  },
+  {
+    "name": "Rome Odunze",
+    "search_name": "Rome Odunze",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rome%20Odunze"
+  },
+  {
+    "name": "Khalil Shakir",
+    "search_name": "Khalil Shakir",
+    "current_url": "https://fantasydata.com/nfl/search?q=Khalil%20Shakir"
+  },
+  {
+    "name": "Courtland Sutton",
+    "search_name": "Courtland Sutton",
+    "current_url": "https://fantasydata.com/nfl/search?q=Courtland%20Sutton"
+  },
+  {
+    "name": "Romeo Doubs",
+    "search_name": "Romeo Doubs",
+    "current_url": "https://fantasydata.com/nfl/search?q=Romeo%20Doubs"
+  },
+  {
+    "name": "Ladd McConkey",
+    "search_name": "Ladd McConkey",
+    "current_url": "https://fantasydata.com/nfl/search?q=Ladd%20McConkey"
+  },
+  {
+    "name": "Hollywood Brown",
+    "search_name": "Hollywood Brown",
+    "current_url": "https://fantasydata.com/nfl/search?q=Hollywood%20Brown"
+  },
+  {
+    "name": "Xavier Worthy",
+    "search_name": "Xavier Worthy",
+    "current_url": "https://fantasydata.com/nfl/search?q=Xavier%20Worthy"
+  },
+  {
+    "name": "Jaxon Smith-Njigba",
+    "search_name": "Jaxon Smith-Njigba",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jaxon%20Smith-Njigba"
+  },
+  {
+    "name": "Jerry Jeudy",
+    "search_name": "Jerry Jeudy",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jerry%20Jeudy"
+  },
+  {
+    "name": "Christian Watson",
+    "search_name": "Christian Watson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Christian%20Watson"
+  },
+  {
+    "name": "Keon Coleman",
+    "search_name": "Keon Coleman",
+    "current_url": "https://fantasydata.com/nfl/search?q=Keon%20Coleman"
+  },
+  {
+    "name": "Rashee Rice",
+    "search_name": "Rashee Rice",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rashee%20Rice"
+  },
+  {
+    "name": "Rashod Bateman",
+    "search_name": "Rashod Bateman",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rashod%20Bateman"
+  },
+  {
+    "name": "Quentin Johnston",
+    "search_name": "Quentin Johnston",
+    "current_url": "https://fantasydata.com/nfl/search?q=Quentin%20Johnston"
+  },
+  {
+    "name": "Gabe Davis",
+    "search_name": "Gabe Davis",
+    "current_url": "https://fantasydata.com/nfl/search?q=Gabe%20Davis"
+  },
+  {
+    "name": "Rachaad White",
+    "search_name": "Rachaad White",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rachaad%20White"
+  },
+  {
+    "name": "Trey Benson",
+    "search_name": "Trey Benson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Trey%20Benson"
+  },
+  {
+    "name": "Quinshon Judkins",
+    "search_name": "Quinshon Judkins",
+    "current_url": "https://fantasydata.com/nfl/search?q=Quinshon%20Judkins"
+  },
+  {
+    "name": "Dylan Sampson",
+    "search_name": "Dylan Sampson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dylan%20Sampson"
+  },
+  {
+    "name": "Zach Charbonnet",
+    "search_name": "Zach Charbonnet",
+    "current_url": "https://fantasydata.com/nfl/search?q=Zach%20Charbonnet"
+  },
+  {
+    "name": "Tyler Allgeier",
+    "search_name": "Tyler Allgeier",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Allgeier"
+  },
+  {
+    "name": "Najee Harris",
+    "search_name": "Najee Harris",
+    "current_url": "https://fantasydata.com/nfl/search?q=Najee%20Harris"
+  },
+  {
+    "name": "Jaylen Wright",
+    "search_name": "Jaylen Wright",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jaylen%20Wright"
+  },
+  {
+    "name": "Bhayshul Tuten",
+    "search_name": "Bhayshul Tuten",
+    "current_url": "https://fantasydata.com/nfl/search?q=Bhayshul%20Tuten"
+  },
+  {
+    "name": "Tyjae Spears",
+    "search_name": "Tyjae Spears",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyjae%20Spears"
+  },
+  {
+    "name": "Ezekiel Elliott",
+    "search_name": "Ezekiel Elliott",
+    "current_url": "https://fantasydata.com/nfl/search?q=Ezekiel%20Elliott"
+  },
+  {
+    "name": "Cam Akers",
+    "search_name": "Cam Akers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cam%20Akers"
+  },
+  {
+    "name": "Antonio Gibson",
+    "search_name": "Antonio Gibson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Antonio%20Gibson"
+  },
+  {
+    "name": "Braelon Allen",
+    "search_name": "Braelon Allen",
+    "current_url": "https://fantasydata.com/nfl/search?q=Braelon%20Allen"
+  },
+  {
+    "name": "Keaton Mitchell",
+    "search_name": "Keaton Mitchell",
+    "current_url": "https://fantasydata.com/nfl/search?q=Keaton%20Mitchell"
+  },
+  {
+    "name": "Roschon Johnson",
+    "search_name": "Roschon Johnson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Roschon%20Johnson"
+  },
+  {
+    "name": "MarShawn Lloyd",
+    "search_name": "MarShawn Lloyd",
+    "current_url": "https://fantasydata.com/nfl/search?q=MarShawn%20Lloyd"
+  },
+  {
+    "name": "Jerome Ford",
+    "search_name": "Jerome Ford",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jerome%20Ford"
+  },
+  {
+    "name": "Audric Estime",
+    "search_name": "Audric Estime",
+    "current_url": "https://fantasydata.com/nfl/search?q=Audric%20Estime"
+  },
+  {
+    "name": "Chris Rodriguez Jr.",
+    "search_name": "Chris Rodriguez Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Chris%20Rodriguez%20Jr."
+  },
+  {
+    "name": "Rashid Shaheed",
+    "search_name": "Rashid Shaheed",
+    "current_url": "https://fantasydata.com/nfl/search?q=Rashid%20Shaheed"
+  },
+  {
+    "name": "Jakobi Meyers",
+    "search_name": "Jakobi Meyers",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jakobi%20Meyers"
+  },
+  {
+    "name": "Darnell Mooney",
+    "search_name": "Darnell Mooney",
+    "current_url": "https://fantasydata.com/nfl/search?q=Darnell%20Mooney"
+  },
+  {
+    "name": "Cedric Tillman",
+    "search_name": "Cedric Tillman",
+    "current_url": "https://fantasydata.com/nfl/search?q=Cedric%20Tillman"
+  },
+  {
+    "name": "Joshua Palmer",
+    "search_name": "Joshua Palmer",
+    "current_url": "https://fantasydata.com/nfl/search?q=Joshua%20Palmer"
+  },
+  {
+    "name": "Quentin Johnston",
+    "search_name": "Quentin Johnston",
+    "current_url": "https://fantasydata.com/nfl/search?q=Quentin%20Johnston"
+  },
+  {
+    "name": "Mike Williams",
+    "search_name": "Mike Williams",
+    "current_url": "https://fantasydata.com/nfl/search?q=Mike%20Williams"
+  },
+  {
+    "name": "Demario Douglas",
+    "search_name": "Demario Douglas",
+    "current_url": "https://fantasydata.com/nfl/search?q=Demario%20Douglas"
+  },
+  {
+    "name": "Dont'e Thornton",
+    "search_name": "Dont'e Thornton",
+    "current_url": "https://fantasydata.com/nfl/search?q=Dont'e%20Thornton"
+  },
+  {
+    "name": "Andrei Iosivas",
+    "search_name": "Andrei Iosivas",
+    "current_url": "https://fantasydata.com/nfl/search?q=Andrei%20Iosivas"
+  },
+  {
+    "name": "Tyler Boyd",
+    "search_name": "Tyler Boyd",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Boyd"
+  },
+  {
+    "name": "Adam Thielen",
+    "search_name": "Adam Thielen",
+    "current_url": "https://fantasydata.com/nfl/search?q=Adam%20Thielen"
+  },
+  {
+    "name": "Brandin Cooks",
+    "search_name": "Brandin Cooks",
+    "current_url": "https://fantasydata.com/nfl/search?q=Brandin%20Cooks"
+  },
+  {
+    "name": "Jalen Tolbert",
+    "search_name": "Jalen Tolbert",
+    "current_url": "https://fantasydata.com/nfl/search?q=Jalen%20Tolbert"
+  },
+  {
+    "name": "Michael Pittman Jr.",
+    "search_name": "Michael Pittman Jr.",
+    "current_url": "https://fantasydata.com/nfl/search?q=Michael%20Pittman%20Jr."
+  },
+  {
+    "name": "Tyler Lockett",
+    "search_name": "Tyler Lockett",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tyler%20Lockett"
+  },
+  {
+    "name": "Wan'Dale Robinson",
+    "search_name": "Wan'Dale Robinson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Wan'Dale%20Robinson"
+  },
+  {
+    "name": "Alec Pierce",
+    "search_name": "Alec Pierce",
+    "current_url": "https://fantasydata.com/nfl/search?q=Alec%20Pierce"
+  },
+  {
+    "name": "Elijah Moore",
+    "search_name": "Elijah Moore",
+    "current_url": "https://fantasydata.com/nfl/search?q=Elijah%20Moore"
+  },
+  {
+    "name": "Michael Wilson",
+    "search_name": "Michael Wilson",
+    "current_url": "https://fantasydata.com/nfl/search?q=Michael%20Wilson"
+  },
+  {
+    "name": "Noah Brown",
+    "search_name": "Noah Brown",
+    "current_url": "https://fantasydata.com/nfl/search?q=Noah%20Brown"
+  },
+  {
+    "name": "Nelson Agholor",
+    "search_name": "Nelson Agholor",
+    "current_url": "https://fantasydata.com/nfl/search?q=Nelson%20Agholor"
+  },
+  {
+    "name": "Tutu Atwell",
+    "search_name": "Tutu Atwell",
+    "current_url": "https://fantasydata.com/nfl/search?q=Tutu%20Atwell"
+  },
+  {
+    "name": "Marquez Valdes-Scantling",
+    "search_name": "Marquez Valdes-Scantling",
+    "current_url": "https://fantasydata.com/nfl/search?q=Marquez%20Valdes-Scantling"
+  },
+  {
+    "name": "Greg Dortch",
+    "search_name": "Greg Dortch",
+    "current_url": "https://fantasydata.com/nfl/search?q=Greg%20Dortch"
+  }
+]

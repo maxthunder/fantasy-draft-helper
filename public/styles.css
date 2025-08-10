@@ -11,6 +11,18 @@ body {
     padding: 20px;
 }
 
+/* Link styles for player names */
+a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;

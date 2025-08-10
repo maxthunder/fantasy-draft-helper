@@ -14,6 +14,7 @@
                 <input type="text" id="searchInput" placeholder="Search players...">
                 <button id="refreshVorp">Recalculate VORP</button>
                 <button id="clearCache" title="Clear cached data">Clear Cache</button>
+                <a href="scoring.html" class="btn btn-secondary" style="text-decoration: none; padding: 8px 16px; background: #6c757d; color: white; border-radius: 4px;">Scoring Settings</a>
             </div>
         </header>
 
@@ -25,7 +26,18 @@
                     <button class="tab-btn" data-position="RB">RB</button>
                     <button class="tab-btn" data-position="WR">WR</button>
                     <button class="tab-btn" data-position="TE">TE</button>
+                    <button class="tab-btn" data-position="FLEX">FLEX</button>
                     <button class="tab-btn" data-position="DST">DST</button>
+                </div>
+                
+                <div id="sosLegend" style="display: none; padding: 10px; background: #f8f9fa; border-radius: 4px; margin: 10px 0; font-size: 14px;">
+                    <strong>DST Strength of Schedule:</strong>
+                    <span style="margin-left: 10px;">🟢 Easy (< 0.9)</span>
+                    <span style="margin-left: 10px;">🟡 Moderate (0.9-1.0)</span>
+                    <span style="margin-left: 10px;">🟠 Hard (1.0-1.1)</span>
+                    <span style="margin-left: 10px;">🔴 Very Hard (> 1.1)</span>
+                    <br>
+                    <small style="color: #666;">Lower SoS = Easier opponents = Better for DST | VORP is adjusted based on SoS</small>
                 </div>
 
                 <div class="players-table-container">

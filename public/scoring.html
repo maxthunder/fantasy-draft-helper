@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoring Settings - Fantasy Draft Helper</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .scoring-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .scoring-section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .scoring-section h2 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .scoring-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .scoring-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .scoring-item label {
+            font-weight: 500;
+            color: #555;
+        }
+        
+        .scoring-item input {
+            width: 80px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: right;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #545b62;
+        }
+        
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #218838;
+        }
+        
+        .nav-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+        
+        .status-message {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="scoring-container">
+        <a href="index.html" class="nav-link">← Back to Draft Helper</a>
+        
+        <h1>Scoring Settings</h1>
+        
+        <div id="statusMessage" class="status-message"></div>
+        
+        <div class="scoring-section">
+            <h2>Passing</h2>
+            <div class="scoring-grid">
+                <div class="scoring-item">
+                    <label for="passing-yards">Yards (per yard)</label>
+                    <input type="number" id="passing-yards" step="0.01" />
+                </div>
+                <div class="scoring-item">
+                    <label for="passing-touchdowns">Touchdowns</label>
+                    <input type="number" id="passing-touchdowns" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="passing-interceptions">Interceptions</label>
+                    <input type="number" id="passing-interceptions" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="passing-twoPointConversions">2-Point Conversions</label>
+                    <input type="number" id="passing-twoPointConversions" step="0.5" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="scoring-section">
+            <h2>Rushing</h2>
+            <div class="scoring-grid">
+                <div class="scoring-item">
+                    <label for="rushing-yards">Yards (per yard)</label>
+                    <input type="number" id="rushing-yards" step="0.01" />
+                </div>
+                <div class="scoring-item">
+                    <label for="rushing-touchdowns">Touchdowns</label>
+                    <input type="number" id="rushing-touchdowns" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="rushing-twoPointConversions">2-Point Conversions</label>
+                    <input type="number" id="rushing-twoPointConversions" step="0.5" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="scoring-section">
+            <h2>Receiving</h2>
+            <div class="scoring-grid">
+                <div class="scoring-item">
+                    <label for="receiving-receptions">Receptions (PPR)</label>
+                    <input type="number" id="receiving-receptions" step="0.25" />
+                </div>
+                <div class="scoring-item">
+                    <label for="receiving-yards">Yards (per yard)</label>
+                    <input type="number" id="receiving-yards" step="0.01" />
+                </div>
+                <div class="scoring-item">
+                    <label for="receiving-touchdowns">Touchdowns</label>
+                    <input type="number" id="receiving-touchdowns" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="receiving-twoPointConversions">2-Point Conversions</label>
+                    <input type="number" id="receiving-twoPointConversions" step="0.5" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="scoring-section">
+            <h2>Defense/Special Teams</h2>
+            <div class="scoring-grid">
+                <div class="scoring-item">
+                    <label for="defense-sacks">Sacks</label>
+                    <input type="number" id="defense-sacks" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-interceptions">Interceptions</label>
+                    <input type="number" id="defense-interceptions" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-fumblesRecovered">Fumbles Recovered</label>
+                    <input type="number" id="defense-fumblesRecovered" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-touchdowns">Touchdowns</label>
+                    <input type="number" id="defense-touchdowns" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-safeties">Safeties</label>
+                    <input type="number" id="defense-safeties" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-blockedKicks">Blocked Kicks</label>
+                    <input type="number" id="defense-blockedKicks" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed0">0 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed0" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed1_6">1-6 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed1_6" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed7_13">7-13 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed7_13" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed14_20">14-20 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed14_20" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed21_27">21-27 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed21_27" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed28_34">28-34 Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed28_34" step="0.5" />
+                </div>
+                <div class="scoring-item">
+                    <label for="defense-pointsAllowed35Plus">35+ Points Allowed</label>
+                    <input type="number" id="defense-pointsAllowed35Plus" step="0.5" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button id="saveSettings" class="btn btn-primary">Save Settings</button>
+            <button id="recalculateVorp" class="btn btn-success">Recalculate VORP</button>
+            <button id="resetDefaults" class="btn btn-secondary">Reset to Defaults</button>
+        </div>
+    </div>
+    
+    <script src="scoring.js"></script>
+</body>
+</html>
