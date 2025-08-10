@@ -11,6 +11,9 @@ describe('Fantasy Draft Helper Server', () => {
   let server;
 
   beforeEach(() => {
+    // Set test environment
+    process.env.NODE_ENV = 'test';
+    
     // Clear require cache
     jest.resetModules();
     

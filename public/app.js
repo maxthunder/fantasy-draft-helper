@@ -500,3 +500,19 @@ async function updatePlayer(playerId, field, value) {
 }
 
 document.addEventListener('DOMContentLoaded', init);
+
+// Export for testing
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    getCachedData,
+    setCachedData,
+    invalidateCache,
+    calculateProjectedPoints,
+    calculateVORP,
+    formatStats,
+    formatStatsWithComparison,
+    REPLACEMENT_LEVELS,
+    CACHE_KEYS,
+    CACHE_DURATION
+  };
+}

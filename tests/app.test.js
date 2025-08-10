@@ -1,37 +1,46 @@
+// Mock DOM before requiring app
+global.document = {
+  getElementById: jest.fn(() => ({
+    innerHTML: '',
+    value: '',
+    textContent: '',
+    style: { display: 'none' },
+    classList: {
+      add: jest.fn(),
+      remove: jest.fn()
+    }
+  })),
+  createElement: jest.fn(() => ({
+    innerHTML: '',
+    appendChild: jest.fn(),
+    classList: {
+      add: jest.fn()
+    }
+  })),
+  querySelectorAll: jest.fn(() => []),
+  addEventListener: jest.fn()
+};
+
+// Import the app functions
+const {
+  getCachedData,
+  setCachedData,
+  invalidateCache,
+  calculateProjectedPoints,
+  calculateVORP,
+  formatStats,
+  formatStatsWithComparison,
+  REPLACEMENT_LEVELS,
+  CACHE_KEYS,
+  CACHE_DURATION
+} = require('../public/app.js');
+
 describe('Fantasy Draft Helper - Core Functions', () => {
-  let app;
   
   beforeEach(() => {
-    // Clear the require cache
-    jest.resetModules();
-    
-    // Define globals that app.js expects
-    global.document = {
-      getElementById: jest.fn(() => ({
-        innerHTML: '',
-        value: '',
-        textContent: '',
-        style: { display: 'none' },
-        classList: {
-          add: jest.fn(),
-          remove: jest.fn()
-        }
-      })),
-      createElement: jest.fn(() => ({
-        innerHTML: '',
-        appendChild: jest.fn(),
-        classList: {
-          add: jest.fn()
-        }
-      })),
-      querySelectorAll: jest.fn(() => []),
-      addEventListener: jest.fn()
-    };
-    
-    // Load the app module
-    const fs = require('fs');
-    const appCode = fs.readFileSync('./public/app.js', 'utf8');
-    eval(appCode);
+    // Reset global variables needed by app functions
+    global.players = [];
+    global.scoringSettings = {};
   });
 
   describe('Cache Functions', () => {
@@ -90,7 +99,7 @@ describe('Fantasy Draft Helper - Core Functions', () => {
   describe('Scoring Calculations', () => {
     beforeEach(() => {
       // Set up scoring settings
-      scoringSettings = {
+      global.scoringSettings = {
         passing: {
           yards: 0.04,
           touchdowns: 4,
@@ -187,15 +196,15 @@ describe('Fantasy Draft Helper - Core Functions', () => {
 
   describe('VORP Calculations', () => {
     test('calculateVORP calculates value over replacement player', () => {
-      players = [
-        { id: 'qb1', position: 'QB', stats2025: { passingYards: 4500, passingTDs: 35, interceptions: 8 } },
-        { id: 'qb2', position: 'QB', stats2025: { passingYards: 4200, passingTDs: 32, interceptions: 10 } },
-        { id: 'qb3', position: 'QB', stats2025: { passingYards: 4000, passingTDs: 30, interceptions: 12 } },
-        { id: 'rb1', position: 'RB', stats2025: { rushingYards: 1500, rushingTDs: 12 } },
-        { id: 'rb2', position: 'RB', stats2025: { rushingYards: 1200, rushingTDs: 10 } }
+      global.players = [
+        { id: 'qb1', position: 'QB', projectedStats2025: { passingYards: 4500, passingTDs: 35, interceptions: 8 } },
+        { id: 'qb2', position: 'QB', projectedStats2025: { passingYards: 4200, passingTDs: 32, interceptions: 10 } },
+        { id: 'qb3', position: 'QB', projectedStats2025: { passingYards: 4000, passingTDs: 30, interceptions: 12 } },
+        { id: 'rb1', position: 'RB', projectedStats2025: { rushingYards: 1500, rushingTDs: 12 } },
+        { id: 'rb2', position: 'RB', projectedStats2025: { rushingYards: 1200, rushingTDs: 10 } }
       ];
       
-      scoringSettings = {
+      global.scoringSettings = {
         passing: { yards: 0.04, touchdowns: 4, interceptions: -2 },
         rushing: { yards: 0.1, touchdowns: 6 },
         receiving: { receptions: 0.5, yards: 0.1, touchdowns: 6 }
@@ -204,18 +213,18 @@ describe('Fantasy Draft Helper - Core Functions', () => {
       calculateVORP();
       
       // Check that VORP was calculated
-      expect(players[0].vorp).toBeDefined();
-      expect(players[0].calculatedPoints).toBeDefined();
+      expect(global.players[0].vorp).toBeDefined();
+      expect(global.players[0].calculatedPoints).toBeDefined();
       
       // QB1 should have highest VORP among QBs
-      const qbs = players.filter(p => p.position === 'QB');
+      const qbs = global.players.filter(p => p.position === 'QB');
       const qbVorps = qbs.map(p => p.vorp);
       expect(qbVorps[0]).toBeGreaterThan(qbVorps[1]);
       expect(qbVorps[1]).toBeGreaterThan(qbVorps[2]);
     });
 
     test('calculateVORP applies SoS adjustment for DST', () => {
-      players = [
+      global.players = [
         { 
           id: 'dst1', 
           position: 'DST', 
@@ -230,7 +239,7 @@ describe('Fantasy Draft Helper - Core Functions', () => {
         }
       ];
       
-      scoringSettings = {
+      global.scoringSettings = {
         passing: { yards: 0.04, touchdowns: 4, interceptions: -2 },
         rushing: { yards: 0.1, touchdowns: 6 },
         receiving: { receptions: 0.5, yards: 0.1, touchdowns: 6 }
@@ -239,7 +248,7 @@ describe('Fantasy Draft Helper - Core Functions', () => {
       calculateVORP();
       
       // DST with easier schedule should have higher adjusted points
-      expect(players[0].calculatedPoints).toBeGreaterThan(players[1].calculatedPoints);
+      expect(global.players[0].calculatedPoints).toBeGreaterThan(global.players[1].calculatedPoints);
     });
   });
 
