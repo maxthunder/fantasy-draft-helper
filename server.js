@@ -37,7 +37,7 @@ app.post('/api/players/update', (req, res) => {
     fs.writeFileSync(playersDataPath, JSON.stringify(playersData, null, 2));
     res.json({ success: true, player });
   } else {
-    res.status(404).json({ success: false, message: 'Player not found' });
+    res.status(404).json({ success: false, error: 'Player not found' });
   }
 });
 
@@ -98,6 +98,30 @@ app.post('/api/scoring', (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+app.post('/api/scoring/update', (req, res) => {
+  try {
+    scoringData = req.body;
+    
+    if (!fs.existsSync(path.dirname(scoringDataPath))) {
+      fs.mkdirSync(path.dirname(scoringDataPath), { recursive: true });
+    }
+    
+    fs.writeFileSync(scoringDataPath, JSON.stringify(scoringData, null, 2));
+    
+    res.json({ success: true, scoring: scoringData });
+  } catch (error) {
+    console.error('Error saving scoring settings:', error);
+    res.status(500).json({ success: false, message: 'Error saving scoring settings' });
+  }
 });
+
+// Only start server if not in test environment
+if (process.env.NODE_ENV !== 'test') {
+  const server = app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+  
+  module.exports = { app, server };
+} else {
+  module.exports = { app };
+}

@@ -102,7 +102,7 @@ async function loadPlayers() {
 }
 
 function calculateProjectedPoints(player) {
-    const stats = player.stats2025;
+    const stats = player.projectedStats2025;
     if (!stats) return 0;
     
     let points = 0;
@@ -209,7 +209,7 @@ function renderPlayers() {
         if (player.isMyTeam) row.classList.add('my-team');
         
         const stats2024 = formatStats(player.position, player.stats2024, player, false);
-        const stats2025 = formatStats(player.position, player.stats2025, player, true);
+        const projectedStats2025 = formatStats(player.position, player.projectedStats2025, player, true);
         
         const vorpDisplay = player.position === 'DST' && player.strengthOfSchedule 
             ? `<span title="SoS-adjusted VORP (SoS: ${player.strengthOfSchedule.toFixed(2)})">${player.vorp}</span>`
@@ -226,7 +226,7 @@ function renderPlayers() {
             <td>${player.stats2024?.fantasyPoints || '-'}</td>
             <td>${Math.round(player.calculatedPoints) || '-'}</td>
             <td class="stats-detail">${stats2024}</td>
-            <td class="stats-detail stats-2025">${stats2025}</td>
+            <td class="stats-detail stats-2025">${projectedStats2025}</td>
         `;
         
         tbody.appendChild(row);
@@ -264,7 +264,7 @@ function formatStats(position, stats, player, is2025 = false) {
     }
 }
 
-function formatStatsWithComparison(position, stats2025, stats2024, player) {
+function formatStatsWithComparison(position, projectedStats2025, stats2024, player) {
     const getStatClass = (val2025, val2024) => {
         if (!val2024 || val2024 === 0) return '';
         const percentChange = ((val2025 - val2024) / val2024) * 100;
@@ -282,39 +282,39 @@ function formatStatsWithComparison(position, stats2025, stats2024, player) {
     
     switch(position) {
         case 'QB': {
-            const passYardsClass = getStatClass(stats2025.passingYards || 0, stats2024.passingYards || 0);
-            const passTDsClass = getStatClass(stats2025.passingTDs || 0, stats2024.passingTDs || 0);
-            const rushYardsClass = getStatClass(stats2025.rushingYards || 0, stats2024.rushingYards || 0);
+            const passYardsClass = getStatClass(projectedStats2025.passingYards || 0, stats2024.passingYards || 0);
+            const passTDsClass = getStatClass(projectedStats2025.passingTDs || 0, stats2024.passingTDs || 0);
+            const rushYardsClass = getStatClass(projectedStats2025.rushingYards || 0, stats2024.rushingYards || 0);
             
-            return `${formatStat(stats2025.passingYards || 0, passYardsClass)} Pass Yds, ` +
-                   `${formatStat(stats2025.passingTDs || 0, passTDsClass)} TDs, ` +
-                   `${formatStat(stats2025.rushingYards || 0, rushYardsClass)} Rush`;
+            return `${formatStat(projectedStats2025.passingYards || 0, passYardsClass)} Pass Yds, ` +
+                   `${formatStat(projectedStats2025.passingTDs || 0, passTDsClass)} TDs, ` +
+                   `${formatStat(projectedStats2025.rushingYards || 0, rushYardsClass)} Rush`;
         }
         case 'RB': {
-            const rushYardsClass = getStatClass(stats2025.rushingYards || 0, stats2024.rushingYards || 0);
-            const rushTDsClass = getStatClass(stats2025.rushingTDs || 0, stats2024.rushingTDs || 0);
-            const receptionsClass = getStatClass(stats2025.receptions || 0, stats2024.receptions || 0);
+            const rushYardsClass = getStatClass(projectedStats2025.rushingYards || 0, stats2024.rushingYards || 0);
+            const rushTDsClass = getStatClass(projectedStats2025.rushingTDs || 0, stats2024.rushingTDs || 0);
+            const receptionsClass = getStatClass(projectedStats2025.receptions || 0, stats2024.receptions || 0);
             
-            return `${formatStat(stats2025.rushingYards || 0, rushYardsClass)} Rush, ` +
-                   `${formatStat(stats2025.rushingTDs || 0, rushTDsClass)} TDs, ` +
-                   `${formatStat(stats2025.receptions || 0, receptionsClass)} Rec`;
+            return `${formatStat(projectedStats2025.rushingYards || 0, rushYardsClass)} Rush, ` +
+                   `${formatStat(projectedStats2025.rushingTDs || 0, rushTDsClass)} TDs, ` +
+                   `${formatStat(projectedStats2025.receptions || 0, receptionsClass)} Rec`;
         }
         case 'WR':
         case 'TE': {
-            const receptionsClass = getStatClass(stats2025.receptions || 0, stats2024.receptions || 0);
-            const recYardsClass = getStatClass(stats2025.receivingYards || 0, stats2024.receivingYards || 0);
-            const recTDsClass = getStatClass(stats2025.receivingTDs || 0, stats2024.receivingTDs || 0);
+            const receptionsClass = getStatClass(projectedStats2025.receptions || 0, stats2024.receptions || 0);
+            const recYardsClass = getStatClass(projectedStats2025.receivingYards || 0, stats2024.receivingYards || 0);
+            const recTDsClass = getStatClass(projectedStats2025.receivingTDs || 0, stats2024.receivingTDs || 0);
             
-            return `${formatStat(stats2025.receptions || 0, receptionsClass)} Rec, ` +
-                   `${formatStat(stats2025.receivingYards || 0, recYardsClass)} Yds, ` +
-                   `${formatStat(stats2025.receivingTDs || 0, recTDsClass)} TDs`;
+            return `${formatStat(projectedStats2025.receptions || 0, receptionsClass)} Rec, ` +
+                   `${formatStat(projectedStats2025.receivingYards || 0, recYardsClass)} Yds, ` +
+                   `${formatStat(projectedStats2025.receivingTDs || 0, recTDsClass)} TDs`;
         }
         case 'DST': {
-            const sacksClass = getStatClass(stats2025.sacks || 0, stats2024.sacks || 0);
-            const intsClass = getStatClass(stats2025.interceptions || 0, stats2024.interceptions || 0);
+            const sacksClass = getStatClass(projectedStats2025.sacks || 0, stats2024.sacks || 0);
+            const intsClass = getStatClass(projectedStats2025.interceptions || 0, stats2024.interceptions || 0);
             
-            let dstStats = `${formatStat(stats2025.sacks || 0, sacksClass)} Sacks, ` +
-                          `${formatStat(stats2025.interceptions || 0, intsClass)} INTs`;
+            let dstStats = `${formatStat(projectedStats2025.sacks || 0, sacksClass)} Sacks, ` +
+                          `${formatStat(projectedStats2025.interceptions || 0, intsClass)} INTs`;
             if (player && player.strengthOfSchedule) {
                 const sosRating = player.strengthOfSchedule < 0.9 ? '🟢 Easy' : 
                                   player.strengthOfSchedule < 1.0 ? '🟡 Moderate' : 
