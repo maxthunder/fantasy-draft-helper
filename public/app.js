@@ -208,8 +208,8 @@ function renderPlayers() {
         if (player.isDrafted) row.classList.add('drafted');
         if (player.isMyTeam) row.classList.add('my-team');
         
-        const stats2024 = formatStats(player.position, player.stats2024, player);
-        const stats2025 = formatStats(player.position, player.stats2025, player);
+        const stats2024 = formatStats(player.position, player.stats2024, player, false);
+        const stats2025 = formatStats(player.position, player.stats2025, player, true);
         
         const vorpDisplay = player.position === 'DST' && player.strengthOfSchedule 
             ? `<span title="SoS-adjusted VORP (SoS: ${player.strengthOfSchedule.toFixed(2)})">${player.vorp}</span>`
@@ -226,7 +226,7 @@ function renderPlayers() {
             <td>${player.stats2024?.fantasyPoints || '-'}</td>
             <td>${Math.round(player.calculatedPoints) || '-'}</td>
             <td class="stats-detail">${stats2024}</td>
-            <td class="stats-detail">${stats2025}</td>
+            <td class="stats-detail stats-2025">${stats2025}</td>
         `;
         
         tbody.appendChild(row);
@@ -235,8 +235,12 @@ function renderPlayers() {
     updateMyTeamDisplay();
 }
 
-function formatStats(position, stats, player) {
+function formatStats(position, stats, player, is2025 = false) {
     if (!stats) return '-';
+    
+    if (is2025 && player.stats2024) {
+        return formatStatsWithComparison(position, stats, player.stats2024, player);
+    }
     
     switch(position) {
         case 'QB':
@@ -255,6 +259,70 @@ function formatStats(position, stats, player) {
                 dstStats += ` | SoS: ${sosRating}`;
             }
             return dstStats;
+        default:
+            return '-';
+    }
+}
+
+function formatStatsWithComparison(position, stats2025, stats2024, player) {
+    const getStatClass = (val2025, val2024) => {
+        if (!val2024 || val2024 === 0) return '';
+        const percentChange = ((val2025 - val2024) / val2024) * 100;
+        if (percentChange > 5) return 'stat-improved';
+        if (percentChange < -5) return 'stat-declined';
+        return 'stat-neutral';
+    };
+    
+    const formatStat = (value, className) => {
+        if (className) {
+            return `<span class="${className}">${value}</span>`;
+        }
+        return value;
+    };
+    
+    switch(position) {
+        case 'QB': {
+            const passYardsClass = getStatClass(stats2025.passingYards || 0, stats2024.passingYards || 0);
+            const passTDsClass = getStatClass(stats2025.passingTDs || 0, stats2024.passingTDs || 0);
+            const rushYardsClass = getStatClass(stats2025.rushingYards || 0, stats2024.rushingYards || 0);
+            
+            return `${formatStat(stats2025.passingYards || 0, passYardsClass)} Pass Yds, ` +
+                   `${formatStat(stats2025.passingTDs || 0, passTDsClass)} TDs, ` +
+                   `${formatStat(stats2025.rushingYards || 0, rushYardsClass)} Rush`;
+        }
+        case 'RB': {
+            const rushYardsClass = getStatClass(stats2025.rushingYards || 0, stats2024.rushingYards || 0);
+            const rushTDsClass = getStatClass(stats2025.rushingTDs || 0, stats2024.rushingTDs || 0);
+            const receptionsClass = getStatClass(stats2025.receptions || 0, stats2024.receptions || 0);
+            
+            return `${formatStat(stats2025.rushingYards || 0, rushYardsClass)} Rush, ` +
+                   `${formatStat(stats2025.rushingTDs || 0, rushTDsClass)} TDs, ` +
+                   `${formatStat(stats2025.receptions || 0, receptionsClass)} Rec`;
+        }
+        case 'WR':
+        case 'TE': {
+            const receptionsClass = getStatClass(stats2025.receptions || 0, stats2024.receptions || 0);
+            const recYardsClass = getStatClass(stats2025.receivingYards || 0, stats2024.receivingYards || 0);
+            const recTDsClass = getStatClass(stats2025.receivingTDs || 0, stats2024.receivingTDs || 0);
+            
+            return `${formatStat(stats2025.receptions || 0, receptionsClass)} Rec, ` +
+                   `${formatStat(stats2025.receivingYards || 0, recYardsClass)} Yds, ` +
+                   `${formatStat(stats2025.receivingTDs || 0, recTDsClass)} TDs`;
+        }
+        case 'DST': {
+            const sacksClass = getStatClass(stats2025.sacks || 0, stats2024.sacks || 0);
+            const intsClass = getStatClass(stats2025.interceptions || 0, stats2024.interceptions || 0);
+            
+            let dstStats = `${formatStat(stats2025.sacks || 0, sacksClass)} Sacks, ` +
+                          `${formatStat(stats2025.interceptions || 0, intsClass)} INTs`;
+            if (player && player.strengthOfSchedule) {
+                const sosRating = player.strengthOfSchedule < 0.9 ? '🟢 Easy' : 
+                                  player.strengthOfSchedule < 1.0 ? '🟡 Moderate' : 
+                                  player.strengthOfSchedule < 1.1 ? '🟠 Hard' : '🔴 Very Hard';
+                dstStats += ` | SoS: ${sosRating}`;
+            }
+            return dstStats;
+        }
         default:
             return '-';
     }

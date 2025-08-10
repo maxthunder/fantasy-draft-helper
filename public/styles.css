@@ -268,6 +268,29 @@ input[type="checkbox"] {
     white-space: nowrap;
 }
 
+/* Stat comparison highlighting */
+.stat-improved {
+    background-color: #c8e6c9;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.stat-declined {
+    background-color: #ffcdd2;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.stat-neutral {
+    background-color: #fff9c4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.stats-detail.stats-2025 {
+    font-weight: 500;
+}
+
 @media (max-width: 1200px) {
     .main-content {
         grid-template-columns: 1fr;
