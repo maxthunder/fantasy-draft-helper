@@ -15,6 +15,7 @@
                 <button id="refreshVorp">Recalculate VORP</button>
                 <button id="clearCache" title="Clear cached data">Clear Cache</button>
                 <a href="scoring.html" class="btn btn-secondary" style="text-decoration: none; padding: 8px 16px; background: #6c757d; color: white; border-radius: 4px;">Scoring Settings</a>
+                <a href="positions.html" class="btn btn-secondary" style="text-decoration: none; padding: 8px 16px; background: #007bff; color: white; border-radius: 4px;">Position Requirements</a>
             </div>
         </header>
 
@@ -65,32 +66,32 @@
 
             <div class="my-team-section">
                 <h2>My Team</h2>
-                <div class="roster-requirements">
-                    <p>Required: 2 QB, 1 WR, 1 RB, 1 TE, 3 Flex (WR/RB/TE), 1 DST</p>
+                <div id="teamNeeds" style="padding: 10px; margin: 10px 0; background: #f8f9fa; border-radius: 4px; font-size: 14px;">
+                    Loading position requirements...
                 </div>
                 <div class="my-team-list">
                     <div class="position-group">
-                        <h3>Quarterbacks (<span id="qbCount">0</span>/2)</h3>
+                        <h3>Quarterbacks (<span id="qbCount">0</span>)</h3>
                         <ul id="myQBs"></ul>
                     </div>
                     <div class="position-group">
-                        <h3>Running Backs (<span id="rbCount">0</span>/1+)</h3>
+                        <h3>Running Backs (<span id="rbCount">0</span>)</h3>
                         <ul id="myRBs"></ul>
                     </div>
                     <div class="position-group">
-                        <h3>Wide Receivers (<span id="wrCount">0</span>/1+)</h3>
+                        <h3>Wide Receivers (<span id="wrCount">0</span>)</h3>
                         <ul id="myWRs"></ul>
                     </div>
                     <div class="position-group">
-                        <h3>Tight Ends (<span id="teCount">0</span>/1+)</h3>
+                        <h3>Tight Ends (<span id="teCount">0</span>)</h3>
                         <ul id="myTEs"></ul>
                     </div>
                     <div class="position-group">
-                        <h3>Flex Positions (<span id="flexCount">0</span>/3)</h3>
+                        <h3>Flex Positions (<span id="flexCount">0</span>)</h3>
                         <ul id="myFlex"></ul>
                     </div>
                     <div class="position-group">
-                        <h3>Defense (<span id="dstCount">0</span>/1)</h3>
+                        <h3>Defense (<span id="dstCount">0</span>)</h3>
                         <ul id="myDST"></ul>
                     </div>
                 </div>

@@ -12,9 +12,11 @@ app.use(express.static('public'));
 
 const playersDataPath = path.join(__dirname, 'data', 'players.json');
 const scoringDataPath = path.join(__dirname, 'data', 'scoring.json');
+const positionRequirementsPath = path.join(__dirname, 'data', 'position-requirements.json');
 
 let playersData = [];
 let scoringData = null;
+let positionRequirementsData = null;
 
 if (fs.existsSync(playersDataPath)) {
   playersData = JSON.parse(fs.readFileSync(playersDataPath, 'utf8'));
@@ -22,6 +24,10 @@ if (fs.existsSync(playersDataPath)) {
 
 if (fs.existsSync(scoringDataPath)) {
   scoringData = JSON.parse(fs.readFileSync(scoringDataPath, 'utf8'));
+}
+
+if (fs.existsSync(positionRequirementsPath)) {
+  positionRequirementsData = JSON.parse(fs.readFileSync(positionRequirementsPath, 'utf8'));
 }
 
 app.get('/api/players', (req, res) => {
@@ -112,6 +118,38 @@ app.post('/api/scoring/update', (req, res) => {
   } catch (error) {
     console.error('Error saving scoring settings:', error);
     res.status(500).json({ success: false, message: 'Error saving scoring settings' });
+  }
+});
+
+const defaultPositionRequirements = {
+  QB: { min: 1, max: 3 },
+  RB: { min: 2, max: 6 },
+  WR: { min: 2, max: 6 },
+  TE: { min: 1, max: 3 },
+  K: { min: 1, max: 1 },
+  DST: { min: 1, max: 2 },
+  flex: { count: 1, superflex: false },
+  bench: 6
+};
+
+app.get('/api/position-requirements', (req, res) => {
+  res.json(positionRequirementsData || defaultPositionRequirements);
+});
+
+app.post('/api/position-requirements', (req, res) => {
+  try {
+    positionRequirementsData = req.body;
+    
+    if (!fs.existsSync(path.dirname(positionRequirementsPath))) {
+      fs.mkdirSync(path.dirname(positionRequirementsPath), { recursive: true });
+    }
+    
+    fs.writeFileSync(positionRequirementsPath, JSON.stringify(positionRequirementsData, null, 2));
+    
+    res.json({ success: true, requirements: positionRequirementsData });
+  } catch (error) {
+    console.error('Error saving position requirements:', error);
+    res.status(500).json({ success: false, message: 'Error saving position requirements' });
   }
 });
 

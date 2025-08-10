@@ -1,5 +1,6 @@
 let players = [];
 let scoringSettings = {};
+let positionRequirements = {};
 let currentPosition = 'ALL';
 let myTeam = [];
 
@@ -13,7 +14,8 @@ const REPLACEMENT_LEVELS = {
 
 const CACHE_KEYS = {
     PLAYERS: 'fantasy_players_cache',
-    SCORING: 'fantasy_scoring_cache'
+    SCORING: 'fantasy_scoring_cache',
+    POSITION_REQUIREMENTS: 'fantasy_position_requirements_cache'
 };
 
 const CACHE_DURATION = 5 * 60 * 1000;
@@ -63,10 +65,13 @@ function invalidateCache(key) {
 
 async function init() {
     await loadScoringSettings();
+    await loadPositionRequirements();
     await loadPlayers();
     calculateVORP();
     renderPlayers();
     setupEventListeners();
+    // Ensure position needs display is updated on load
+    updatePositionNeedsFromCurrentTeam();
 }
 
 async function loadScoringSettings() {
@@ -82,6 +87,32 @@ async function loadScoringSettings() {
         setCachedData(CACHE_KEYS.SCORING, scoringSettings);
     } catch (error) {
         console.error('Error loading scoring settings:', error);
+    }
+}
+
+async function loadPositionRequirements() {
+    try {
+        const cachedData = getCachedData(CACHE_KEYS.POSITION_REQUIREMENTS);
+        if (cachedData) {
+            positionRequirements = cachedData;
+            return;
+        }
+        
+        const response = await fetch('/api/position-requirements');
+        positionRequirements = await response.json();
+        setCachedData(CACHE_KEYS.POSITION_REQUIREMENTS, positionRequirements);
+    } catch (error) {
+        console.error('Error loading position requirements:', error);
+        positionRequirements = {
+            QB: { min: 1, max: 3 },
+            RB: { min: 2, max: 6 },
+            WR: { min: 2, max: 6 },
+            TE: { min: 1, max: 3 },
+            K: { min: 1, max: 1 },
+            DST: { min: 1, max: 2 },
+            flex: { count: 1, superflex: false },
+            bench: 6
+        };
     }
 }
 
@@ -336,6 +367,7 @@ function updateMyTeamDisplay() {
     const wrs = myTeamPlayers.filter(p => p.position === 'WR');
     const tes = myTeamPlayers.filter(p => p.position === 'TE');
     const dsts = myTeamPlayers.filter(p => p.position === 'DST');
+    const ks = myTeamPlayers.filter(p => p.position === 'K');
     
     updatePositionList('myQBs', qbs);
     updatePositionList('myRBs', rbs);
@@ -343,11 +375,22 @@ function updateMyTeamDisplay() {
     updatePositionList('myTEs', tes);
     updatePositionList('myDST', dsts);
     
-    document.getElementById('qbCount').textContent = qbs.length;
-    document.getElementById('rbCount').textContent = rbs.length;
-    document.getElementById('wrCount').textContent = wrs.length;
-    document.getElementById('teCount').textContent = tes.length;
-    document.getElementById('dstCount').textContent = dsts.length;
+    const positionCounts = {
+        QB: qbs.length,
+        RB: rbs.length,
+        WR: wrs.length,
+        TE: tes.length,
+        DST: dsts.length,
+        K: ks.length
+    };
+    
+    document.getElementById('qbCount').textContent = `${qbs.length}/${positionRequirements.QB?.min || 1}-${positionRequirements.QB?.max || 3}`;
+    document.getElementById('rbCount').textContent = `${rbs.length}/${positionRequirements.RB?.min || 2}-${positionRequirements.RB?.max || 6}`;
+    document.getElementById('wrCount').textContent = `${wrs.length}/${positionRequirements.WR?.min || 2}-${positionRequirements.WR?.max || 6}`;
+    document.getElementById('teCount').textContent = `${tes.length}/${positionRequirements.TE?.min || 1}-${positionRequirements.TE?.max || 3}`;
+    document.getElementById('dstCount').textContent = `${dsts.length}/${positionRequirements.DST?.min || 1}-${positionRequirements.DST?.max || 2}`;
+    
+    updatePositionNeedsDisplay(positionCounts);
     
     const flexEligible = [...rbs, ...wrs, ...tes];
     const flexStarters = Math.min(3, Math.max(0, flexEligible.length - 2));
@@ -360,6 +403,52 @@ function updateMyTeamDisplay() {
     
     document.getElementById('teamVorp').textContent = Math.round(totalVorp * 10) / 10;
     document.getElementById('teamProjectedPoints').textContent = Math.round(totalProjected);
+}
+
+function updatePositionNeedsDisplay(positionCounts) {
+    const needs = [];
+    const filled = [];
+    
+    for (const [position, requirements] of Object.entries(positionRequirements)) {
+        if (position === 'flex' || position === 'bench') continue;
+        
+        const count = positionCounts[position] || 0;
+        if (count < requirements.min) {
+            needs.push(`Need ${requirements.min - count} more ${position}`);
+        } else {
+            filled.push(`${position}: ${count}/${requirements.min}`);
+        }
+    }
+    
+    const needsElement = document.getElementById('teamNeeds');
+    if (needsElement) {
+        if (needs.length > 0) {
+            needsElement.innerHTML = '<strong>Position Needs:</strong> ' + needs.join(', ');
+            if (filled.length > 0) {
+                needsElement.innerHTML += '<br><small style="color: #666;">Filled: ' + filled.join(', ') + '</small>';
+            }
+            needsElement.style.color = '#ff6b6b';
+        } else {
+            needsElement.innerHTML = '<strong>Position Requirements Met!</strong>';
+            needsElement.innerHTML += '<br><small style="color: #666;">All positions filled: ' + filled.join(', ') + '</small>';
+            needsElement.style.color = '#51cf66';
+        }
+    }
+}
+
+function updatePositionNeedsFromCurrentTeam() {
+    const myTeamPlayers = players.filter(p => p.isMyTeam);
+    
+    const positionCounts = {
+        QB: myTeamPlayers.filter(p => p.position === 'QB').length,
+        RB: myTeamPlayers.filter(p => p.position === 'RB').length,
+        WR: myTeamPlayers.filter(p => p.position === 'WR').length,
+        TE: myTeamPlayers.filter(p => p.position === 'TE').length,
+        DST: myTeamPlayers.filter(p => p.position === 'DST').length,
+        K: myTeamPlayers.filter(p => p.position === 'K').length
+    };
+    
+    updatePositionNeedsDisplay(positionCounts);
 }
 
 function updatePositionList(elementId, players) {

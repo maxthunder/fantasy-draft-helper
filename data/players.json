@@ -5,8 +5,8 @@
     "position": "QB",
     "team": "BUF",
     "adp": 18.5,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 3731,
       "passingTDs": 28,
@@ -31,8 +31,8 @@
     "position": "QB",
     "team": "BAL",
     "adp": 22.1,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 3955,
       "passingTDs": 41,
@@ -57,8 +57,8 @@
     "position": "QB",
     "team": "CIN",
     "adp": 35.2,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 4918,
       "passingTDs": 43,
@@ -83,8 +83,8 @@
     "position": "QB",
     "team": "WAS",
     "adp": 38.5,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 3530,
       "passingTDs": 25,
@@ -109,8 +109,8 @@
     "position": "QB",
     "team": "DEN",
     "adp": 42.3,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 3775,
       "passingTDs": 29,
@@ -525,8 +525,8 @@
     "position": "QB",
     "team": "PHI",
     "adp": 48.8,
-    "isDrafted": false,
-    "isMyTeam": false,
+    "isDrafted": true,
+    "isMyTeam": true,
     "stats2024": {
       "passingYards": 2903,
       "passingTDs": 18,
@@ -1305,7 +1305,7 @@
     "position": "WR",
     "team": "CIN",
     "adp": 1.5,
-    "isDrafted": true,
+    "isDrafted": false,
     "isMyTeam": false,
     "stats2024": {
       "receptions": 117,
@@ -1327,7 +1327,7 @@
     "position": "WR",
     "team": "MIN",
     "adp": 3.2,
-    "isDrafted": true,
+    "isDrafted": false,
     "isMyTeam": false,
     "stats2024": {
       "receptions": 103,
@@ -1349,7 +1349,7 @@
     "position": "WR",
     "team": "DAL",
     "adp": 6.8,
-    "isDrafted": true,
+    "isDrafted": false,
     "isMyTeam": false,
     "stats2024": {
       "receptions": 101,
@@ -1371,7 +1371,7 @@
     "position": "WR",
     "team": "DET",
     "adp": 9.5,
-    "isDrafted": true,
+    "isDrafted": false,
     "isMyTeam": false,
     "stats2024": {
       "receptions": 115,
@@ -2079,8 +2079,8 @@
     "position": "TE",
     "team": "LV",
     "adp": 26.3,
-    "isDrafted": true,
-    "isMyTeam": true,
+    "isDrafted": false,
+    "isMyTeam": false,
     "stats2024": {
       "receptions": 112,
       "receivingYards": 1194,
@@ -2711,7 +2711,7 @@
     "adp": 105.2,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.03,
+    "strengthOfSchedule": 0.95,
     "stats2024": {
       "sacks": 36,
       "interceptions": 14,
@@ -2722,8 +2722,7 @@
     "projectedStats2025": {
       "projectedPoints": 145
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/baltimore-ravens-roster",
-    "strengthOfSchedule": 0.95
+    "fantasyDataUrl": "https://fantasydata.com/nfl/baltimore-ravens-roster"
   },
   {
     "id": "dst2",
@@ -2733,7 +2732,7 @@
     "adp": 108.5,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.07,
+    "strengthOfSchedule": 1.05,
     "stats2024": {
       "sacks": 41,
       "interceptions": 11,
@@ -2744,8 +2743,7 @@
     "projectedStats2025": {
       "projectedPoints": 140
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/san-francisco-49ers-roster",
-    "strengthOfSchedule": 1.05
+    "fantasyDataUrl": "https://fantasydata.com/nfl/san-francisco-49ers-roster"
   },
   {
     "id": "dst3",
@@ -2755,7 +2753,7 @@
     "adp": 111.3,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.93,
+    "strengthOfSchedule": 1.15,
     "stats2024": {
       "sacks": 36,
       "interceptions": 10,
@@ -2766,8 +2764,7 @@
     "projectedStats2025": {
       "projectedPoints": 135
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Dallas%20Cowboys",
-    "strengthOfSchedule": 1.15
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Dallas%20Cowboys"
   },
   {
     "id": "dst4",
@@ -2777,7 +2774,7 @@
     "adp": 114.8,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.96,
+    "strengthOfSchedule": 0.85,
     "stats2024": {
       "sacks": 39,
       "interceptions": 15,
@@ -2788,8 +2785,7 @@
     "projectedStats2025": {
       "projectedPoints": 138
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/buffalo-bills-roster",
-    "strengthOfSchedule": 0.85
+    "fantasyDataUrl": "https://fantasydata.com/nfl/buffalo-bills-roster"
   },
   {
     "id": "dst5",
@@ -2799,7 +2795,7 @@
     "adp": 117.2,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.01,
+    "strengthOfSchedule": 0.92,
     "stats2024": {
       "sacks": 37,
       "interceptions": 13,
@@ -2810,8 +2806,7 @@
     "projectedStats2025": {
       "projectedPoints": 132
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/kansas-city-chiefs-roster",
-    "strengthOfSchedule": 0.92
+    "fantasyDataUrl": "https://fantasydata.com/nfl/kansas-city-chiefs-roster"
   },
   {
     "id": "dst6",
@@ -2821,7 +2816,7 @@
     "adp": 120.5,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.95,
+    "strengthOfSchedule": 0.9,
     "stats2024": {
       "sacks": 48,
       "interceptions": 12,
@@ -2832,8 +2827,7 @@
     "projectedStats2025": {
       "projectedPoints": 130
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/new-york-jets-roster",
-    "strengthOfSchedule": 0.9
+    "fantasyDataUrl": "https://fantasydata.com/nfl/new-york-jets-roster"
   },
   {
     "id": "dst7",
@@ -2843,7 +2837,7 @@
     "adp": 123.8,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.02,
+    "strengthOfSchedule": 1.12,
     "stats2024": {
       "sacks": 42,
       "interceptions": 11,
@@ -2854,8 +2848,7 @@
     "projectedStats2025": {
       "projectedPoints": 128
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Cleveland%20Browns",
-    "strengthOfSchedule": 1.12
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Cleveland%20Browns"
   },
   {
     "id": "dst8",
@@ -2865,7 +2858,7 @@
     "adp": 127.2,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.00,
+    "strengthOfSchedule": 1.1,
     "stats2024": {
       "sacks": 40,
       "interceptions": 16,
@@ -2876,8 +2869,7 @@
     "projectedStats2025": {
       "projectedPoints": 130
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/pittsburgh-steelers-depth-chart",
-    "strengthOfSchedule": 1.1
+    "fantasyDataUrl": "https://fantasydata.com/nfl/pittsburgh-steelers-depth-chart"
   },
   {
     "id": "dst9",
@@ -2887,7 +2879,7 @@
     "adp": 130.5,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.91,
+    "strengthOfSchedule": 0.88,
     "stats2024": {
       "sacks": 35,
       "interceptions": 10,
@@ -2898,8 +2890,7 @@
     "projectedStats2025": {
       "projectedPoints": 125
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/miami-dolphins-roster",
-    "strengthOfSchedule": 0.88
+    "fantasyDataUrl": "https://fantasydata.com/nfl/miami-dolphins-roster"
   },
   {
     "id": "dst10",
@@ -2909,7 +2900,7 @@
     "adp": 133.8,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.89,
+    "strengthOfSchedule": 0.82,
     "stats2024": {
       "sacks": 47,
       "interceptions": 13,
@@ -2920,8 +2911,7 @@
     "projectedStats2025": {
       "projectedPoints": 125
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/houston-texans-roster",
-    "strengthOfSchedule": 0.82
+    "fantasyDataUrl": "https://fantasydata.com/nfl/houston-texans-roster"
   },
   {
     "id": "rb26",
@@ -5147,7 +5137,7 @@
     "adp": 140,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 0.90,
+    "strengthOfSchedule": 0.9,
     "stats2024": {
       "sacks": 40,
       "interceptions": 9,
@@ -5267,7 +5257,7 @@
     "adp": 152,
     "isDrafted": false,
     "isMyTeam": false,
-    "strengthOfSchedule": 1.10,
+    "strengthOfSchedule": 1.1,
     "stats2024": {
       "sacks": 33,
       "interceptions": 8,
