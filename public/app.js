@@ -12,56 +12,7 @@ const REPLACEMENT_LEVELS = {
     DST: 10
 };
 
-const CACHE_KEYS = {
-    PLAYERS: 'fantasy_players_cache',
-    SCORING: 'fantasy_scoring_cache',
-    POSITION_REQUIREMENTS: 'fantasy_position_requirements_cache'
-};
-
-const CACHE_DURATION = 5 * 60 * 1000;
-
-function getCachedData(key) {
-    try {
-        const cached = localStorage.getItem(key);
-        if (cached) {
-            const { data, timestamp } = JSON.parse(cached);
-            if (Date.now() - timestamp < CACHE_DURATION) {
-                console.log(`Cache hit for ${key}`);
-                return data;
-            }
-            console.log(`Cache expired for ${key}`);
-        }
-    } catch (error) {
-        console.error('Error reading cache:', error);
-    }
-    return null;
-}
-
-function setCachedData(key, data) {
-    try {
-        localStorage.setItem(key, JSON.stringify({
-            data,
-            timestamp: Date.now()
-        }));
-        console.log(`Cache set for ${key}`);
-    } catch (error) {
-        console.error('Error setting cache:', error);
-    }
-}
-
-function invalidateCache(key) {
-    try {
-        if (key) {
-            localStorage.removeItem(key);
-            console.log(`Cache invalidated for ${key}`);
-        } else {
-            Object.values(CACHE_KEYS).forEach(k => localStorage.removeItem(k));
-            console.log('All cache invalidated');
-        }
-    } catch (error) {
-        console.error('Error invalidating cache:', error);
-    }
-}
+// Removed all caching - data is now always fetched from database
 
 async function init() {
     await loadScoringSettings();
@@ -76,15 +27,8 @@ async function init() {
 
 async function loadScoringSettings() {
     try {
-        const cachedData = getCachedData(CACHE_KEYS.SCORING);
-        if (cachedData) {
-            scoringSettings = cachedData;
-            return;
-        }
-        
         const response = await fetch('/api/scoring');
         scoringSettings = await response.json();
-        setCachedData(CACHE_KEYS.SCORING, scoringSettings);
     } catch (error) {
         console.error('Error loading scoring settings:', error);
     }
@@ -92,15 +36,8 @@ async function loadScoringSettings() {
 
 async function loadPositionRequirements() {
     try {
-        const cachedData = getCachedData(CACHE_KEYS.POSITION_REQUIREMENTS);
-        if (cachedData) {
-            positionRequirements = cachedData;
-            return;
-        }
-        
         const response = await fetch('/api/position-requirements');
         positionRequirements = await response.json();
-        setCachedData(CACHE_KEYS.POSITION_REQUIREMENTS, positionRequirements);
     } catch (error) {
         console.error('Error loading position requirements:', error);
         positionRequirements = {
@@ -118,15 +55,8 @@ async function loadPositionRequirements() {
 
 async function loadPlayers() {
     try {
-        const cachedData = getCachedData(CACHE_KEYS.PLAYERS);
-        if (cachedData) {
-            players = cachedData;
-            return;
-        }
-        
         const response = await fetch('/api/players');
         players = await response.json();
-        setCachedData(CACHE_KEYS.PLAYERS, players);
     } catch (error) {
         console.error('Error loading players:', error);
     }
@@ -536,9 +466,144 @@ function setupEventListeners() {
         renderPlayers();
     });
     
-    document.getElementById('clearCache').addEventListener('click', () => {
-        invalidateCache();
-        alert('Cache cleared! Data will be refreshed on next load.');
+    // Export functionality
+    document.getElementById('exportData').addEventListener('click', async () => {
+        try {
+            const response = await fetch('/api/export');
+            const data = await response.json();
+            
+            // Create a blob and download link
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `fantasy-draft-${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            alert('Draft data exported successfully!');
+        } catch (error) {
+            console.error('Error exporting data:', error);
+            alert('Failed to export data');
+        }
+    });
+    
+    // Import functionality
+    document.getElementById('importData').addEventListener('click', () => {
+        document.getElementById('importFile').click();
+    });
+    
+    document.getElementById('importFile').addEventListener('change', async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        
+        try {
+            const text = await file.text();
+            const data = JSON.parse(text);
+            
+            if (confirm('This will overwrite your current draft data. Continue?')) {
+                const response = await fetch('/api/import', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                if (response.ok) {
+                    alert('Data imported successfully!');
+                    // Reload all data
+                    await loadPlayers();
+                    await loadScoringSettings();
+                    await loadPositionRequirements();
+                    calculateVORP();
+                    renderPlayers();
+                } else {
+                    alert('Failed to import data');
+                }
+            }
+        } catch (error) {
+            console.error('Error importing data:', error);
+            alert('Invalid file format or import failed');
+        }
+        
+        // Clear the file input
+        e.target.value = '';
+    });
+    
+    document.getElementById('resetDraft').addEventListener('click', async () => {
+        if (confirm('Are you sure you want to reset all draft selections? This will uncheck all "Drafted" and "My Team" checkboxes.')) {
+            try {
+                // Collect all players that need to be reset
+                const playersToReset = players.filter(p => p.isDrafted || p.isMyTeam);
+                
+                if (playersToReset.length === 0) {
+                    alert('No selections to reset.');
+                    return;
+                }
+                
+                // Show progress
+                const originalButtonText = document.getElementById('resetDraft').textContent;
+                document.getElementById('resetDraft').textContent = 'Resetting...';
+                document.getElementById('resetDraft').disabled = true;
+                
+                // Reset all players' draft status locally first for immediate UI feedback
+                playersToReset.forEach(player => {
+                    player.isDrafted = false;
+                    player.isMyTeam = false;
+                });
+                
+                // Re-render immediately for quick feedback
+                renderPlayers();
+                
+                // Batch update on server
+                const updatePromises = [];
+                for (const player of playersToReset) {
+                    updatePromises.push(
+                        fetch('/api/players/update', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ 
+                                playerId: player.id, 
+                                field: 'isDrafted', 
+                                value: false 
+                            })
+                        })
+                    );
+                    updatePromises.push(
+                        fetch('/api/players/update', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({ 
+                                playerId: player.id, 
+                                field: 'isMyTeam', 
+                                value: false 
+                            })
+                        })
+                    );
+                }
+                
+                // Wait for all updates to complete
+                await Promise.all(updatePromises);
+                
+                // Restore button
+                document.getElementById('resetDraft').textContent = originalButtonText;
+                document.getElementById('resetDraft').disabled = false;
+                
+                alert(`Draft has been reset! ${playersToReset.length} player selection(s) cleared.`);
+            } catch (error) {
+                console.error('Error resetting draft:', error);
+                document.getElementById('resetDraft').textContent = 'Reset Draft';
+                document.getElementById('resetDraft').disabled = false;
+                alert('Error resetting draft. Please try again.');
+            }
+        }
     });
     
     document.addEventListener('change', async (e) => {
@@ -546,8 +611,16 @@ function setupEventListeners() {
             const playerId = e.target.dataset.playerId;
             const player = players.find(p => p.id === playerId);
             if (player) {
-                player.isDrafted = e.target.checked;
-                await updatePlayer(playerId, 'isDrafted', e.target.checked);
+                const isChecked = e.target.checked;
+                player.isDrafted = isChecked;
+                
+                // If unchecking drafted, also uncheck my team
+                if (!isChecked && player.isMyTeam) {
+                    player.isMyTeam = false;
+                    await updatePlayer(playerId, 'isMyTeam', false);
+                }
+                
+                await updatePlayer(playerId, 'isDrafted', isChecked);
                 renderPlayers();
             }
         }
@@ -556,14 +629,20 @@ function setupEventListeners() {
             const playerId = e.target.dataset.playerId;
             const player = players.find(p => p.id === playerId);
             if (player) {
-                player.isMyTeam = e.target.checked;
-                if (e.target.checked) {
+                const isChecked = e.target.checked;
+                player.isMyTeam = isChecked;
+                
+                if (isChecked) {
+                    // If checking my team, also check drafted
                     player.isDrafted = true;
-                }
-                await updatePlayer(playerId, 'isMyTeam', e.target.checked);
-                if (e.target.checked) {
                     await updatePlayer(playerId, 'isDrafted', true);
+                } else {
+                    // If unchecking my team, also uncheck drafted
+                    player.isDrafted = false;
+                    await updatePlayer(playerId, 'isDrafted', false);
                 }
+                
+                await updatePlayer(playerId, 'isMyTeam', isChecked);
                 renderPlayers();
             }
         }
@@ -580,8 +659,8 @@ async function updatePlayer(playerId, field, value) {
             body: JSON.stringify({ playerId, field, value })
         });
         
-        if (response.ok) {
-            invalidateCache(CACHE_KEYS.PLAYERS);
+        if (!response.ok) {
+            console.error('Failed to update player');
         }
     } catch (error) {
         console.error('Error updating player:', error);

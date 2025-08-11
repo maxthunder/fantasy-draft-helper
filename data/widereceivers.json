@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "wr1",
+    "name": "Ja'Marr Chase",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 1.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 117,
+      "receivingYards": 1708,
+      "receivingTDs": 17,
+      "fantasyPoints": 391.8
+    },
+    "projectedStats2025": {
+      "receptions": 115,
+      "receivingYards": 1600,
+      "receivingTDs": 14,
+      "projectedPoints": 355
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ja-marr-chase-fantasy/22564"
+  },
+  {
+    "id": "wr2",
+    "name": "Justin Jefferson",
+    "position": "WR",
+    "team": "MIN",
+    "adp": 3.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 103,
+      "receivingYards": 1479,
+      "receivingTDs": 10,
+      "fantasyPoints": 307.9
+    },
+    "projectedStats2025": {
+      "receptions": 115,
+      "receivingYards": 1550,
+      "receivingTDs": 12,
+      "projectedPoints": 340
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/justin-jefferson-fantasy/21685"
+  },
+  {
+    "id": "wr3",
+    "name": "CeeDee Lamb",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 6.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 101,
+      "receivingYards": 1194,
+      "receivingTDs": 6,
+      "fantasyPoints": 239.4
+    },
+    "projectedStats2025": {
+      "receptions": 120,
+      "receivingYards": 1500,
+      "receivingTDs": 11,
+      "projectedPoints": 330
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ceedee-lamb-fantasy/21679"
+  },
+  {
+    "id": "wr4",
+    "name": "Amon-Ra St. Brown",
+    "position": "WR",
+    "team": "DET",
+    "adp": 9.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 115,
+      "receivingYards": 1263,
+      "receivingTDs": 12,
+      "fantasyPoints": 318.3
+    },
+    "projectedStats2025": {
+      "receptions": 118,
+      "receivingYards": 1400,
+      "receivingTDs": 11,
+      "projectedPoints": 325
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/amon-ra-st-brown-fantasy/22587"
+  },
+  {
+    "id": "wr5",
+    "name": "Brian Thomas Jr.",
+    "position": "WR",
+    "team": "JAC",
+    "adp": 11.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 87,
+      "receivingYards": 1282,
+      "receivingTDs": 10,
+      "fantasyPoints": 278.2
+    },
+    "projectedStats2025": {
+      "receptions": 95,
+      "receivingYards": 1350,
+      "receivingTDs": 11,
+      "projectedPoints": 305
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brian-thomas-jr-fantasy/24933"
+  },
+  {
+    "id": "wr6",
+    "name": "Puka Nacua",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 13.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 79,
+      "receivingYards": 990,
+      "receivingTDs": 3,
+      "fantasyPoints": 187
+    },
+    "projectedStats2025": {
+      "receptions": 105,
+      "receivingYards": 1350,
+      "receivingTDs": 9,
+      "projectedPoints": 295
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/puka-nacua-fantasy/24172"
+  },
+  {
+    "id": "wr7",
+    "name": "Tyreek Hill",
+    "position": "WR",
+    "team": "MIA",
+    "adp": 15.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 81,
+      "receivingYards": 959,
+      "receivingTDs": 6,
+      "fantasyPoints": 215.9
+    },
+    "projectedStats2025": {
+      "receptions": 105,
+      "receivingYards": 1400,
+      "receivingTDs": 10,
+      "projectedPoints": 305
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyreek-hill-fantasy/18082"
+  },
+  {
+    "id": "wr8",
+    "name": "A.J. Brown",
+    "position": "WR",
+    "team": "PHI",
+    "adp": 17.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 67,
+      "receivingYards": 1079,
+      "receivingTDs": 7,
+      "fantasyPoints": 235.9
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1300,
+      "receivingTDs": 10,
+      "projectedPoints": 285
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/a-j-brown-fantasy/21042"
+  },
+  {
+    "id": "wr9",
+    "name": "Garrett Wilson",
+    "position": "WR",
+    "team": "NYJ",
+    "adp": 20.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 101,
+      "receivingYards": 1104,
+      "receivingTDs": 7,
+      "fantasyPoints": 251.4
+    },
+    "projectedStats2025": {
+      "receptions": 108,
+      "receivingYards": 1300,
+      "receivingTDs": 9,
+      "projectedPoints": 285
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/garrett-wilson-fantasy/23122"
+  },
+  {
+    "id": "wr10",
+    "name": "Marvin Harrison Jr.",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 22.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 62,
+      "receivingYards": 885,
+      "receivingTDs": 7,
+      "fantasyPoints": 196.5
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1200,
+      "receivingTDs": 10,
+      "projectedPoints": 270
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/marvin-harrison-jr-fantasy/24974"
+  },
+  {
+    "id": "wr11",
+    "name": "Chris Olave",
+    "position": "WR",
+    "team": "NO",
+    "adp": 24.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 29,
+      "receivingYards": 400,
+      "receivingTDs": 1,
+      "fantasyPoints": 70
+    },
+    "projectedStats2025": {
+      "receptions": 90,
+      "receivingYards": 1250,
+      "receivingTDs": 9,
+      "projectedPoints": 275
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/chris-olave-fantasy/22565"
+  },
+  {
+    "id": "wr12",
+    "name": "Mike Evans",
+    "position": "WR",
+    "team": "TB",
+    "adp": 27.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 74,
+      "receivingYards": 1172,
+      "receivingTDs": 11,
+      "fantasyPoints": 273.2
+    },
+    "projectedStats2025": {
+      "receptions": 78,
+      "receivingYards": 1150,
+      "receivingTDs": 10,
+      "projectedPoints": 260
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/mike-evans-fantasy/16597"
+  },
+  {
+    "id": "wr13",
+    "name": "Davante Adams",
+    "position": "WR",
+    "team": "NYJ",
+    "adp": 29.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 85,
+      "receivingYards": 1063,
+      "receivingTDs": 5,
+      "fantasyPoints": 216.3
+    },
+    "projectedStats2025": {
+      "receptions": 95,
+      "receivingYards": 1200,
+      "receivingTDs": 8,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/davante-adams-fantasy/16470"
+  },
+  {
+    "id": "wr14",
+    "name": "Drake London",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 31.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 85,
+      "receivingYards": 1053,
+      "receivingTDs": 7,
+      "fantasyPoints": 230.3
+    },
+    "projectedStats2025": {
+      "receptions": 90,
+      "receivingYards": 1150,
+      "receivingTDs": 9,
+      "projectedPoints": 255
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/drake-london-fantasy/23151"
+  },
+  {
+    "id": "wr15",
+    "name": "Nico Collins",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 34.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 68,
+      "receivingYards": 1006,
+      "receivingTDs": 7,
+      "fantasyPoints": 218.6
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1200,
+      "receivingTDs": 9,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/nico-collins-fantasy/21756"
+  },
+  {
+    "id": "wr16",
+    "name": "DK Metcalf",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 36.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 66,
+      "receivingYards": 992,
+      "receivingTDs": 5,
+      "fantasyPoints": 189.2
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 1100,
+      "receivingTDs": 8,
+      "projectedPoints": 240
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/dk-metcalf-fantasy/20875"
+  },
+  {
+    "id": "wr17",
+    "name": "Deebo Samuel",
+    "position": "WR",
+    "team": "SF",
+    "adp": 39.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 51,
+      "receivingYards": 711,
+      "receivingTDs": 3,
+      "rushingYards": 33,
+      "rushingTDs": 1,
+      "fantasyPoints": 142.4
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 900,
+      "receivingTDs": 6,
+      "rushingYards": 100,
+      "rushingTDs": 2,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/deebo-samuel-sr-fantasy/20932"
+  },
+  {
+    "id": "wr18",
+    "name": "Brandon Aiyuk",
+    "position": "WR",
+    "team": "SF",
+    "adp": 42.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 53,
+      "receivingYards": 658,
+      "receivingTDs": 3,
+      "fantasyPoints": 131.8
+    },
+    "projectedStats2025": {
+      "receptions": 80,
+      "receivingYards": 1100,
+      "receivingTDs": 8,
+      "projectedPoints": 245
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brandon-aiyuk-fantasy/21747"
+  },
+  {
+    "id": "wr19",
+    "name": "DJ Moore",
+    "position": "WR",
+    "team": "CHI",
+    "adp": 45.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 82,
+      "receivingYards": 966,
+      "receivingTDs": 8,
+      "fantasyPoints": 224.6
+    },
+    "projectedStats2025": {
+      "receptions": 88,
+      "receivingYards": 1050,
+      "receivingTDs": 7,
+      "projectedPoints": 235
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/dj-moore-fantasy/19844"
+  },
+  {
+    "id": "wr20",
+    "name": "Zay Flowers",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 48.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 74,
+      "receivingYards": 1059,
+      "receivingTDs": 4,
+      "fantasyPoints": 201.9
+    },
+    "projectedStats2025": {
+      "receptions": 82,
+      "receivingYards": 1100,
+      "receivingTDs": 7,
+      "projectedPoints": 235
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/zay-flowers-fantasy/23120"
+  },
+  {
+    "id": "wr21",
+    "name": "Calvin Ridley",
+    "position": "WR",
+    "team": "TEN",
+    "adp": 51.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 78,
+      "receivingYards": 1096,
+      "receivingTDs": 4,
+      "fantasyPoints": 205.6
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1150,
+      "receivingTDs": 7,
+      "projectedPoints": 240
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/calvin-ridley-fantasy/19802"
+  },
+  {
+    "id": "wr22",
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "team": "LV",
+    "adp": 54.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 87,
+      "receivingYards": 795,
+      "receivingTDs": 3,
+      "fantasyPoints": 171.5
+    },
+    "projectedStats2025": {
+      "receptions": 90,
+      "receivingYards": 950,
+      "receivingTDs": 6,
+      "projectedPoints": 215
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jakobi-meyers-fantasy/20876"
+  },
+  {
+    "id": "wr23",
+    "name": "DeVonta Smith",
+    "position": "WR",
+    "team": "PHI",
+    "adp": 57.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 68,
+      "receivingYards": 833,
+      "receivingTDs": 8,
+      "fantasyPoints": 211.3
+    },
+    "projectedStats2025": {
+      "receptions": 78,
+      "receivingYards": 1050,
+      "receivingTDs": 8,
+      "projectedPoints": 235
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/devonta-smith-fantasy/21687"
+  },
+  {
+    "id": "wr24",
+    "name": "Christian Kirk",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 60.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 27,
+      "receivingYards": 379,
+      "receivingTDs": 1,
+      "fantasyPoints": 67.9
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 900,
+      "receivingTDs": 6,
+      "projectedPoints": 205
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/christian-kirk-fantasy/19815"
+  },
+  {
+    "id": "wr25",
+    "name": "Jalen McMillan",
+    "position": "WR",
+    "team": "TB",
+    "adp": 63.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 39,
+      "receivingYards": 558,
+      "receivingTDs": 8,
+      "fantasyPoints": 143.8
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 850,
+      "receivingTDs": 7,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Jalen%20McMillan"
+  },
+  {
+    "id": "wr26",
+    "name": "George Pickens",
+    "position": "WR",
+    "team": "PIT",
+    "adp": 37.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 59,
+      "receivingYards": 900,
+      "receivingTDs": 3,
+      "fantasyPoints": 162
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 1100,
+      "receivingTDs": 8,
+      "projectedPoints": 240
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/george-pickens-fantasy/23153"
+  },
+  {
+    "id": "wr27",
+    "name": "Tee Higgins",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 40.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 73,
+      "receivingYards": 911,
+      "receivingTDs": 10,
+      "fantasyPoints": 235.1
+    },
+    "projectedStats2025": {
+      "receptions": 80,
+      "receivingYards": 1050,
+      "receivingTDs": 8,
+      "projectedPoints": 235
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tee-higgins-fantasy/21690"
+  },
+  {
+    "id": "wr28",
+    "name": "Cooper Kupp",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 43.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 67,
+      "receivingYards": 710,
+      "receivingTDs": 6,
+      "fantasyPoints": 179
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1000,
+      "receivingTDs": 7,
+      "projectedPoints": 225
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/cooper-kupp-fantasy/18882"
+  },
+  {
+    "id": "wr29",
+    "name": "Jaylen Waddle",
+    "position": "WR",
+    "team": "MIA",
+    "adp": 46.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 54,
+      "receivingYards": 689,
+      "receivingTDs": 2,
+      "fantasyPoints": 128.9
+    },
+    "projectedStats2025": {
+      "receptions": 80,
+      "receivingYards": 1050,
+      "receivingTDs": 7,
+      "projectedPoints": 230
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jaylen-waddle-fantasy/22598"
+  },
+  {
+    "id": "wr30",
+    "name": "Stefon Diggs",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 49.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 64,
+      "receivingYards": 723,
+      "receivingTDs": 3,
+      "fantasyPoints": 150.3
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 950,
+      "receivingTDs": 6,
+      "projectedPoints": 215
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/stefon-diggs-fantasy/16906"
+  },
+  {
+    "id": "wr31",
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 52.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 82,
+      "receivingYards": 1025,
+      "receivingTDs": 13,
+      "fantasyPoints": 280.5
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1100,
+      "receivingTDs": 8,
+      "projectedPoints": 245
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/terry-mclaurin-fantasy/20873"
+  },
+  {
+    "id": "wr32",
+    "name": "Amari Cooper",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 55.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 63,
+      "receivingYards": 810,
+      "receivingTDs": 5,
+      "fantasyPoints": 171
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 900,
+      "receivingTDs": 6,
+      "projectedPoints": 200
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/amari-cooper-fantasy/16765"
+  },
+  {
+    "id": "wr33",
+    "name": "Keenan Allen",
+    "position": "WR",
+    "team": "CHI",
+    "adp": 58.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 70,
+      "receivingYards": 654,
+      "receivingTDs": 7,
+      "fantasyPoints": 177.4
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/keenan-allen-fantasy/15076"
+  },
+  {
+    "id": "wr34",
+    "name": "Chris Godwin",
+    "position": "WR",
+    "team": "TB",
+    "adp": 61.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 50,
+      "receivingYards": 576,
+      "receivingTDs": 5,
+      "fantasyPoints": 137.6
+    },
+    "projectedStats2025": {
+      "receptions": 80,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 220
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/chris-godwin-fantasy/18880"
+  },
+  {
+    "id": "wr35",
+    "name": "DeAndre Hopkins",
+    "position": "WR",
+    "team": "KC",
+    "adp": 64.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 79,
+      "receivingYards": 911,
+      "receivingTDs": 5,
+      "fantasyPoints": 191.1
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/deandre-hopkins-fantasy/14986"
+  },
+  {
+    "id": "wr36",
+    "name": "Jordan Addison",
+    "position": "WR",
+    "team": "MIN",
+    "adp": 67.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 61,
+      "receivingYards": 875,
+      "receivingTDs": 5,
+      "fantasyPoints": 177.5
+    },
+    "projectedStats2025": {
+      "receptions": 72,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jordan-addison-fantasy/23162"
+  },
+  {
+    "id": "wr37",
+    "name": "Tank Dell",
+    "position": "WR",
+    "team": "HOU",
+    "adp": 70.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 51,
+      "receivingYards": 667,
+      "receivingTDs": 3,
+      "fantasyPoints": 126.7
+    },
+    "projectedStats2025": {
+      "receptions": 68,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 190
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tank-dell-fantasy/24176"
+  },
+  {
+    "id": "wr38",
+    "name": "Jameson Williams",
+    "position": "WR",
+    "team": "DET",
+    "adp": 73.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 58,
+      "receivingYards": 1001,
+      "receivingTDs": 7,
+      "fantasyPoints": 202.1
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 950,
+      "receivingTDs": 8,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jameson-williams-fantasy/23234"
+  },
+  {
+    "id": "wr39",
+    "name": "Diontae Johnson",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 76.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 60,
+      "receivingYards": 545,
+      "receivingTDs": 3,
+      "fantasyPoints": 120.5
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 900,
+      "receivingTDs": 5,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/diontae-johnson-fantasy/21077"
+  },
+  {
+    "id": "wr40",
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 79.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 65,
+      "receivingYards": 660,
+      "receivingTDs": 2,
+      "fantasyPoints": 131
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 800,
+      "receivingTDs": 5,
+      "projectedPoints": 175
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyler-lockett-fantasy/16830"
+  },
+  {
+    "id": "wr41",
+    "name": "Rome Odunze",
+    "position": "WR",
+    "team": "CHI",
+    "adp": 82.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 54,
+      "receivingYards": 726,
+      "receivingTDs": 3,
+      "fantasyPoints": 132.6
+    },
+    "projectedStats2025": {
+      "receptions": 72,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rome-odunze-fantasy/24977"
+  },
+  {
+    "id": "wr42",
+    "name": "Khalil Shakir",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 85.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 76,
+      "receivingYards": 821,
+      "receivingTDs": 4,
+      "fantasyPoints": 166.1
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 850,
+      "receivingTDs": 5,
+      "projectedPoints": 185
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/khalil-shakir-shakir-fantasy/23227"
+  },
+  {
+    "id": "wr43",
+    "name": "Courtland Sutton",
+    "position": "WR",
+    "team": "DEN",
+    "adp": 88.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 81,
+      "receivingYards": 1081,
+      "receivingTDs": 8,
+      "fantasyPoints": 236.1
+    },
+    "projectedStats2025": {
+      "receptions": 78,
+      "receivingYards": 950,
+      "receivingTDs": 6,
+      "projectedPoints": 205
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/courtland-sutton-fantasy/19800"
+  },
+  {
+    "id": "wr44",
+    "name": "Romeo Doubs",
+    "position": "WR",
+    "team": "GB",
+    "adp": 91.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 674,
+      "receivingTDs": 3,
+      "fantasyPoints": 125.4
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/romeo-doubs-fantasy/23167"
+  },
+  {
+    "id": "wr45",
+    "name": "Ladd McConkey",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 94.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 82,
+      "receivingYards": 1149,
+      "receivingTDs": 7,
+      "fantasyPoints": 248.9
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1050,
+      "receivingTDs": 7,
+      "projectedPoints": 235
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ladd-mcconkey-fantasy/25097"
+  },
+  {
+    "id": "wr46",
+    "name": "Hollywood Brown",
+    "position": "WR",
+    "team": "KC",
+    "adp": 97.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 5,
+      "receivingYards": 45,
+      "receivingTDs": 0,
+      "fantasyPoints": 7.5
+    },
+    "projectedStats2025": {
+      "receptions": 60,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/marquise-brown-fantasy/21045"
+  },
+  {
+    "id": "wr47",
+    "name": "Xavier Worthy",
+    "position": "WR",
+    "team": "KC",
+    "adp": 100.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 59,
+      "receivingYards": 638,
+      "receivingTDs": 6,
+      "rushingYards": 41,
+      "rushingTDs": 2,
+      "fantasyPoints": 153.9
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 850,
+      "receivingTDs": 7,
+      "rushingYards": 50,
+      "rushingTDs": 1,
+      "projectedPoints": 200
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/xavier-worthy-fantasy/24924"
+  },
+  {
+    "id": "wr48",
+    "name": "Jaxon Smith-Njigba",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 103.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 100,
+      "receivingYards": 1130,
+      "receivingTDs": 6,
+      "fantasyPoints": 249
+    },
+    "projectedStats2025": {
+      "receptions": 92,
+      "receivingYards": 1100,
+      "receivingTDs": 7,
+      "projectedPoints": 245
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jaxon-smith-njigba-fantasy/23157"
+  },
+  {
+    "id": "wr49",
+    "name": "Jerry Jeudy",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 106.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 90,
+      "receivingYards": 1229,
+      "receivingTDs": 4,
+      "fantasyPoints": 234.9
+    },
+    "projectedStats2025": {
+      "receptions": 82,
+      "receivingYards": 1000,
+      "receivingTDs": 6,
+      "projectedPoints": 220
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jerry-jeudy-fantasy/21692"
+  },
+  {
+    "id": "wr50",
+    "name": "Christian Watson",
+    "position": "WR",
+    "team": "GB",
+    "adp": 109.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 29,
+      "receivingYards": 620,
+      "receivingTDs": 2,
+      "fantasyPoints": 98
+    },
+    "projectedStats2025": {
+      "receptions": 55,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/christian-watson-fantasy/23395"
+  },
+  {
+    "id": "wr51",
+    "name": "Keon Coleman",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 112.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 29,
+      "receivingYards": 556,
+      "receivingTDs": 4,
+      "fantasyPoints": 103.6
+    },
+    "projectedStats2025": {
+      "receptions": 60,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 180
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/keon-coleman-fantasy/24964"
+  },
+  {
+    "id": "wr52",
+    "name": "Rashee Rice",
+    "position": "WR",
+    "team": "KC",
+    "adp": 115.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 24,
+      "receivingYards": 288,
+      "receivingTDs": 2,
+      "fantasyPoints": 58.8
+    },
+    "projectedStats2025": {
+      "receptions": 75,
+      "receivingYards": 950,
+      "receivingTDs": 7,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rashee-rice-fantasy/24120"
+  },
+  {
+    "id": "wr53",
+    "name": "Rashod Bateman",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 118.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 45,
+      "receivingYards": 756,
+      "receivingTDs": 9,
+      "fantasyPoints": 177.6
+    },
+    "projectedStats2025": {
+      "receptions": 55,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rashod-bateman-fantasy/22623"
+  },
+  {
+    "id": "wr54",
+    "name": "Quentin Johnston",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 121.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 711,
+      "receivingTDs": 8,
+      "fantasyPoints": 167.1
+    },
+    "projectedStats2025": {
+      "receptions": 58,
+      "receivingYards": 750,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/quentin-johnston-fantasy/24226"
+  },
+  {
+    "id": "wr55",
+    "name": "Gabe Davis",
+    "position": "WR",
+    "team": "JAC",
+    "adp": 124.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 20,
+      "receivingYards": 239,
+      "receivingTDs": 2,
+      "fantasyPoints": 47.9
+    },
+    "projectedStats2025": {
+      "receptions": 50,
+      "receivingYards": 700,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/gabriel-davis-fantasy/21735"
+  },
+  {
+    "id": "wr56",
+    "name": "Rashid Shaheed",
+    "position": "WR",
+    "team": "NO",
+    "adp": 126,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 443,
+      "receivingTDs": 3,
+      "fantasyPoints": 80.3
+    },
+    "projectedStats2025": {
+      "receptions": 57,
+      "receivingYards": 941,
+      "receivingTDs": 9,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Rashid%20Shaheed"
+  },
+  {
+    "id": "wr57",
+    "name": "Jakobi Meyers",
+    "position": "WR",
+    "team": "LV",
+    "adp": 128.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 87,
+      "receivingYards": 1027,
+      "receivingTDs": 4,
+      "fantasyPoints": 177.7
+    },
+    "projectedStats2025": {
+      "receptions": 85,
+      "receivingYards": 1000,
+      "receivingTDs": 5,
+      "projectedPoints": 185
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jakobi-meyers-fantasy/20876"
+  },
+  {
+    "id": "wr58",
+    "name": "Darnell Mooney",
+    "position": "WR",
+    "team": "ATL",
+    "adp": 130.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 58,
+      "receivingYards": 635,
+      "receivingTDs": 5,
+      "fantasyPoints": 131.5
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 850,
+      "receivingTDs": 6,
+      "projectedPoints": 170
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/darnell-mooney-fantasy/21961"
+  },
+  {
+    "id": "wr59",
+    "name": "Cedric Tillman",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 132.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 39,
+      "receivingYards": 477,
+      "receivingTDs": 3,
+      "fantasyPoints": 87.7
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 800,
+      "receivingTDs": 6,
+      "projectedPoints": 165
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/cedric-tillman-fantasy/24348"
+  },
+  {
+    "id": "wr60",
+    "name": "Joshua Palmer",
+    "position": "WR",
+    "team": "BUF",
+    "adp": 135.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 44,
+      "receivingYards": 553,
+      "receivingTDs": 2,
+      "fantasyPoints": 91.3
+    },
+    "projectedStats2025": {
+      "receptions": 60,
+      "receivingYards": 750,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Joshua%20Palmer"
+  },
+  {
+    "id": "wr61",
+    "name": "Quentin Johnston",
+    "position": "WR",
+    "team": "LAC",
+    "adp": 137.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 711,
+      "receivingTDs": 8,
+      "fantasyPoints": 159.1
+    },
+    "projectedStats2025": {
+      "receptions": 55,
+      "receivingYards": 800,
+      "receivingTDs": 7,
+      "projectedPoints": 165
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/quentin-johnston-fantasy/24226"
+  },
+  {
+    "id": "wr62",
+    "name": "Mike Williams",
+    "position": "WR",
+    "team": "PIT",
+    "adp": 139.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 374,
+      "receivingTDs": 2,
+      "fantasyPoints": 65.4
+    },
+    "projectedStats2025": {
+      "receptions": 50,
+      "receivingYards": 700,
+      "receivingTDs": 5,
+      "projectedPoints": 145
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/mike-williams-fantasy/18914"
+  },
+  {
+    "id": "wr63",
+    "name": "Demario Douglas",
+    "position": "WR",
+    "team": "NE",
+    "adp": 142.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 65,
+      "receivingYards": 635,
+      "receivingTDs": 2,
+      "fantasyPoints": 107.5
+    },
+    "projectedStats2025": {
+      "receptions": 70,
+      "receivingYards": 700,
+      "receivingTDs": 4,
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/demario-douglas-fantasy/24180"
+  },
+  {
+    "id": "wr64",
+    "name": "Dont'e Thornton",
+    "position": "WR",
+    "team": "LV",
+    "adp": 144.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "receptions": 45,
+      "receivingYards": 650,
+      "receivingTDs": 4,
+      "projectedPoints": 130
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Dont'e%20Thornton"
+  },
+  {
+    "id": "wr65",
+    "name": "Andrei Iosivas",
+    "position": "WR",
+    "team": "CIN",
+    "adp": 146.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 23,
+      "receivingYards": 379,
+      "receivingTDs": 5,
+      "fantasyPoints": 85.9
+    },
+    "projectedStats2025": {
+      "receptions": 40,
+      "receivingYards": 550,
+      "receivingTDs": 4,
+      "projectedPoints": 115
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/andrei-iosivas-fantasy/24119"
+  },
+  {
+    "id": "wr66",
+    "name": "Tyler Boyd",
+    "position": "WR",
+    "team": "TEN",
+    "adp": 149,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 34,
+      "receivingYards": 316,
+      "receivingTDs": 1,
+      "fantasyPoints": 55.6
+    },
+    "projectedStats2025": {
+      "receptions": 50,
+      "receivingYards": 550,
+      "receivingTDs": 3,
+      "projectedPoints": 110
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyler-boyd-fantasy/17986"
+  },
+  {
+    "id": "wr67",
+    "name": "Adam Thielen",
+    "position": "WR",
+    "team": "CAR",
+    "adp": 151.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 577,
+      "receivingTDs": 3,
+      "fantasyPoints": 105.7
+    },
+    "projectedStats2025": {
+      "receptions": 55,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 125
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/adam-thielen-fantasy/15534"
+  },
+  {
+    "id": "wr68",
+    "name": "Brandin Cooks",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 153.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 45,
+      "receivingYards": 486,
+      "receivingTDs": 2,
+      "fantasyPoints": 84.6
+    },
+    "projectedStats2025": {
+      "receptions": 50,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 120
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brandin-cooks-fantasy/16568"
+  },
+  {
+    "id": "wr69",
+    "name": "Jalen Tolbert",
+    "position": "WR",
+    "team": "DAL",
+    "adp": 155.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 39,
+      "receivingYards": 466,
+      "receivingTDs": 7,
+      "fantasyPoints": 112.6
+    },
+    "projectedStats2025": {
+      "receptions": 45,
+      "receivingYards": 550,
+      "receivingTDs": 5,
+      "projectedPoints": 115
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Jalen%20Tolbert"
+  },
+  {
+    "id": "wr70",
+    "name": "Michael Pittman Jr.",
+    "position": "WR",
+    "team": "IND",
+    "adp": 158.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 42,
+      "receivingYards": 514,
+      "receivingTDs": 3,
+      "fantasyPoints": 93.4
+    },
+    "projectedStats2025": {
+      "receptions": 60,
+      "receivingYards": 750,
+      "receivingTDs": 5,
+      "projectedPoints": 155
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/michael-pittman-jr-fantasy/21744"
+  },
+  {
+    "id": "wr71",
+    "name": "Tyler Lockett",
+    "position": "WR",
+    "team": "SEA",
+    "adp": 160.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 52,
+      "receivingYards": 681,
+      "receivingTDs": 2,
+      "fantasyPoints": 108.1
+    },
+    "projectedStats2025": {
+      "receptions": 55,
+      "receivingYards": 650,
+      "receivingTDs": 4,
+      "projectedPoints": 130
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyler-lockett-fantasy/16830"
+  },
+  {
+    "id": "wr72",
+    "name": "Wan'Dale Robinson",
+    "position": "WR",
+    "team": "NYG",
+    "adp": 162.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 62,
+      "receivingYards": 525,
+      "receivingTDs": 1,
+      "fantasyPoints": 94.5
+    },
+    "projectedStats2025": {
+      "receptions": 65,
+      "receivingYards": 600,
+      "receivingTDs": 3,
+      "projectedPoints": 125
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/wan-dale-robinson-fantasy/23170"
+  },
+  {
+    "id": "wr73",
+    "name": "Alec Pierce",
+    "position": "WR",
+    "team": "IND",
+    "adp": 165.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 602,
+      "receivingTDs": 3,
+      "fantasyPoints": 96.2
+    },
+    "projectedStats2025": {
+      "receptions": 40,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 115
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/alec-pierce-fantasy/23232"
+  },
+  {
+    "id": "wr74",
+    "name": "Elijah Moore",
+    "position": "WR",
+    "team": "CLE",
+    "adp": 167.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 535,
+      "receivingTDs": 2,
+      "fantasyPoints": 89.5
+    },
+    "projectedStats2025": {
+      "receptions": 50,
+      "receivingYards": 550,
+      "receivingTDs": 3,
+      "projectedPoints": 110
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/elijah-moore-fantasy/22592"
+  },
+  {
+    "id": "wr75",
+    "name": "Michael Wilson",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 169.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 26,
+      "receivingYards": 286,
+      "receivingTDs": 2,
+      "fantasyPoints": 54.6
+    },
+    "projectedStats2025": {
+      "receptions": 45,
+      "receivingYards": 550,
+      "receivingTDs": 4,
+      "projectedPoints": 110
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Michael%20Wilson"
+  },
+  {
+    "id": "wr76",
+    "name": "Noah Brown",
+    "position": "WR",
+    "team": "WAS",
+    "adp": 172,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 35,
+      "receivingYards": 453,
+      "receivingTDs": 1,
+      "fantasyPoints": 70.3
+    },
+    "projectedStats2025": {
+      "receptions": 40,
+      "receivingYards": 500,
+      "receivingTDs": 3,
+      "projectedPoints": 100
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/noah-brown-fantasy/19080"
+  },
+  {
+    "id": "wr77",
+    "name": "Nelson Agholor",
+    "position": "WR",
+    "team": "BAL",
+    "adp": 174.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 26,
+      "receivingYards": 355,
+      "receivingTDs": 3,
+      "fantasyPoints": 65.5
+    },
+    "projectedStats2025": {
+      "receptions": 35,
+      "receivingYards": 450,
+      "receivingTDs": 3,
+      "projectedPoints": 95
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/nelson-agholor-fantasy/16781"
+  },
+  {
+    "id": "wr78",
+    "name": "Tutu Atwell",
+    "position": "WR",
+    "team": "LAR",
+    "adp": 176.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 48,
+      "receivingYards": 483,
+      "receivingTDs": 2,
+      "fantasyPoints": 84.3
+    },
+    "projectedStats2025": {
+      "receptions": 45,
+      "receivingYards": 500,
+      "receivingTDs": 3,
+      "projectedPoints": 100
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tutu-atwell-fantasy/22602"
+  },
+  {
+    "id": "wr79",
+    "name": "Marquez Valdes-Scantling",
+    "position": "WR",
+    "team": "NO",
+    "adp": 178.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 412,
+      "receivingTDs": 2,
+      "fantasyPoints": 69.2
+    },
+    "projectedStats2025": {
+      "receptions": 35,
+      "receivingYards": 500,
+      "receivingTDs": 4,
+      "projectedPoints": 100
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Marquez%20Valdes-Scantling"
+  },
+  {
+    "id": "wr80",
+    "name": "Greg Dortch",
+    "position": "WR",
+    "team": "ARI",
+    "adp": 181.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "receptions": 28,
+      "receivingYards": 194,
+      "receivingTDs": 0,
+      "fantasyPoints": 47.4
+    },
+    "projectedStats2025": {
+      "receptions": 40,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 85
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Greg%20Dortch"
+  }
+]

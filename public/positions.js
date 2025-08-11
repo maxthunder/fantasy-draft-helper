@@ -1,22 +1,9 @@
 let positionRequirements = {};
 
-const CACHE_KEYS = {
-    POSITION_REQUIREMENTS: 'fantasy_position_requirements_cache'
-};
-
-function invalidateCache(key) {
-    try {
-        if (key) {
-            localStorage.removeItem(key);
-            console.log(`Cache invalidated for ${key}`);
-        }
-    } catch (error) {
-        console.error('Error invalidating cache:', error);
-    }
-}
 
 async function loadPositionRequirements() {
     try {
+        // Load from server
         const response = await fetch('/api/position-requirements');
         if (response.ok) {
             positionRequirements = await response.json();
@@ -111,7 +98,6 @@ async function savePositionRequirements() {
         if (response.ok) {
             showMessage('Position requirements saved successfully!', 'success');
             positionRequirements = requirements;
-            invalidateCache(CACHE_KEYS.POSITION_REQUIREMENTS);
         } else {
             showMessage('Error saving position requirements', 'error');
         }
@@ -161,5 +147,6 @@ function showMessage(text, type) {
         messageEl.style.display = 'none';
     }, 3000);
 }
+
 
 document.addEventListener('DOMContentLoaded', loadPositionRequirements);

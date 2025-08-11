@@ -2848,7 +2848,7 @@
     "projectedStats2025": {
       "projectedPoints": 128
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/cleveland-browns-roster"
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Cleveland%20Browns"
   },
   {
     "id": "dst8",
@@ -2869,7 +2869,7 @@
     "projectedStats2025": {
       "projectedPoints": 130
     },
-    "fantasyDataUrl": "https://fantasydata.com/nfl/pittsburgh-steelers-roster"
+    "fantasyDataUrl": "https://fantasydata.com/nfl/pittsburgh-steelers-depth-chart"
   },
   {
     "id": "dst9",

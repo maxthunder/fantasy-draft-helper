@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "rb1",
+    "name": "Bijan Robinson",
+    "position": "RB",
+    "team": "ATL",
+    "adp": 2.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1456,
+      "rushingTDs": 14,
+      "receptions": 58,
+      "receivingYards": 445,
+      "receivingTDs": 2,
+      "fantasyPoints": 315.1
+    },
+    "projectedStats2025": {
+      "rushingYards": 1400,
+      "rushingTDs": 12,
+      "receptions": 65,
+      "receivingYards": 500,
+      "receivingTDs": 4,
+      "projectedPoints": 320
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/bijan-robinson-fantasy/23189"
+  },
+  {
+    "id": "rb2",
+    "name": "Jahmyr Gibbs",
+    "position": "RB",
+    "team": "DET",
+    "adp": 4.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1412,
+      "rushingTDs": 16,
+      "receptions": 52,
+      "receivingYards": 517,
+      "receivingTDs": 4,
+      "fantasyPoints": 342.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 1350,
+      "rushingTDs": 14,
+      "receptions": 60,
+      "receivingYards": 550,
+      "receivingTDs": 5,
+      "projectedPoints": 335
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jahmyr-gibbs-fantasy/23200"
+  },
+  {
+    "id": "rb3",
+    "name": "Saquon Barkley",
+    "position": "RB",
+    "team": "PHI",
+    "adp": 5.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 2005,
+      "rushingTDs": 13,
+      "receptions": 33,
+      "receivingYards": 278,
+      "receivingTDs": 2,
+      "fantasyPoints": 345.3
+    },
+    "projectedStats2025": {
+      "rushingYards": 1475,
+      "rushingTDs": 11,
+      "receptions": 45,
+      "receivingYards": 350,
+      "receivingTDs": 3,
+      "projectedPoints": 295
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/saquon-barkley-fantasy/19766"
+  },
+  {
+    "id": "rb4",
+    "name": "Derrick Henry",
+    "position": "RB",
+    "team": "BAL",
+    "adp": 8.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1921,
+      "rushingTDs": 16,
+      "receptions": 17,
+      "receivingYards": 158,
+      "receivingTDs": 2,
+      "fantasyPoints": 315.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 1350,
+      "rushingTDs": 13,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/derrick-henry-fantasy/17959"
+  },
+  {
+    "id": "rb5",
+    "name": "Ashton Jeanty",
+    "position": "RB",
+    "team": "LV",
+    "adp": 10.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "rushingYards": 1075,
+      "rushingTDs": 8,
+      "receptions": 45,
+      "receivingYards": 350,
+      "receivingTDs": 2,
+      "projectedPoints": 245
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ashton-jeanty-fantasy/25868"
+  },
+  {
+    "id": "rb6",
+    "name": "De'Von Achane",
+    "position": "RB",
+    "team": "MIA",
+    "adp": 12.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 625,
+      "rushingTDs": 4,
+      "receptions": 60,
+      "receivingYards": 516,
+      "receivingTDs": 4,
+      "fantasyPoints": 194.1
+    },
+    "projectedStats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 8,
+      "receptions": 65,
+      "receivingYards": 550,
+      "receivingTDs": 4,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/devon-achane-fantasy/24179"
+  },
+  {
+    "id": "rb7",
+    "name": "Christian McCaffrey",
+    "position": "RB",
+    "team": "SF",
+    "adp": 14.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 268,
+      "rushingTDs": 4,
+      "receptions": 14,
+      "receivingYards": 146,
+      "receivingTDs": 2,
+      "fantasyPoints": 79.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 1200,
+      "rushingTDs": 10,
+      "receptions": 65,
+      "receivingYards": 500,
+      "receivingTDs": 4,
+      "projectedPoints": 285
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/christian-mccaffrey-fantasy/18877"
+  },
+  {
+    "id": "rb8",
+    "name": "Bucky Irving",
+    "position": "RB",
+    "team": "TB",
+    "adp": 16.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1122,
+      "rushingTDs": 8,
+      "receptions": 49,
+      "receivingYards": 298,
+      "receivingTDs": 0,
+      "fantasyPoints": 212
+    },
+    "projectedStats2025": {
+      "rushingYards": 1150,
+      "rushingTDs": 10,
+      "receptions": 55,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/bucky-irving-fantasy/24967"
+  },
+  {
+    "id": "rb9",
+    "name": "Kenneth Walker III",
+    "position": "RB",
+    "team": "SEA",
+    "adp": 18.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1024,
+      "rushingTDs": 9,
+      "receptions": 59,
+      "receivingYards": 350,
+      "receivingTDs": 1,
+      "fantasyPoints": 217.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 1200,
+      "rushingTDs": 10,
+      "receptions": 50,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 260
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/kenneth-walker-iii-fantasy/23214"
+  },
+  {
+    "id": "rb10",
+    "name": "Josh Jacobs",
+    "position": "RB",
+    "team": "GB",
+    "adp": 21.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1329,
+      "rushingTDs": 15,
+      "receptions": 36,
+      "receivingYards": 290,
+      "receivingTDs": 1,
+      "fantasyPoints": 281.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 1150,
+      "rushingTDs": 11,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 255
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/josh-jacobs-fantasy/20824"
+  },
+  {
+    "id": "rb11",
+    "name": "Breece Hall",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 23.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 994,
+      "rushingTDs": 5,
+      "receptions": 76,
+      "receivingYards": 591,
+      "receivingTDs": 4,
+      "fantasyPoints": 244.5
+    },
+    "projectedStats2025": {
+      "rushingYards": 1250,
+      "rushingTDs": 10,
+      "receptions": 75,
+      "receivingYards": 600,
+      "receivingTDs": 4,
+      "projectedPoints": 295
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/breece-hall-fantasy/22526"
+  },
+  {
+    "id": "rb12",
+    "name": "James Cook",
+    "position": "RB",
+    "team": "BUF",
+    "adp": 25.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1122,
+      "rushingTDs": 16,
+      "receptions": 44,
+      "receivingYards": 445,
+      "receivingTDs": 2,
+      "fantasyPoints": 288.7
+    },
+    "projectedStats2025": {
+      "rushingYards": 1050,
+      "rushingTDs": 12,
+      "receptions": 48,
+      "receivingYards": 400,
+      "receivingTDs": 3,
+      "projectedPoints": 265
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/james-cook-fantasy/23247"
+  },
+  {
+    "id": "rb13",
+    "name": "Chase Brown",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 28.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 990,
+      "rushingTDs": 7,
+      "receptions": 44,
+      "receivingYards": 227,
+      "receivingTDs": 0,
+      "fantasyPoints": 181.7
+    },
+    "projectedStats2025": {
+      "rushingYards": 1100,
+      "rushingTDs": 9,
+      "receptions": 50,
+      "receivingYards": 350,
+      "receivingTDs": 2,
+      "projectedPoints": 245
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/chase-brown-fantasy/24374"
+  },
+  {
+    "id": "rb14",
+    "name": "Kyren Williams",
+    "position": "RB",
+    "team": "LAR",
+    "adp": 30.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1404,
+      "rushingTDs": 14,
+      "receptions": 37,
+      "receivingYards": 199,
+      "receivingTDs": 2,
+      "fantasyPoints": 286.3
+    },
+    "projectedStats2025": {
+      "rushingYards": 1150,
+      "rushingTDs": 11,
+      "receptions": 45,
+      "receivingYards": 300,
+      "receivingTDs": 3,
+      "projectedPoints": 260
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/kyren-williams-fantasy/23212"
+  },
+  {
+    "id": "rb15",
+    "name": "Jonathan Taylor",
+    "position": "RB",
+    "team": "IND",
+    "adp": 32.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1172,
+      "rushingTDs": 8,
+      "receptions": 29,
+      "receivingYards": 169,
+      "receivingTDs": 3,
+      "fantasyPoints": 215.1
+    },
+    "projectedStats2025": {
+      "rushingYards": 1250,
+      "rushingTDs": 10,
+      "receptions": 40,
+      "receivingYards": 300,
+      "receivingTDs": 2,
+      "projectedPoints": 255
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jonathan-taylor-fantasy/21682"
+  },
+  {
+    "id": "rb16",
+    "name": "Isiah Pacheco",
+    "position": "RB",
+    "team": "KC",
+    "adp": 35.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 135,
+      "rushingTDs": 1,
+      "receptions": 1,
+      "receivingYards": 2,
+      "receivingTDs": 0,
+      "fantasyPoints": 21.7
+    },
+    "projectedStats2025": {
+      "rushingYards": 1050,
+      "rushingTDs": 9,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 2,
+      "projectedPoints": 225
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/isiah-pacheco-fantasy/23371"
+  },
+  {
+    "id": "rb17",
+    "name": "Travis Etienne Jr.",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 38.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 465,
+      "rushingTDs": 2,
+      "receptions": 31,
+      "receivingYards": 183,
+      "receivingTDs": 1,
+      "fantasyPoints": 94.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 950,
+      "rushingTDs": 7,
+      "receptions": 50,
+      "receivingYards": 400,
+      "receivingTDs": 3,
+      "projectedPoints": 225
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/travis-etienne-jr-fantasy/21696"
+  },
+  {
+    "id": "rb18",
+    "name": "Rachaad White",
+    "position": "RB",
+    "team": "TB",
+    "adp": 41.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 784,
+      "rushingTDs": 5,
+      "receptions": 50,
+      "receivingYards": 370,
+      "receivingTDs": 3,
+      "fantasyPoints": 183.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 6,
+      "receptions": 55,
+      "receivingYards": 420,
+      "receivingTDs": 3,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rachaad-white-fantasy/23217"
+  },
+  {
+    "id": "rb19",
+    "name": "Brian Robinson Jr.",
+    "position": "RB",
+    "team": "WAS",
+    "adp": 44.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 799,
+      "rushingTDs": 8,
+      "receptions": 23,
+      "receivingYards": 169,
+      "receivingTDs": 1,
+      "fantasyPoints": 166.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 950,
+      "rushingTDs": 9,
+      "receptions": 30,
+      "receivingYards": 220,
+      "receivingTDs": 1,
+      "projectedPoints": 205
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brian-robinson-jr-fantasy/23190"
+  },
+  {
+    "id": "rb20",
+    "name": "Aaron Jones",
+    "position": "RB",
+    "team": "MIN",
+    "adp": 47.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1138,
+      "rushingTDs": 5,
+      "receptions": 51,
+      "receivingYards": 408,
+      "receivingTDs": 2,
+      "fantasyPoints": 214.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 7,
+      "receptions": 45,
+      "receivingYards": 350,
+      "receivingTDs": 2,
+      "projectedPoints": 200
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/aaron-jones-fantasy/19045"
+  },
+  {
+    "id": "rb21",
+    "name": "Tony Pollard",
+    "position": "RB",
+    "team": "TEN",
+    "adp": 50.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1079,
+      "rushingTDs": 5,
+      "receptions": 48,
+      "receivingYards": 273,
+      "receivingTDs": 0,
+      "fantasyPoints": 183.2
+    },
+    "projectedStats2025": {
+      "rushingYards": 950,
+      "rushingTDs": 7,
+      "receptions": 45,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 205
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tony-pollard-fantasy/20912"
+  },
+  {
+    "id": "rb22",
+    "name": "Rhamondre Stevenson",
+    "position": "RB",
+    "team": "NE",
+    "adp": 53.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 828,
+      "rushingTDs": 7,
+      "receptions": 38,
+      "receivingYards": 190,
+      "receivingTDs": 1,
+      "fantasyPoints": 161.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 950,
+      "rushingTDs": 8,
+      "receptions": 42,
+      "receivingYards": 300,
+      "receivingTDs": 2,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rhamondre-stevenson-fantasy/22546"
+  },
+  {
+    "id": "rb23",
+    "name": "Najee Harris",
+    "position": "RB",
+    "team": "PIT",
+    "adp": 56.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1043,
+      "rushingTDs": 6,
+      "receptions": 36,
+      "receivingYards": 287,
+      "receivingTDs": 0,
+      "fantasyPoints": 173
+    },
+    "projectedStats2025": {
+      "rushingYards": 1000,
+      "rushingTDs": 8,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 1,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/najee-harris-fantasy/21768"
+  },
+  {
+    "id": "rb24",
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "adp": 59.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 950,
+      "rushingTDs": 6,
+      "receptions": 68,
+      "receivingYards": 479,
+      "receivingTDs": 2,
+      "fantasyPoints": 212.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 6,
+      "receptions": 60,
+      "receivingYards": 450,
+      "receivingTDs": 3,
+      "projectedPoints": 210
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/alvin-kamara-fantasy/18878"
+  },
+  {
+    "id": "rb25",
+    "name": "David Montgomery",
+    "position": "RB",
+    "team": "DET",
+    "adp": 62.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 775,
+      "rushingTDs": 12,
+      "receptions": 36,
+      "receivingYards": 341,
+      "receivingTDs": 0,
+      "fantasyPoints": 191.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 10,
+      "receptions": 35,
+      "receivingYards": 280,
+      "receivingTDs": 1,
+      "projectedPoints": 195
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/david-montgomery-fantasy/20882"
+  },
+  {
+    "id": "rb26",
+    "name": "Joe Mixon",
+    "position": "RB",
+    "team": "HOU",
+    "adp": 65.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1016,
+      "rushingTDs": 11,
+      "receptions": 29,
+      "receivingYards": 249,
+      "receivingTDs": 1,
+      "fantasyPoints": 206.5
+    },
+    "projectedStats2025": {
+      "rushingYards": 1050,
+      "rushingTDs": 9,
+      "receptions": 35,
+      "receivingYards": 280,
+      "receivingTDs": 2,
+      "projectedPoints": 215
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/joe-mixon-fantasy/18858"
+  },
+  {
+    "id": "rb27",
+    "name": "Nick Chubb",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 68.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 248,
+      "rushingTDs": 3,
+      "receptions": 8,
+      "receivingYards": 36,
+      "receivingTDs": 0,
+      "fantasyPoints": 46.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 8,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 185
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/nick-chubb-fantasy/19798"
+  },
+  {
+    "id": "rb28",
+    "name": "Zack Moss",
+    "position": "RB",
+    "team": "CIN",
+    "adp": 71.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 769,
+      "rushingTDs": 5,
+      "receptions": 21,
+      "receivingYards": 135,
+      "receivingTDs": 0,
+      "fantasyPoints": 123.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 6,
+      "receptions": 30,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/zack-moss-fantasy/21784"
+  },
+  {
+    "id": "rb29",
+    "name": "Javonte Williams",
+    "position": "RB",
+    "team": "DEN",
+    "adp": 74.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 513,
+      "rushingTDs": 4,
+      "receptions": 36,
+      "receivingYards": 321,
+      "receivingTDs": 1,
+      "fantasyPoints": 116.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 6,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 180
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/javonte-williams-fantasy/22558"
+  },
+  {
+    "id": "rb30",
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 77.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 708,
+      "rushingTDs": 4,
+      "receptions": 44,
+      "receivingYards": 221,
+      "receivingTDs": 0,
+      "fantasyPoints": 132.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 5,
+      "receptions": 45,
+      "receivingYards": 300,
+      "receivingTDs": 2,
+      "projectedPoints": 170
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jerome-ford-fantasy/23205"
+  },
+  {
+    "id": "rb31",
+    "name": "Austin Ekeler",
+    "position": "RB",
+    "team": "WAS",
+    "adp": 80.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 367,
+      "rushingTDs": 4,
+      "receptions": 41,
+      "receivingYards": 346,
+      "receivingTDs": 0,
+      "fantasyPoints": 111.3
+    },
+    "projectedStats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 50,
+      "receivingYards": 400,
+      "receivingTDs": 3,
+      "projectedPoints": 165
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/austin-ekeler-fantasy/19562"
+  },
+  {
+    "id": "rb32",
+    "name": "Jaylen Warren",
+    "position": "RB",
+    "team": "PIT",
+    "adp": 83.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 462,
+      "rushingTDs": 2,
+      "receptions": 30,
+      "receivingYards": 223,
+      "receivingTDs": 0,
+      "fantasyPoints": 86.5
+    },
+    "projectedStats2025": {
+      "rushingYards": 650,
+      "rushingTDs": 5,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 160
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jaylen-warren-fantasy/23479"
+  },
+  {
+    "id": "rb33",
+    "name": "Devin Singletary",
+    "position": "RB",
+    "team": "NYG",
+    "adp": 86.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 667,
+      "rushingTDs": 4,
+      "receptions": 36,
+      "receivingYards": 199,
+      "receivingTDs": 0,
+      "fantasyPoints": 116.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 700,
+      "rushingTDs": 5,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 155
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/devin-singletary-fantasy/20941"
+  },
+  {
+    "id": "rb34",
+    "name": "Tyjae Spears",
+    "position": "RB",
+    "team": "TEN",
+    "adp": 89.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 178,
+      "rushingTDs": 0,
+      "receptions": 19,
+      "receivingYards": 116,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 4,
+      "receptions": 40,
+      "receivingYards": 320,
+      "receivingTDs": 2,
+      "projectedPoints": 150
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyjae-spears-fantasy/24123"
+  },
+  {
+    "id": "rb35",
+    "name": "Zamir White",
+    "position": "RB",
+    "team": "LV",
+    "adp": 92.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 175,
+      "rushingTDs": 1,
+      "receptions": 6,
+      "receivingYards": 23,
+      "receivingTDs": 0,
+      "fantasyPoints": 28.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 5,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/zamir-white-fantasy/22539"
+  },
+  {
+    "id": "rb36",
+    "name": "Rico Dowdle",
+    "position": "RB",
+    "team": "DAL",
+    "adp": 95.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1079,
+      "rushingTDs": 2,
+      "receptions": 35,
+      "receivingYards": 231,
+      "receivingTDs": 2,
+      "fantasyPoints": 173
+    },
+    "projectedStats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 6,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 2,
+      "projectedPoints": 180
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rico-dowdle-fantasy/21952"
+  },
+  {
+    "id": "rb37",
+    "name": "Gus Edwards",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 98.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 237,
+      "rushingTDs": 2,
+      "receptions": 5,
+      "receivingYards": 39,
+      "receivingTDs": 0,
+      "fantasyPoints": 39.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 550,
+      "rushingTDs": 6,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 125
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/gus-edwards-fantasy/20239"
+  },
+  {
+    "id": "rb38",
+    "name": "Chuba Hubbard",
+    "position": "RB",
+    "team": "CAR",
+    "adp": 101.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1195,
+      "rushingTDs": 10,
+      "receptions": 42,
+      "receivingYards": 177,
+      "receivingTDs": 0,
+      "fantasyPoints": 217.2
+    },
+    "projectedStats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 7,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 185
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/chuba-hubbard-fantasy/21691"
+  },
+  {
+    "id": "rb39",
+    "name": "Tank Bigsby",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 104.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 754,
+      "rushingTDs": 7,
+      "receptions": 10,
+      "receivingYards": 59,
+      "receivingTDs": 0,
+      "fantasyPoints": 123.3
+    },
+    "projectedStats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 6,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 160
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tank-bigsby-fantasy/23193"
+  },
+  {
+    "id": "rb40",
+    "name": "J.K. Dobbins",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 107.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 905,
+      "rushingTDs": 9,
+      "receptions": 32,
+      "receivingYards": 144,
+      "receivingTDs": 0,
+      "fantasyPoints": 164.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 850,
+      "rushingTDs": 7,
+      "receptions": 30,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/j-k-dobbins-fantasy/21674"
+  },
+  {
+    "id": "rb41",
+    "name": "Rachaad White",
+    "position": "RB",
+    "team": "TB",
+    "adp": 125.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 736,
+      "rushingTDs": 5,
+      "receptions": 50,
+      "receivingYards": 352,
+      "receivingTDs": 0,
+      "fantasyPoints": 161.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 800,
+      "rushingTDs": 6,
+      "receptions": 55,
+      "receivingYards": 400,
+      "receivingTDs": 2,
+      "projectedPoints": 185
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/rachaad-white-fantasy/23217"
+  },
+  {
+    "id": "rb42",
+    "name": "Trey Benson",
+    "position": "RB",
+    "team": "ARI",
+    "adp": 127.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 216,
+      "rushingTDs": 1,
+      "receptions": 8,
+      "receivingYards": 62,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 750,
+      "rushingTDs": 7,
+      "receptions": 25,
+      "receivingYards": 200,
+      "receivingTDs": 1,
+      "projectedPoints": 155
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/trey-benson-fantasy/24292"
+  },
+  {
+    "id": "rb43",
+    "name": "Quinshon Judkins",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 129.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "rushingYards": 700,
+      "rushingTDs": 6,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 145
+    },
+    "fantasyDataUrl": "https://fantasydata.com/ncaa-football/quinshon-judkins-fantasy/50071844"
+  },
+  {
+    "id": "rb44",
+    "name": "Dylan Sampson",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 132.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "rushingYards": 650,
+      "rushingTDs": 5,
+      "receptions": 25,
+      "receivingYards": 180,
+      "receivingTDs": 1,
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/dylan-sampson-fantasy/25889"
+  },
+  {
+    "id": "rb45",
+    "name": "Zach Charbonnet",
+    "position": "RB",
+    "team": "SEA",
+    "adp": 134.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 487,
+      "rushingTDs": 8,
+      "receptions": 31,
+      "receivingYards": 244,
+      "receivingTDs": 0,
+      "fantasyPoints": 131.1
+    },
+    "projectedStats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 6,
+      "receptions": 35,
+      "receivingYards": 280,
+      "receivingTDs": 1,
+      "projectedPoints": 145
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/zach-charbonnet-fantasy/23173"
+  },
+  {
+    "id": "rb46",
+    "name": "Tyler Allgeier",
+    "position": "RB",
+    "team": "ATL",
+    "adp": 136.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 462,
+      "rushingTDs": 3,
+      "receptions": 9,
+      "receivingYards": 53,
+      "receivingTDs": 0,
+      "fantasyPoints": 72.5
+    },
+    "projectedStats2025": {
+      "rushingYards": 550,
+      "rushingTDs": 5,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 110
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyler-allgeier-fantasy/23250"
+  },
+  {
+    "id": "rb47",
+    "name": "Najee Harris",
+    "position": "RB",
+    "team": "LAC",
+    "adp": 139,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 1035,
+      "rushingTDs": 6,
+      "receptions": 36,
+      "receivingYards": 269,
+      "receivingTDs": 0,
+      "fantasyPoints": 174.4
+    },
+    "projectedStats2025": {
+      "rushingYards": 900,
+      "rushingTDs": 7,
+      "receptions": 40,
+      "receivingYards": 300,
+      "receivingTDs": 1,
+      "projectedPoints": 175
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/najee-harris-fantasy/21768"
+  },
+  {
+    "id": "rb48",
+    "name": "Jaylen Wright",
+    "position": "RB",
+    "team": "MIA",
+    "adp": 141.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 287,
+      "rushingTDs": 1,
+      "receptions": 6,
+      "receivingYards": 46,
+      "receivingTDs": 0,
+      "fantasyPoints": 40.3
+    },
+    "projectedStats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 105
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jaylen-wright-fantasy/24923"
+  },
+  {
+    "id": "rb49",
+    "name": "Bhayshul Tuten",
+    "position": "RB",
+    "team": "JAC",
+    "adp": 143.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 4,
+      "receptions": 25,
+      "receivingYards": 175,
+      "receivingTDs": 1,
+      "projectedPoints": 100
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/bhayshul-tuten-fantasy/25898"
+  },
+  {
+    "id": "rb50",
+    "name": "Tyjae Spears",
+    "position": "RB",
+    "team": "TEN",
+    "adp": 145.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 260,
+      "rushingTDs": 2,
+      "receptions": 38,
+      "receivingYards": 328,
+      "receivingTDs": 1,
+      "fantasyPoints": 86.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 4,
+      "receptions": 45,
+      "receivingYards": 350,
+      "receivingTDs": 2,
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyjae-spears-fantasy/24123"
+  },
+  {
+    "id": "rb51",
+    "name": "Ezekiel Elliott",
+    "position": "RB",
+    "team": "FA",
+    "adp": 148.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 226,
+      "rushingTDs": 3,
+      "receptions": 14,
+      "receivingYards": 62,
+      "receivingTDs": 0,
+      "fantasyPoints": 52.8
+    },
+    "projectedStats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 120,
+      "receivingTDs": 0,
+      "projectedPoints": 80
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ezekiel-elliott-fantasy/17923"
+  },
+  {
+    "id": "rb52",
+    "name": "Cam Akers",
+    "position": "RB",
+    "team": "HOU",
+    "adp": 150.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 415,
+      "rushingTDs": 3,
+      "receptions": 18,
+      "receivingYards": 145,
+      "receivingTDs": 0,
+      "fantasyPoints": 74
+    },
+    "projectedStats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 3,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 1,
+      "projectedPoints": 90
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/cam-akers-fantasy/21688"
+  },
+  {
+    "id": "rb53",
+    "name": "Antonio Gibson",
+    "position": "RB",
+    "team": "NE",
+    "adp": 152.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 692,
+      "rushingTDs": 4,
+      "receptions": 39,
+      "receivingYards": 364,
+      "receivingTDs": 1,
+      "fantasyPoints": 145.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 600,
+      "rushingTDs": 5,
+      "receptions": 35,
+      "receivingYards": 300,
+      "receivingTDs": 1,
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/antonio-gibson-fantasy/21861"
+  },
+  {
+    "id": "rb54",
+    "name": "Braelon Allen",
+    "position": "RB",
+    "team": "NYJ",
+    "adp": 155.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 274,
+      "rushingTDs": 2,
+      "receptions": 10,
+      "receivingYards": 52,
+      "receivingTDs": 0,
+      "fantasyPoints": 44.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 500,
+      "rushingTDs": 5,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 0,
+      "projectedPoints": 95
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/braelon-allen-fantasy/24934"
+  },
+  {
+    "id": "rb55",
+    "name": "Keaton Mitchell",
+    "position": "RB",
+    "team": "BAL",
+    "adp": 157.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 3,
+      "receptions": 15,
+      "receivingYards": 120,
+      "receivingTDs": 1,
+      "projectedPoints": 80
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/keaton-mitchell-fantasy/24214"
+  },
+  {
+    "id": "rb56",
+    "name": "Roschon Johnson",
+    "position": "RB",
+    "team": "CHI",
+    "adp": 159.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 170,
+      "rushingTDs": 2,
+      "receptions": 10,
+      "receivingYards": 69,
+      "receivingTDs": 0,
+      "fantasyPoints": 35.9
+    },
+    "projectedStats2025": {
+      "rushingYards": 350,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 140,
+      "receivingTDs": 0,
+      "projectedPoints": 75
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/roschon-johnson-fantasy/24372"
+  },
+  {
+    "id": "rb57",
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
+    "adp": 162,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 117,
+      "rushingTDs": 0,
+      "receptions": 3,
+      "receivingYards": 19,
+      "receivingTDs": 0,
+      "fantasyPoints": 14.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 450,
+      "rushingTDs": 4,
+      "receptions": 20,
+      "receivingYards": 150,
+      "receivingTDs": 0,
+      "projectedPoints": 85
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/marshawn-lloyd-fantasy/23211"
+  },
+  {
+    "id": "rb58",
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "CLE",
+    "adp": 164.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 367,
+      "rushingTDs": 3,
+      "receptions": 39,
+      "receivingYards": 219,
+      "receivingTDs": 0,
+      "fantasyPoints": 85.6
+    },
+    "projectedStats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 3,
+      "receptions": 35,
+      "receivingYards": 250,
+      "receivingTDs": 1,
+      "projectedPoints": 95
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jerome-ford-fantasy/23205"
+  },
+  {
+    "id": "rb59",
+    "name": "Audric Estime",
+    "position": "RB",
+    "team": "DEN",
+    "adp": 166.6,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 156,
+      "rushingTDs": 2,
+      "receptions": 1,
+      "receivingYards": 5,
+      "receivingTDs": 0,
+      "fantasyPoints": 28.1
+    },
+    "projectedStats2025": {
+      "rushingYards": 400,
+      "rushingTDs": 4,
+      "receptions": 15,
+      "receivingYards": 100,
+      "receivingTDs": 0,
+      "projectedPoints": 80
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/audric-estime-fantasy/24971"
+  },
+  {
+    "id": "rb60",
+    "name": "Chris Rodriguez Jr.",
+    "position": "RB",
+    "team": "WAS",
+    "adp": 168.9,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "rushingYards": 37,
+      "rushingTDs": 1,
+      "receptions": 0,
+      "receivingYards": 0,
+      "receivingTDs": 0,
+      "fantasyPoints": 9.7
+    },
+    "projectedStats2025": {
+      "rushingYards": 350,
+      "rushingTDs": 3,
+      "receptions": 10,
+      "receivingYards": 70,
+      "receivingTDs": 0,
+      "projectedPoints": 65
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Chris%20Rodriguez%20Jr."
+  }
+]

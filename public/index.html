@@ -13,7 +13,10 @@
             <div class="header-controls">
                 <input type="text" id="searchInput" placeholder="Search players...">
                 <button id="refreshVorp">Recalculate VORP</button>
-                <button id="clearCache" title="Clear cached data">Clear Cache</button>
+                <button id="resetDraft" title="Reset all draft selections" style="background: #dc3545;">Reset Draft</button>
+                <button id="exportData" title="Export draft data" style="background: #28a745;">Export</button>
+                <button id="importData" title="Import draft data" style="background: #17a2b8;">Import</button>
+                <input type="file" id="importFile" accept=".json" style="display: none;">
                 <a href="scoring.html" class="btn btn-secondary" style="text-decoration: none; padding: 8px 16px; background: #6c757d; color: white; border-radius: 4px;">Scoring Settings</a>
                 <a href="positions.html" class="btn btn-secondary" style="text-decoration: none; padding: 8px 16px; background: #007bff; color: white; border-radius: 4px;">Position Requirements</a>
             </div>

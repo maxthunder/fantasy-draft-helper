@@ -1,7 +1,53 @@
 const fs = require('fs');
+const path = require('path');
 
-// Read the players data
-const players = JSON.parse(fs.readFileSync('data/players.json', 'utf8'));
+// Position file mapping
+const POSITION_FILES = {
+  'QB': 'quarterbacks.json',
+  'RB': 'runningbacks.json',
+  'WR': 'widereceivers.json',
+  'TE': 'tightends.json',
+  'K': 'kickers.json',
+  'DST': 'defenses.json'
+};
+
+// Load all players from position files
+function loadAllPlayers() {
+  const allPlayers = [];
+  
+  Object.entries(POSITION_FILES).forEach(([position, filename]) => {
+    const filePath = path.join(__dirname, 'data', filename);
+    if (fs.existsSync(filePath)) {
+      const positionPlayers = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      allPlayers.push(...positionPlayers.map(p => ({ ...p, _file: filename })));
+    }
+  });
+  
+  return allPlayers;
+}
+
+// Save players back to their position files
+function savePlayersByPosition(players) {
+  const playersByFile = {};
+  
+  // Group players by their file
+  players.forEach(player => {
+    const filename = player._file;
+    delete player._file; // Remove the temporary file marker
+    
+    if (!playersByFile[filename]) {
+      playersByFile[filename] = [];
+    }
+    playersByFile[filename].push(player);
+  });
+  
+  // Save each position file
+  Object.entries(playersByFile).forEach(([filename, positionPlayers]) => {
+    const filePath = path.join(__dirname, 'data', filename);
+    fs.writeFileSync(filePath, JSON.stringify(positionPlayers, null, 2));
+    console.log(`Updated ${filename} with ${positionPlayers.length} players`);
+  });
+}
 
 // Manually map player names to their FantasyData URLs based on search results
 const playerUrlMappings = {
@@ -42,6 +88,9 @@ function generateSearchUrl(playerName) {
   return `https://fantasydata.com/nfl/search?q=${searchQuery}`;
 }
 
+// Load all players
+const players = loadAllPlayers();
+
 // Update each player with their FantasyData URL
 let mappedCount = 0;
 let searchUrlCount = 0;
@@ -57,10 +106,10 @@ players.forEach(player => {
   }
 });
 
-// Write the updated data back to the file
-fs.writeFileSync('data/players.json', JSON.stringify(players, null, 2));
+// Save players back to their position files
+savePlayersByPosition(players);
 
-console.log('Successfully added fantasyDataUrl to all players');
+console.log('\nSuccessfully added fantasyDataUrl to all players');
 console.log(`Total players updated: ${players.length}`);
 console.log(`Players with direct URLs: ${mappedCount}`);
 console.log(`Players with search URLs: ${searchUrlCount}`);

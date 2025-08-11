@@ -59,7 +59,7 @@ h1 {
     font-size: 14px;
 }
 
-#refreshVorp {
+#refreshVorp, #clearCache {
     padding: 10px 20px;
     background: white;
     color: #667eea;
@@ -70,7 +70,55 @@ h1 {
     transition: transform 0.2s;
 }
 
-#refreshVorp:hover {
+#refreshVorp:hover, #clearCache:hover {
+    transform: translateY(-2px);
+}
+
+#resetDraft {
+    padding: 10px 20px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#resetDraft:hover {
+    background: #c82333;
+    transform: translateY(-2px);
+}
+
+#exportData {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#exportData:hover {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+#importData {
+    padding: 10px 20px;
+    background: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#importData:hover {
+    background: #138496;
     transform: translateY(-2px);
 }
 

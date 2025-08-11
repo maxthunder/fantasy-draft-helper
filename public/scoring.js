@@ -1,8 +1,4 @@
 let scoringSettings = {};
-const CACHE_KEYS = {
-    SCORING: 'fantasy_scoring_cache'
-};
-const CACHE_DURATION = 5 * 60 * 1000;
 
 const defaultScoring = {
     passing: {
@@ -39,34 +35,6 @@ const defaultScoring = {
     }
 };
 
-function getCachedData(key) {
-    try {
-        const cached = localStorage.getItem(key);
-        if (cached) {
-            const { data, timestamp } = JSON.parse(cached);
-            if (Date.now() - timestamp < CACHE_DURATION) {
-                console.log(`Cache hit for ${key}`);
-                return data;
-            }
-            console.log(`Cache expired for ${key}`);
-        }
-    } catch (error) {
-        console.error('Error reading cache:', error);
-    }
-    return null;
-}
-
-function setCachedData(key, data) {
-    try {
-        localStorage.setItem(key, JSON.stringify({
-            data,
-            timestamp: Date.now()
-        }));
-        console.log(`Cache set for ${key}`);
-    } catch (error) {
-        console.error('Error setting cache:', error);
-    }
-}
 
 function showStatus(message, type) {
     const statusEl = document.getElementById('statusMessage');
@@ -81,16 +49,8 @@ function showStatus(message, type) {
 
 async function loadScoringSettings() {
     try {
-        const cachedData = getCachedData(CACHE_KEYS.SCORING);
-        if (cachedData) {
-            scoringSettings = cachedData;
-            populateForm(scoringSettings);
-            return;
-        }
-        
         const response = await fetch('/api/scoring');
         scoringSettings = await response.json();
-        setCachedData(CACHE_KEYS.SCORING, scoringSettings);
         populateForm(scoringSettings);
     } catch (error) {
         console.error('Error loading scoring settings:', error);
@@ -146,7 +106,6 @@ async function saveSettings() {
         
         if (response.ok) {
             scoringSettings = settings;
-            setCachedData(CACHE_KEYS.SCORING, settings);
             showStatus('Settings saved successfully!', 'success');
         } else {
             showStatus('Error saving settings', 'error');
@@ -160,8 +119,6 @@ async function saveSettings() {
 async function recalculateVORP() {
     try {
         await saveSettings();
-        
-        localStorage.removeItem('fantasy_players_cache');
         
         showStatus('VORP recalculated! Redirecting to main page...', 'success');
         setTimeout(() => {
@@ -177,6 +134,7 @@ function resetToDefaults() {
     populateForm(defaultScoring);
     showStatus('Reset to default values (not saved yet)', 'success');
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
     loadScoringSettings();

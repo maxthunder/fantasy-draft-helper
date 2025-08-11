@@ -4,15 +4,22 @@
   "description": "Fantasy Football Draft Helper with VORP calculations",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node server-pg.js",
+    "start:json": "node server.js",
+    "dev": "nodemon server-pg.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "db:create": "psql -U postgres -c 'CREATE DATABASE fantasy_draft_helper;'",
+    "db:schema": "psql -U postgres -d fantasy_draft_helper -f database/schema.sql",
+    "db:migrate": "node database/migrate.js",
+    "db:setup": "npm run db:create && npm run db:schema && npm run db:migrate"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.4",

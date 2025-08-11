@@ -1,0 +1,652 @@
+[
+  {
+    "id": "qb1",
+    "name": "Josh Allen",
+    "position": "QB",
+    "team": "BUF",
+    "adp": 18.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3731,
+      "passingTDs": 28,
+      "interceptions": 6,
+      "rushingYards": 531,
+      "rushingTDs": 12,
+      "fantasyPoints": 362.4
+    },
+    "projectedStats2025": {
+      "passingYards": 4200,
+      "passingTDs": 35,
+      "interceptions": 9,
+      "rushingYards": 550,
+      "rushingTDs": 11,
+      "projectedPoints": 395
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/josh-allen-fantasy/19801"
+  },
+  {
+    "id": "qb2",
+    "name": "Lamar Jackson",
+    "position": "QB",
+    "team": "BAL",
+    "adp": 22.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3955,
+      "passingTDs": 41,
+      "interceptions": 4,
+      "rushingYards": 915,
+      "rushingTDs": 5,
+      "fantasyPoints": 410.7
+    },
+    "projectedStats2025": {
+      "passingYards": 3900,
+      "passingTDs": 36,
+      "interceptions": 7,
+      "rushingYards": 850,
+      "rushingTDs": 8,
+      "projectedPoints": 390
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/lamar-jackson-fantasy/19781"
+  },
+  {
+    "id": "qb3",
+    "name": "Joe Burrow",
+    "position": "QB",
+    "team": "CIN",
+    "adp": 35.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 4918,
+      "passingTDs": 43,
+      "interceptions": 9,
+      "rushingYards": 207,
+      "rushingTDs": 3,
+      "fantasyPoints": 385.1
+    },
+    "projectedStats2025": {
+      "passingYards": 4700,
+      "passingTDs": 38,
+      "interceptions": 10,
+      "rushingYards": 180,
+      "rushingTDs": 2,
+      "projectedPoints": 365
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/joe-burrow-fantasy/21693"
+  },
+  {
+    "id": "qb4",
+    "name": "Jayden Daniels",
+    "position": "QB",
+    "team": "WAS",
+    "adp": 38.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3530,
+      "passingTDs": 25,
+      "interceptions": 9,
+      "rushingYards": 864,
+      "rushingTDs": 6,
+      "fantasyPoints": 340.8
+    },
+    "projectedStats2025": {
+      "passingYards": 3800,
+      "passingTDs": 30,
+      "interceptions": 10,
+      "rushingYards": 750,
+      "rushingTDs": 8,
+      "projectedPoints": 360
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jayden-daniels-fantasy/23235"
+  },
+  {
+    "id": "qb5",
+    "name": "Bo Nix",
+    "position": "QB",
+    "team": "DEN",
+    "adp": 42.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3775,
+      "passingTDs": 29,
+      "interceptions": 12,
+      "rushingYards": 430,
+      "rushingTDs": 4,
+      "fantasyPoints": 305.2
+    },
+    "projectedStats2025": {
+      "passingYards": 4100,
+      "passingTDs": 32,
+      "interceptions": 10,
+      "rushingYards": 400,
+      "rushingTDs": 5,
+      "projectedPoints": 340
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/bo-nix-fantasy/25069"
+  },
+  {
+    "id": "qb6",
+    "name": "Patrick Mahomes",
+    "position": "QB",
+    "team": "KC",
+    "adp": 45.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3928,
+      "passingTDs": 26,
+      "interceptions": 11,
+      "rushingYards": 307,
+      "rushingTDs": 2,
+      "fantasyPoints": 291.6
+    },
+    "projectedStats2025": {
+      "passingYards": 4500,
+      "passingTDs": 35,
+      "interceptions": 8,
+      "rushingYards": 250,
+      "rushingTDs": 2,
+      "projectedPoints": 345
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/patrick-mahomes-fantasy/18890"
+  },
+  {
+    "id": "qb7",
+    "name": "Dak Prescott",
+    "position": "QB",
+    "team": "DAL",
+    "adp": 52.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 1978,
+      "passingTDs": 11,
+      "interceptions": 8,
+      "rushingYards": 133,
+      "rushingTDs": 2,
+      "fantasyPoints": 144.8
+    },
+    "projectedStats2025": {
+      "passingYards": 4200,
+      "passingTDs": 32,
+      "interceptions": 10,
+      "rushingYards": 200,
+      "rushingTDs": 3,
+      "projectedPoints": 330
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/dak-prescott-fantasy/18055"
+  },
+  {
+    "id": "qb8",
+    "name": "Baker Mayfield",
+    "position": "QB",
+    "team": "TB",
+    "adp": 58.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 4500,
+      "passingTDs": 41,
+      "interceptions": 16,
+      "rushingYards": 192,
+      "rushingTDs": 3,
+      "fantasyPoints": 358.8
+    },
+    "projectedStats2025": {
+      "passingYards": 4300,
+      "passingTDs": 35,
+      "interceptions": 14,
+      "rushingYards": 180,
+      "rushingTDs": 2,
+      "projectedPoints": 325
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/baker-mayfield-fantasy/19790"
+  },
+  {
+    "id": "qb9",
+    "name": "Brock Purdy",
+    "position": "QB",
+    "team": "SF",
+    "adp": 62.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3864,
+      "passingTDs": 20,
+      "interceptions": 12,
+      "rushingYards": 283,
+      "rushingTDs": 4,
+      "fantasyPoints": 273.1
+    },
+    "projectedStats2025": {
+      "passingYards": 4100,
+      "passingTDs": 30,
+      "interceptions": 10,
+      "rushingYards": 250,
+      "rushingTDs": 3,
+      "projectedPoints": 315
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brock-purdy-fantasy/23241"
+  },
+  {
+    "id": "qb10",
+    "name": "C.J. Stroud",
+    "position": "QB",
+    "team": "HOU",
+    "adp": 65.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3844,
+      "passingTDs": 20,
+      "interceptions": 12,
+      "rushingYards": 167,
+      "rushingTDs": 1,
+      "fantasyPoints": 254.3
+    },
+    "projectedStats2025": {
+      "passingYards": 4400,
+      "passingTDs": 32,
+      "interceptions": 10,
+      "rushingYards": 200,
+      "rushingTDs": 2,
+      "projectedPoints": 330
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/cj-stroud-fantasy/23239"
+  },
+  {
+    "id": "qb11",
+    "name": "Jordan Love",
+    "position": "QB",
+    "team": "GB",
+    "adp": 68.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3389,
+      "passingTDs": 25,
+      "interceptions": 11,
+      "rushingYards": 145,
+      "rushingTDs": 3,
+      "fantasyPoints": 263.9
+    },
+    "projectedStats2025": {
+      "passingYards": 4100,
+      "passingTDs": 33,
+      "interceptions": 12,
+      "rushingYards": 150,
+      "rushingTDs": 2,
+      "projectedPoints": 315
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jordan-love-fantasy/21841"
+  },
+  {
+    "id": "qb12",
+    "name": "Jared Goff",
+    "position": "QB",
+    "team": "DET",
+    "adp": 72.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 4629,
+      "passingTDs": 37,
+      "interceptions": 12,
+      "rushingYards": 50,
+      "rushingTDs": 2,
+      "fantasyPoints": 340.7
+    },
+    "projectedStats2025": {
+      "passingYards": 4400,
+      "passingTDs": 34,
+      "interceptions": 11,
+      "rushingYards": 40,
+      "rushingTDs": 1,
+      "projectedPoints": 320
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jared-goff-fantasy/17922"
+  },
+  {
+    "id": "qb13",
+    "name": "J.J. McCarthy",
+    "position": "QB",
+    "team": "MIN",
+    "adp": 78.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 0,
+      "passingTDs": 0,
+      "interceptions": 0,
+      "rushingYards": 0,
+      "rushingTDs": 0,
+      "fantasyPoints": 0
+    },
+    "projectedStats2025": {
+      "passingYards": 3600,
+      "passingTDs": 26,
+      "interceptions": 12,
+      "rushingYards": 350,
+      "rushingTDs": 4,
+      "projectedPoints": 285
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jj-mccarthy-fantasy/24956"
+  },
+  {
+    "id": "qb14",
+    "name": "Michael Penix Jr.",
+    "position": "QB",
+    "team": "ATL",
+    "adp": 82.1,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 734,
+      "passingTDs": 3,
+      "interceptions": 1,
+      "rushingYards": 45,
+      "rushingTDs": 0,
+      "fantasyPoints": 52.3
+    },
+    "projectedStats2025": {
+      "passingYards": 3800,
+      "passingTDs": 28,
+      "interceptions": 11,
+      "rushingYards": 200,
+      "rushingTDs": 3,
+      "projectedPoints": 295
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/michael-penix-jr-fantasy/23242"
+  },
+  {
+    "id": "qb15",
+    "name": "Tua Tagovailoa",
+    "position": "QB",
+    "team": "MIA",
+    "adp": 85.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 2867,
+      "passingTDs": 19,
+      "interceptions": 7,
+      "rushingYards": 36,
+      "rushingTDs": 0,
+      "fantasyPoints": 201.1
+    },
+    "projectedStats2025": {
+      "passingYards": 4200,
+      "passingTDs": 31,
+      "interceptions": 10,
+      "rushingYards": 50,
+      "rushingTDs": 1,
+      "projectedPoints": 305
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tua-tagovailoa-fantasy/21677"
+  },
+  {
+    "id": "qb16",
+    "name": "Caleb Williams",
+    "position": "QB",
+    "team": "CHI",
+    "adp": 88.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3541,
+      "passingTDs": 20,
+      "interceptions": 6,
+      "rushingYards": 489,
+      "rushingTDs": 0,
+      "fantasyPoints": 260.2
+    },
+    "projectedStats2025": {
+      "passingYards": 4000,
+      "passingTDs": 30,
+      "interceptions": 10,
+      "rushingYards": 450,
+      "rushingTDs": 5,
+      "projectedPoints": 320
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/caleb-williams-fantasy/24927"
+  },
+  {
+    "id": "qb17",
+    "name": "Drake Maye",
+    "position": "QB",
+    "team": "NE",
+    "adp": 92.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 2276,
+      "passingTDs": 15,
+      "interceptions": 10,
+      "rushingYards": 421,
+      "rushingTDs": 2,
+      "fantasyPoints": 188.7
+    },
+    "projectedStats2025": {
+      "passingYards": 3700,
+      "passingTDs": 26,
+      "interceptions": 13,
+      "rushingYards": 500,
+      "rushingTDs": 5,
+      "projectedPoints": 295
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/drake-maye-fantasy/24958"
+  },
+  {
+    "id": "qb18",
+    "name": "Matthew Stafford",
+    "position": "QB",
+    "team": "LAR",
+    "adp": 95.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3762,
+      "passingTDs": 20,
+      "interceptions": 8,
+      "rushingYards": 22,
+      "rushingTDs": 1,
+      "fantasyPoints": 252.9
+    },
+    "projectedStats2025": {
+      "passingYards": 3900,
+      "passingTDs": 28,
+      "interceptions": 10,
+      "rushingYards": 20,
+      "rushingTDs": 0,
+      "projectedPoints": 285
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/matthew-stafford-fantasy/9038"
+  },
+  {
+    "id": "qb19",
+    "name": "Kyler Murray",
+    "position": "QB",
+    "team": "ARI",
+    "adp": 98.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3147,
+      "passingTDs": 17,
+      "interceptions": 8,
+      "rushingYards": 552,
+      "rushingTDs": 5,
+      "fantasyPoints": 273.1
+    },
+    "projectedStats2025": {
+      "passingYards": 3800,
+      "passingTDs": 27,
+      "interceptions": 10,
+      "rushingYards": 600,
+      "rushingTDs": 6,
+      "projectedPoints": 330
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/kyler-murray-fantasy/20889"
+  },
+  {
+    "id": "qb20",
+    "name": "Aaron Rodgers",
+    "position": "QB",
+    "team": "NYJ",
+    "adp": 102.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3897,
+      "passingTDs": 28,
+      "interceptions": 11,
+      "rushingYards": 119,
+      "rushingTDs": 0,
+      "fantasyPoints": 276.7
+    },
+    "projectedStats2025": {
+      "passingYards": 3600,
+      "passingTDs": 26,
+      "interceptions": 10,
+      "rushingYards": 80,
+      "rushingTDs": 1,
+      "projectedPoints": 270
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/aaron-rodgers-fantasy/2593"
+  },
+  {
+    "id": "qb21",
+    "name": "Jalen Hurts",
+    "position": "QB",
+    "team": "PHI",
+    "adp": 48.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 2903,
+      "passingTDs": 18,
+      "interceptions": 5,
+      "rushingYards": 630,
+      "rushingTDs": 14,
+      "fantasyPoints": 311.2
+    },
+    "projectedStats2025": {
+      "passingYards": 3700,
+      "passingTDs": 28,
+      "interceptions": 8,
+      "rushingYards": 650,
+      "rushingTDs": 12,
+      "projectedPoints": 365
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jalen-hurts-fantasy/21831"
+  },
+  {
+    "id": "qb22",
+    "name": "Russell Wilson",
+    "position": "QB",
+    "team": "PIT",
+    "adp": 108.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 2482,
+      "passingTDs": 16,
+      "interceptions": 5,
+      "rushingYards": 158,
+      "rushingTDs": 2,
+      "fantasyPoints": 191.4
+    },
+    "projectedStats2025": {
+      "passingYards": 3400,
+      "passingTDs": 24,
+      "interceptions": 9,
+      "rushingYards": 150,
+      "rushingTDs": 2,
+      "projectedPoints": 260
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/russell-wilson-fantasy/14536"
+  },
+  {
+    "id": "qb23",
+    "name": "Trevor Lawrence",
+    "position": "QB",
+    "team": "JAC",
+    "adp": 112.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 2045,
+      "passingTDs": 11,
+      "interceptions": 7,
+      "rushingYards": 109,
+      "rushingTDs": 3,
+      "fantasyPoints": 157.9
+    },
+    "projectedStats2025": {
+      "passingYards": 3800,
+      "passingTDs": 27,
+      "interceptions": 11,
+      "rushingYards": 250,
+      "rushingTDs": 3,
+      "projectedPoints": 290
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/trevor-lawrence-fantasy/22490"
+  },
+  {
+    "id": "qb24",
+    "name": "Justin Herbert",
+    "position": "QB",
+    "team": "LAC",
+    "adp": 115.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 3870,
+      "passingTDs": 23,
+      "interceptions": 3,
+      "rushingYards": 237,
+      "rushingTDs": 0,
+      "fantasyPoints": 268.2
+    },
+    "projectedStats2025": {
+      "passingYards": 4100,
+      "passingTDs": 30,
+      "interceptions": 8,
+      "rushingYards": 200,
+      "rushingTDs": 2,
+      "projectedPoints": 310
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/justin-herbert-fantasy/21681"
+  },
+  {
+    "id": "qb25",
+    "name": "Anthony Richardson",
+    "position": "QB",
+    "team": "IND",
+    "adp": 105.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "passingYards": 958,
+      "passingTDs": 4,
+      "interceptions": 7,
+      "rushingYards": 242,
+      "rushingTDs": 5,
+      "fantasyPoints": 105.6
+    },
+    "projectedStats2025": {
+      "passingYards": 3400,
+      "passingTDs": 24,
+      "interceptions": 14,
+      "rushingYards": 700,
+      "rushingTDs": 10,
+      "projectedPoints": 330
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/anthony-richardson-fantasy/24117"
+  }
+]

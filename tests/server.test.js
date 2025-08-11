@@ -37,8 +37,24 @@ describe('Fantasy Draft Helper Server', () => {
     
     // Mock file system
     fs.readFileSync.mockImplementation((filePath) => {
-      if (filePath.includes('players.json')) {
-        return JSON.stringify(mockPlayers);
+      // Handle position-based files
+      if (filePath.includes('quarterbacks.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'QB'));
+      }
+      if (filePath.includes('runningbacks.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'RB'));
+      }
+      if (filePath.includes('widereceivers.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'WR'));
+      }
+      if (filePath.includes('tightends.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'TE'));
+      }
+      if (filePath.includes('kickers.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'K'));
+      }
+      if (filePath.includes('defenses.json')) {
+        return JSON.stringify(mockPlayers.filter(p => p.position === 'DST'));
       }
       if (filePath.includes('scoring.json')) {
         return JSON.stringify(mockScoring);

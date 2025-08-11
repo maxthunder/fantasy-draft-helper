@@ -1,7 +1,16 @@
 const fs = require('fs');
+const path = require('path');
 
-// Read the players.json file
-const playersData = JSON.parse(fs.readFileSync('data/players.json', 'utf8'));
+// Read the defenses.json file
+const defensesPath = path.join(__dirname, 'data', 'defenses.json');
+let defensesData = [];
+
+if (fs.existsSync(defensesPath)) {
+    defensesData = JSON.parse(fs.readFileSync(defensesPath, 'utf8'));
+} else {
+    console.error('defenses.json file not found!');
+    process.exit(1);
+}
 
 // Strength of Schedule values for DST (lower is easier/better)
 // Based on 2025 projected opponent offensive strength
@@ -23,16 +32,16 @@ const dstSoS = {
     "Minnesota Vikings": 0.94      // Moderate schedule
 };
 
-// Update each DST player with their SoS
-playersData.forEach(player => {
-    if (player.position === 'DST' && dstSoS[player.name]) {
-        player.strengthOfSchedule = dstSoS[player.name];
-        console.log(`Updated ${player.name} with SoS: ${player.strengthOfSchedule}`);
+// Update each DST with their SoS
+defensesData.forEach(defense => {
+    if (dstSoS[defense.name]) {
+        defense.strengthOfSchedule = dstSoS[defense.name];
+        console.log(`Updated ${defense.name} with SoS: ${defense.strengthOfSchedule}`);
     }
 });
 
-// Write the updated data back to the file
-fs.writeFileSync('data/players.json', JSON.stringify(playersData, null, 2));
+// Write the updated data back to the defenses.json file
+fs.writeFileSync(defensesPath, JSON.stringify(defensesData, null, 2));
 
 console.log('\nDST Strength of Schedule update complete!');
 console.log('Note: Lower SoS values (< 1.0) indicate easier schedules (better for DST)');

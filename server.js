@@ -10,7 +10,16 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-const playersDataPath = path.join(__dirname, 'data', 'players.json');
+// Position file paths
+const POSITION_FILES = {
+  'QB': 'quarterbacks.json',
+  'RB': 'runningbacks.json',
+  'WR': 'widereceivers.json',
+  'TE': 'tightends.json',
+  'K': 'kickers.json',
+  'DST': 'defenses.json'
+};
+
 const scoringDataPath = path.join(__dirname, 'data', 'scoring.json');
 const positionRequirementsPath = path.join(__dirname, 'data', 'position-requirements.json');
 
@@ -18,9 +27,55 @@ let playersData = [];
 let scoringData = null;
 let positionRequirementsData = null;
 
-if (fs.existsSync(playersDataPath)) {
-  playersData = JSON.parse(fs.readFileSync(playersDataPath, 'utf8'));
+// Load players from all position files
+function loadPlayersData() {
+  const allPlayers = [];
+  
+  Object.entries(POSITION_FILES).forEach(([position, filename]) => {
+    const filePath = path.join(__dirname, 'data', filename);
+    if (fs.existsSync(filePath)) {
+      try {
+        const positionPlayers = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        allPlayers.push(...positionPlayers);
+      } catch (error) {
+        console.error(`Error loading ${filename}:`, error);
+      }
+    }
+  });
+  
+  return allPlayers;
 }
+
+// Save player to the appropriate position file
+function savePlayerToFile(player) {
+  const filename = POSITION_FILES[player.position];
+  if (!filename) {
+    console.error(`Unknown position: ${player.position}`);
+    return false;
+  }
+  
+  const filePath = path.join(__dirname, 'data', filename);
+  
+  // Load current players for this position
+  let positionPlayers = [];
+  if (fs.existsSync(filePath)) {
+    positionPlayers = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  }
+  
+  // Update the player in the array
+  const playerIndex = positionPlayers.findIndex(p => p.id === player.id);
+  if (playerIndex !== -1) {
+    positionPlayers[playerIndex] = player;
+  } else {
+    positionPlayers.push(player);
+  }
+  
+  // Save back to file
+  fs.writeFileSync(filePath, JSON.stringify(positionPlayers, null, 2));
+  return true;
+}
+
+playersData = loadPlayersData();
 
 if (fs.existsSync(scoringDataPath)) {
   scoringData = JSON.parse(fs.readFileSync(scoringDataPath, 'utf8'));
@@ -40,8 +95,12 @@ app.post('/api/players/update', (req, res) => {
   
   if (player) {
     player[field] = value;
-    fs.writeFileSync(playersDataPath, JSON.stringify(playersData, null, 2));
-    res.json({ success: true, player });
+    // Save to the appropriate position file
+    if (savePlayerToFile(player)) {
+      res.json({ success: true, player });
+    } else {
+      res.status(500).json({ success: false, error: 'Error saving player data' });
+    }
   } else {
     res.status(404).json({ success: false, error: 'Player not found' });
   }

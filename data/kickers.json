@@ -1,0 +1,192 @@
+[
+  {
+    "id": "k1",
+    "name": "Justin Tucker",
+    "position": "K",
+    "team": "BAL",
+    "adp": 115.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 32,
+      "fieldGoalsAttempted": 39,
+      "extraPointsMade": 33,
+      "fantasyPoints": 129
+    },
+    "projectedStats2025": {
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/justin-tucker-fantasy/14688"
+  },
+  {
+    "id": "k2",
+    "name": "Harrison Butker",
+    "position": "K",
+    "team": "KC",
+    "adp": 118.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 21,
+      "fieldGoalsAttempted": 24,
+      "extraPointsMade": 38,
+      "fantasyPoints": 101
+    },
+    "projectedStats2025": {
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/harrison-butker-fantasy/19073"
+  },
+  {
+    "id": "k3",
+    "name": "Brandon Aubrey",
+    "position": "K",
+    "team": "DAL",
+    "adp": 122.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 40,
+      "fieldGoalsAttempted": 42,
+      "extraPointsMade": 26,
+      "fantasyPoints": 146
+    },
+    "projectedStats2025": {
+      "projectedPoints": 138
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/brandon-aubrey-fantasy/24902"
+  },
+  {
+    "id": "k4",
+    "name": "Ka'imi Fairbairn",
+    "position": "K",
+    "team": "HOU",
+    "adp": 125.7,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 35,
+      "fieldGoalsAttempted": 39,
+      "extraPointsMade": 26,
+      "fantasyPoints": 131
+    },
+    "projectedStats2025": {
+      "projectedPoints": 132
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/ka-imi-fairbairn-fantasy/18215"
+  },
+  {
+    "id": "k5",
+    "name": "Younghoe Koo",
+    "position": "K",
+    "team": "ATL",
+    "adp": 128.4,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 35,
+      "fieldGoalsAttempted": 40,
+      "extraPointsMade": 39,
+      "fantasyPoints": 144
+    },
+    "projectedStats2025": {
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/younghoe-koo-fantasy/19565"
+  },
+  {
+    "id": "k6",
+    "name": "Jake Bates",
+    "position": "K",
+    "team": "DET",
+    "adp": 131.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 25,
+      "fieldGoalsAttempted": 28,
+      "extraPointsMade": 56,
+      "fantasyPoints": 131
+    },
+    "projectedStats2025": {
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Jake%20Bates"
+  },
+  {
+    "id": "k7",
+    "name": "Chase McLaughlin",
+    "position": "K",
+    "team": "TB",
+    "adp": 133.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 29,
+      "fieldGoalsAttempted": 32,
+      "extraPointsMade": 40,
+      "fantasyPoints": 127
+    },
+    "projectedStats2025": {
+      "projectedPoints": 130
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Chase%20McLaughlin"
+  },
+  {
+    "id": "k8",
+    "name": "Cameron Dicker",
+    "position": "K",
+    "team": "LAC",
+    "adp": 136.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 30,
+      "fieldGoalsAttempted": 33,
+      "extraPointsMade": 35,
+      "fantasyPoints": 125
+    },
+    "projectedStats2025": {
+      "projectedPoints": 128
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Cameron%20Dicker"
+  },
+  {
+    "id": "k9",
+    "name": "Jake Elliott",
+    "position": "K",
+    "team": "PHI",
+    "adp": 139.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 28,
+      "fieldGoalsAttempted": 31,
+      "extraPointsMade": 50,
+      "fantasyPoints": 134
+    },
+    "projectedStats2025": {
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/jake-elliott-fantasy/19041"
+  },
+  {
+    "id": "k10",
+    "name": "Tyler Bass",
+    "position": "K",
+    "team": "BUF",
+    "adp": 142.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "stats2024": {
+      "fieldGoalsMade": 25,
+      "fieldGoalsAttempted": 30,
+      "extraPointsMade": 52,
+      "fantasyPoints": 127
+    },
+    "projectedStats2025": {
+      "projectedPoints": 132
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/tyler-bass-fantasy/22108"
+  }
+]

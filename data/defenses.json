@@ -1,0 +1,740 @@
+[
+  {
+    "id": "dst1",
+    "name": "Baltimore Ravens",
+    "position": "DST",
+    "team": "BAL",
+    "adp": 105.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.95,
+    "stats2024": {
+      "sacks": 36,
+      "interceptions": 14,
+      "fumblesRecovered": 8,
+      "touchdowns": 2,
+      "fantasyPoints": 128
+    },
+    "projectedStats2025": {
+      "projectedPoints": 145
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/baltimore-ravens-roster"
+  },
+  {
+    "id": "dst2",
+    "name": "San Francisco 49ers",
+    "position": "DST",
+    "team": "SF",
+    "adp": 108.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.05,
+    "stats2024": {
+      "sacks": 41,
+      "interceptions": 11,
+      "fumblesRecovered": 10,
+      "touchdowns": 1,
+      "fantasyPoints": 115
+    },
+    "projectedStats2025": {
+      "projectedPoints": 140
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/san-francisco-49ers-roster"
+  },
+  {
+    "id": "dst3",
+    "name": "Dallas Cowboys",
+    "position": "DST",
+    "team": "DAL",
+    "adp": 111.3,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.15,
+    "stats2024": {
+      "sacks": 36,
+      "interceptions": 10,
+      "fumblesRecovered": 7,
+      "touchdowns": 1,
+      "fantasyPoints": 102
+    },
+    "projectedStats2025": {
+      "projectedPoints": 135
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/dallas-cowboys-roster"
+  },
+  {
+    "id": "dst4",
+    "name": "Buffalo Bills",
+    "position": "DST",
+    "team": "BUF",
+    "adp": 114.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.85,
+    "stats2024": {
+      "sacks": 39,
+      "interceptions": 15,
+      "fumblesRecovered": 9,
+      "touchdowns": 2,
+      "fantasyPoints": 125
+    },
+    "projectedStats2025": {
+      "projectedPoints": 138
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/buffalo-bills-roster"
+  },
+  {
+    "id": "dst5",
+    "name": "Kansas City Chiefs",
+    "position": "DST",
+    "team": "KC",
+    "adp": 117.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.92,
+    "stats2024": {
+      "sacks": 37,
+      "interceptions": 13,
+      "fumblesRecovered": 8,
+      "touchdowns": 1,
+      "fantasyPoints": 110
+    },
+    "projectedStats2025": {
+      "projectedPoints": 132
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/kansas-city-chiefs-roster"
+  },
+  {
+    "id": "dst6",
+    "name": "New York Jets",
+    "position": "DST",
+    "team": "NYJ",
+    "adp": 120.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.9,
+    "stats2024": {
+      "sacks": 48,
+      "interceptions": 12,
+      "fumblesRecovered": 9,
+      "touchdowns": 1,
+      "fantasyPoints": 118
+    },
+    "projectedStats2025": {
+      "projectedPoints": 130
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/new-york-jets-roster"
+  },
+  {
+    "id": "dst7",
+    "name": "Cleveland Browns",
+    "position": "DST",
+    "team": "CLE",
+    "adp": 123.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.12,
+    "stats2024": {
+      "sacks": 42,
+      "interceptions": 11,
+      "fumblesRecovered": 8,
+      "touchdowns": 1,
+      "fantasyPoints": 108
+    },
+    "projectedStats2025": {
+      "projectedPoints": 128
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/search?q=Cleveland%20Browns"
+  },
+  {
+    "id": "dst8",
+    "name": "Pittsburgh Steelers",
+    "position": "DST",
+    "team": "PIT",
+    "adp": 127.2,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.1,
+    "stats2024": {
+      "sacks": 40,
+      "interceptions": 16,
+      "fumblesRecovered": 7,
+      "touchdowns": 2,
+      "fantasyPoints": 122
+    },
+    "projectedStats2025": {
+      "projectedPoints": 130
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/pittsburgh-steelers-depth-chart"
+  },
+  {
+    "id": "dst9",
+    "name": "Miami Dolphins",
+    "position": "DST",
+    "team": "MIA",
+    "adp": 130.5,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.88,
+    "stats2024": {
+      "sacks": 35,
+      "interceptions": 10,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "fantasyPoints": 95
+    },
+    "projectedStats2025": {
+      "projectedPoints": 125
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/miami-dolphins-roster"
+  },
+  {
+    "id": "dst10",
+    "name": "Houston Texans",
+    "position": "DST",
+    "team": "HOU",
+    "adp": 133.8,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.82,
+    "stats2024": {
+      "sacks": 47,
+      "interceptions": 13,
+      "fumblesRecovered": 7,
+      "touchdowns": 1,
+      "fantasyPoints": 112
+    },
+    "projectedStats2025": {
+      "projectedPoints": 125
+    },
+    "fantasyDataUrl": "https://fantasydata.com/nfl/houston-texans-roster"
+  },
+  {
+    "id": "dst11",
+    "name": "Philadelphia Eagles",
+    "position": "DST",
+    "team": "PHI",
+    "adp": 105,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.92,
+    "stats2024": {
+      "sacks": 43,
+      "interceptions": 15,
+      "fumblesRecovered": 8,
+      "touchdowns": 3,
+      "fantasyPoints": 130
+    },
+    "projectedStats2025": {
+      "sacks": 40,
+      "interceptions": 14,
+      "fumblesRecovered": 7,
+      "touchdowns": 2,
+      "projectedPoints": 125
+    }
+  },
+  {
+    "id": "dst12",
+    "name": "Green Bay Packers",
+    "position": "DST",
+    "team": "GB",
+    "adp": 110,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.98,
+    "stats2024": {
+      "sacks": 45,
+      "interceptions": 18,
+      "fumblesRecovered": 6,
+      "touchdowns": 2,
+      "fantasyPoints": 128
+    },
+    "projectedStats2025": {
+      "sacks": 42,
+      "interceptions": 16,
+      "fumblesRecovered": 7,
+      "touchdowns": 2,
+      "projectedPoints": 122
+    }
+  },
+  {
+    "id": "dst13",
+    "name": "New Orleans Saints",
+    "position": "DST",
+    "team": "NO",
+    "adp": 112,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.88,
+    "stats2024": {
+      "sacks": 46,
+      "interceptions": 11,
+      "fumblesRecovered": 9,
+      "touchdowns": 2,
+      "fantasyPoints": 118
+    },
+    "projectedStats2025": {
+      "sacks": 44,
+      "interceptions": 12,
+      "fumblesRecovered": 8,
+      "touchdowns": 2,
+      "projectedPoints": 120
+    }
+  },
+  {
+    "id": "dst14",
+    "name": "Los Angeles Rams",
+    "position": "DST",
+    "team": "LAR",
+    "adp": 115,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.05,
+    "stats2024": {
+      "sacks": 41,
+      "interceptions": 12,
+      "fumblesRecovered": 7,
+      "touchdowns": 1,
+      "fantasyPoints": 105
+    },
+    "projectedStats2025": {
+      "sacks": 38,
+      "interceptions": 13,
+      "fumblesRecovered": 6,
+      "touchdowns": 2,
+      "projectedPoints": 108
+    }
+  },
+  {
+    "id": "dst15",
+    "name": "Indianapolis Colts",
+    "position": "DST",
+    "team": "IND",
+    "adp": 118,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.94,
+    "stats2024": {
+      "sacks": 51,
+      "interceptions": 14,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "fantasyPoints": 108
+    },
+    "projectedStats2025": {
+      "sacks": 45,
+      "interceptions": 12,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 105
+    }
+  },
+  {
+    "id": "dst16",
+    "name": "Minnesota Vikings",
+    "position": "DST",
+    "team": "MIN",
+    "adp": 120,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.96,
+    "stats2024": {
+      "sacks": 42,
+      "interceptions": 13,
+      "fumblesRecovered": 6,
+      "touchdowns": 2,
+      "fantasyPoints": 112
+    },
+    "projectedStats2025": {
+      "sacks": 40,
+      "interceptions": 14,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 108
+    }
+  },
+  {
+    "id": "dst17",
+    "name": "Tampa Bay Buccaneers",
+    "position": "DST",
+    "team": "TB",
+    "adp": 122,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.87,
+    "stats2024": {
+      "sacks": 48,
+      "interceptions": 9,
+      "fumblesRecovered": 8,
+      "touchdowns": 1,
+      "fantasyPoints": 102
+    },
+    "projectedStats2025": {
+      "sacks": 44,
+      "interceptions": 11,
+      "fumblesRecovered": 7,
+      "touchdowns": 2,
+      "projectedPoints": 110
+    }
+  },
+  {
+    "id": "dst18",
+    "name": "Cincinnati Bengals",
+    "position": "DST",
+    "team": "CIN",
+    "adp": 125,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.02,
+    "stats2024": {
+      "sacks": 33,
+      "interceptions": 10,
+      "fumblesRecovered": 7,
+      "touchdowns": 1,
+      "fantasyPoints": 88
+    },
+    "projectedStats2025": {
+      "sacks": 36,
+      "interceptions": 12,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 95
+    }
+  },
+  {
+    "id": "dst19",
+    "name": "Denver Broncos",
+    "position": "DST",
+    "team": "DEN",
+    "adp": 128,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.91,
+    "stats2024": {
+      "sacks": 63,
+      "interceptions": 14,
+      "fumblesRecovered": 5,
+      "touchdowns": 2,
+      "fantasyPoints": 125
+    },
+    "projectedStats2025": {
+      "sacks": 50,
+      "interceptions": 13,
+      "fumblesRecovered": 6,
+      "touchdowns": 2,
+      "projectedPoints": 118
+    }
+  },
+  {
+    "id": "dst20",
+    "name": "Los Angeles Chargers",
+    "position": "DST",
+    "team": "LAC",
+    "adp": 130,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.99,
+    "stats2024": {
+      "sacks": 42,
+      "interceptions": 13,
+      "fumblesRecovered": 4,
+      "touchdowns": 1,
+      "fantasyPoints": 95
+    },
+    "projectedStats2025": {
+      "sacks": 40,
+      "interceptions": 12,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 98
+    }
+  },
+  {
+    "id": "dst21",
+    "name": "Seattle Seahawks",
+    "position": "DST",
+    "team": "SEA",
+    "adp": 132,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.08,
+    "stats2024": {
+      "sacks": 47,
+      "interceptions": 12,
+      "fumblesRecovered": 7,
+      "touchdowns": 1,
+      "fantasyPoints": 92
+    },
+    "projectedStats2025": {
+      "sacks": 42,
+      "interceptions": 11,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 88
+    }
+  },
+  {
+    "id": "dst22",
+    "name": "Chicago Bears",
+    "position": "DST",
+    "team": "CHI",
+    "adp": 135,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.93,
+    "stats2024": {
+      "sacks": 44,
+      "interceptions": 12,
+      "fumblesRecovered": 8,
+      "touchdowns": 2,
+      "fantasyPoints": 105
+    },
+    "projectedStats2025": {
+      "sacks": 42,
+      "interceptions": 13,
+      "fumblesRecovered": 7,
+      "touchdowns": 2,
+      "projectedPoints": 108
+    }
+  },
+  {
+    "id": "dst23",
+    "name": "Atlanta Falcons",
+    "position": "DST",
+    "team": "ATL",
+    "adp": 138,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.85,
+    "stats2024": {
+      "sacks": 42,
+      "interceptions": 10,
+      "fumblesRecovered": 5,
+      "touchdowns": 0,
+      "fantasyPoints": 75
+    },
+    "projectedStats2025": {
+      "sacks": 38,
+      "interceptions": 11,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 85
+    }
+  },
+  {
+    "id": "dst24",
+    "name": "Jacksonville Jaguars",
+    "position": "DST",
+    "team": "JAX",
+    "adp": 140,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.9,
+    "stats2024": {
+      "sacks": 40,
+      "interceptions": 9,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "fantasyPoints": 82
+    },
+    "projectedStats2025": {
+      "sacks": 38,
+      "interceptions": 10,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 88
+    }
+  },
+  {
+    "id": "dst25",
+    "name": "Detroit Lions",
+    "position": "DST",
+    "team": "DET",
+    "adp": 142,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.97,
+    "stats2024": {
+      "sacks": 41,
+      "interceptions": 10,
+      "fumblesRecovered": 9,
+      "touchdowns": 2,
+      "fantasyPoints": 95
+    },
+    "projectedStats2025": {
+      "sacks": 39,
+      "interceptions": 11,
+      "fumblesRecovered": 8,
+      "touchdowns": 1,
+      "projectedPoints": 92
+    }
+  },
+  {
+    "id": "dst26",
+    "name": "Tennessee Titans",
+    "position": "DST",
+    "team": "TEN",
+    "adp": 145,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.89,
+    "stats2024": {
+      "sacks": 38,
+      "interceptions": 8,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "fantasyPoints": 78
+    },
+    "projectedStats2025": {
+      "sacks": 36,
+      "interceptions": 10,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 82
+    }
+  },
+  {
+    "id": "dst27",
+    "name": "New England Patriots",
+    "position": "DST",
+    "team": "NE",
+    "adp": 148,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.95,
+    "stats2024": {
+      "sacks": 36,
+      "interceptions": 13,
+      "fumblesRecovered": 4,
+      "touchdowns": 1,
+      "fantasyPoints": 85
+    },
+    "projectedStats2025": {
+      "sacks": 34,
+      "interceptions": 11,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 80
+    }
+  },
+  {
+    "id": "dst28",
+    "name": "Las Vegas Raiders",
+    "position": "DST",
+    "team": "LV",
+    "adp": 150,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.04,
+    "stats2024": {
+      "sacks": 31,
+      "interceptions": 9,
+      "fumblesRecovered": 7,
+      "touchdowns": 0,
+      "fantasyPoints": 68
+    },
+    "projectedStats2025": {
+      "sacks": 33,
+      "interceptions": 10,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 75
+    }
+  },
+  {
+    "id": "dst29",
+    "name": "Arizona Cardinals",
+    "position": "DST",
+    "team": "ARI",
+    "adp": 152,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 1.1,
+    "stats2024": {
+      "sacks": 33,
+      "interceptions": 8,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "fantasyPoints": 72
+    },
+    "projectedStats2025": {
+      "sacks": 35,
+      "interceptions": 9,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 70
+    }
+  },
+  {
+    "id": "dst30",
+    "name": "New York Giants",
+    "position": "DST",
+    "team": "NYG",
+    "adp": 155,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.92,
+    "stats2024": {
+      "sacks": 34,
+      "interceptions": 11,
+      "fumblesRecovered": 4,
+      "touchdowns": 0,
+      "fantasyPoints": 65
+    },
+    "projectedStats2025": {
+      "sacks": 32,
+      "interceptions": 10,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 72
+    }
+  },
+  {
+    "id": "dst31",
+    "name": "Washington Commanders",
+    "position": "DST",
+    "team": "WAS",
+    "adp": 158,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.94,
+    "stats2024": {
+      "sacks": 43,
+      "interceptions": 9,
+      "fumblesRecovered": 5,
+      "touchdowns": 0,
+      "fantasyPoints": 70
+    },
+    "projectedStats2025": {
+      "sacks": 38,
+      "interceptions": 10,
+      "fumblesRecovered": 6,
+      "touchdowns": 1,
+      "projectedPoints": 75
+    }
+  },
+  {
+    "id": "dst32",
+    "name": "Carolina Panthers",
+    "position": "DST",
+    "team": "CAR",
+    "adp": 160,
+    "isDrafted": false,
+    "isMyTeam": false,
+    "strengthOfSchedule": 0.86,
+    "stats2024": {
+      "sacks": 35,
+      "interceptions": 7,
+      "fumblesRecovered": 6,
+      "touchdowns": 0,
+      "fantasyPoints": 62
+    },
+    "projectedStats2025": {
+      "sacks": 33,
+      "interceptions": 8,
+      "fumblesRecovered": 5,
+      "touchdowns": 1,
+      "projectedPoints": 68
+    }
+  }
+]
