@@ -540,7 +540,6 @@ function setupEventListeners() {
                 const playersToReset = players.filter(p => p.isDrafted || p.isMyTeam);
                 
                 if (playersToReset.length === 0) {
-                    alert('No selections to reset.');
                     return;
                 }
                 
