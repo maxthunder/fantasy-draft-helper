@@ -5,7 +5,7 @@ const db = require('./database/db');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8081;
 
 app.use(cors());
 app.use(express.json());
@@ -281,8 +281,9 @@ app.post('/api/import', async (req, res) => {
 
 // Only start server if not in test environment
 if (process.env.NODE_ENV !== 'test') {
-  const server = app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  const server = app.listen(PORT, '0.0.0.0', () => {
+    const isProduction = process.env.NODE_ENV === 'production' || process.env.RENDER;
+    console.log(`Server running on ${isProduction ? 'port' : 'http://localhost:'}${PORT} (${isProduction ? 'production' : 'development'} mode)`);
   });
   
   module.exports = { app, server };
