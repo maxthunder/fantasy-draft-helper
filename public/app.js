@@ -596,7 +596,6 @@ function setupEventListeners() {
                 document.getElementById('resetDraft').textContent = originalButtonText;
                 document.getElementById('resetDraft').disabled = false;
                 
-                alert(`Draft has been reset! ${playersToReset.length} player selection(s) cleared.`);
             } catch (error) {
                 console.error('Error resetting draft:', error);
                 document.getElementById('resetDraft').textContent = 'Reset Draft';
