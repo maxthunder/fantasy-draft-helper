@@ -5,6 +5,15 @@ This is a Fantasy Draft Helper application that helps users manage their fantasy
 
 ## Important Rules and Guidelines
 
+### ⚠️ CRITICAL: Git Push Restriction
+**NEVER use `git push` or push code to any remote repository.** Claude should only:
+- Stage files (`git add`)
+- Create commits (`git commit`)
+- View git status and history
+- Create pull requests via GitHub CLI when explicitly requested
+
+The user will handle all pushing to remote repositories. This is a security requirement and must never be violated.
+
 ### 1. VORP Calculation Documentation
 **CRITICAL:** Any changes to the VORP (Value Over Replacement Player) calculation algorithm must be documented in `VORP_CALCULATION_ALGORITHM.md`. This includes:
 - Changes to the calculation formula
