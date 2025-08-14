@@ -15,6 +15,7 @@ const REPLACEMENT_LEVELS = {
 // Removed all caching - data is now always fetched from database
 
 async function init() {
+    await checkDatabaseStatus();
     await loadScoringSettings();
     await loadPositionRequirements();
     await loadPlayers();
@@ -23,6 +24,23 @@ async function init() {
     setupEventListeners();
     // Ensure position needs display is updated on load
     updatePositionNeedsFromCurrentTeam();
+}
+
+async function checkDatabaseStatus() {
+    try {
+        const response = await fetch('/api/database-status');
+        const data = await response.json();
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = data.isDatabaseAvailable ? 'none' : 'block';
+        }
+    } catch (error) {
+        console.error('Error checking database status:', error);
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = 'block';
+        }
+    }
 }
 
 async function loadScoringSettings() {

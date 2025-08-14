@@ -1,5 +1,21 @@
 let positionRequirements = {};
 
+async function checkDatabaseStatus() {
+    try {
+        const response = await fetch('/api/database-status');
+        const data = await response.json();
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = data.isDatabaseAvailable ? 'none' : 'block';
+        }
+    } catch (error) {
+        console.error('Error checking database status:', error);
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = 'block';
+        }
+    }
+}
 
 async function loadPositionRequirements() {
     try {
@@ -149,4 +165,7 @@ function showMessage(text, type) {
 }
 
 
-document.addEventListener('DOMContentLoaded', loadPositionRequirements);
+document.addEventListener('DOMContentLoaded', () => {
+    checkDatabaseStatus();
+    loadPositionRequirements();
+});

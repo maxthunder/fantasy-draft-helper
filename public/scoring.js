@@ -47,6 +47,23 @@ function showStatus(message, type) {
     }, 3000);
 }
 
+async function checkDatabaseStatus() {
+    try {
+        const response = await fetch('/api/database-status');
+        const data = await response.json();
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = data.isDatabaseAvailable ? 'none' : 'block';
+        }
+    } catch (error) {
+        console.error('Error checking database status:', error);
+        const banner = document.getElementById('databaseFallbackBanner');
+        if (banner) {
+            banner.style.display = 'block';
+        }
+    }
+}
+
 async function loadScoringSettings() {
     try {
         const response = await fetch('/api/scoring');
@@ -137,6 +154,7 @@ function resetToDefaults() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    checkDatabaseStatus();
     loadScoringSettings();
     
     document.getElementById('saveSettings').addEventListener('click', saveSettings);
