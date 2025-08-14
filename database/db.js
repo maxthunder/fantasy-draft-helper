@@ -5,7 +5,8 @@ require('dotenv').config();
 const isProduction = process.env.NODE_ENV === 'production' || process.env.RENDER;
 
 // Use provided PostgreSQL database URL
-const connectionString = process.env.DATABASE_URL || 'postgresql://fantasy_draft_helper_db_user:ULTm9paCMulpzCtNzfcNIenagC7sofEN@dpg-d2dtsqmmcj7s73db9v20-a.oregon-postgres.render.com/fantasy_draft_helper_db';
+// const connectionString = process.env.DATABASE_URL || 'postgresql://fantasy_draft_helper_db_user:ULTm9paCMulpzCtNzfcNIenagC7sofEN@dpg-d2dtsqmmcj7s73db9v20-a.oregon-postgres.render.com/fantasy_draft_helper_db';
+const connectionString = process.env.DATABASE_URL || 'blah';
 
 // Create a connection pool with appropriate SSL settings
 const poolConfig = {
